@@ -1,4 +1,0 @@
-{{editlink}}
-{{historylink}}
-{{revisionlink}}
-{{ownerlink}}

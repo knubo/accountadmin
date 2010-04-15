@@ -1,6 +1,0 @@
-<IfModule mod_rewrite.c>
-RewriteEngine off
-</IfModule>
-
-Order Deny,Allow
-Deny from all
