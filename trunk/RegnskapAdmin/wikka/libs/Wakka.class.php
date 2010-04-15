@@ -339,7 +339,7 @@ class Wakka
         require_once $safehtml_classpath;
 
 		// Instantiate the handler
-		$safehtml =& new safehtml();
+		$safehtml = new safehtml();
 
 		$filtered_output = $safehtml->parse($html);
 
@@ -622,7 +622,7 @@ class Wakka
 	{
 		// create GeSHi object
 		include_once($this->config['geshi_path'].'/geshi.php');
-		$geshi =& new GeSHi($sourcecode, $language, $this->config['geshi_languages_path']);				# create object by reference
+		$geshi = new GeSHi($sourcecode, $language, $this->config['geshi_languages_path']);				# create object by reference
 
 		$geshi->enable_classes();								# use classes for hilighting (must be first after creating object)
 		$geshi->set_overall_class('code');						# enables using a single stylesheet for multiple code fragments
@@ -790,7 +790,7 @@ class Wakka
 	function PageTitle() {
 		$title = "";
 		$pagecontent = $this->page["body"];
-		if (ereg( "(=){3,5}([^=\n]+)(=){3,5}", $pagecontent, $title)) {
+		if (preg_match( "/(=){3,5}([^=\n]+)(=){3,5}/", $pagecontent, $title)) {
 			$formatting_tags = array("**", "//", "__", "##", "''", "++", "#%", "@@", "\"\"");
 			$title = str_replace($formatting_tags, "", $title[2]);
 		}
