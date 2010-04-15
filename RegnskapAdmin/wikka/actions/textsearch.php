@@ -21,10 +21,10 @@
  */
 
 	//constants
-	if (!defined('SEARCH_FOR')) define('SEARCH_FOR', 'Search for');
-	if (!defined('SEARCH_ZERO_MATCH')) define('SEARCH_ZERO_MATCH', 'No matches');
-	if (!defined('SEARCH_ONE_MATCH')) define('SEARCH_ONE_MATCH', 'One match found');
-	if (!defined('SEARCH_N_MATCH')) define('SEARCH_N_MATCH', 'There was %d matches found');
+	if (!defined('SEARCH_FOR')) define('SEARCH_FOR', 'S&oslash;k etter');
+	if (!defined('SEARCH_ZERO_MATCH')) define('SEARCH_ZERO_MATCH', 'Ingen treff');
+	if (!defined('SEARCH_ONE_MATCH')) define('SEARCH_ONE_MATCH', 'Et treff funnet');
+	if (!defined('SEARCH_N_MATCH')) define('SEARCH_N_MATCH', 'Det var %d treff funnet');
 	if (!defined('SEARCH_RESULTS')) define('SEARCH_RESULTS', 'Search results: <strong>%1$s</strong> for <strong>%2$s</strong>'); #%1$s: n matches for | %2$s: search term
 	if (!defined('SEARCH_TRY_EXPANDED')) define('SEARCH_TRY_EXPANDED', '<br />Not sure which page to choose?<br />Try the <a href="$1">Expanded Text Search</a> which shows surrounding text.');
 	if (!defined('SEARCH_TIPS')) define('SEARCH_TIPS', "<br /><br /><hr /><br /><strong>Search Tips:</strong><br /><br />"

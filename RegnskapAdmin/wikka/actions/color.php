@@ -32,8 +32,8 @@
 */
 
 // *** Constant section ***
-if (!defined('ERROR_NO_TEXT_GIVEN')) define('ERROR_NO_TEXT_GIVEN','There is no text to highlight!');
-if (!defined('ERROR_NO_COLOR_SPECIFIED')) define('ERROR_NO_COLOR_SPECIFIED', 'Sorry, but you did not specify a color for highlighting!');
+if (!defined('ERROR_NO_TEXT_GIVEN')) define('ERROR_NO_TEXT_GIVEN','Det er ingen tekst for merking!');
+if (!defined('ERROR_NO_COLOR_SPECIFIED')) define('ERROR_NO_COLOR_SPECIFIED', 'Du valgte ingen tekst for merking!');
 
 // ***Internal function to test if syntax is valid
 if (!function_exists('color_syntax_is_valid'))

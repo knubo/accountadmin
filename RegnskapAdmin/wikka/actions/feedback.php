@@ -11,12 +11,12 @@ if(isset($_POST["name"])) $name = $_POST["name"];
 if(isset($_POST["email"])) $email = $_POST["email"];
 if(isset($_POST["comments"])) $comments = $_POST["comments"];
 
-$form = "<p>Fill in the form below to send us your comments:</p>".
+$form = "<p>Fyll inn form og send oss dine kommentarer:</p>".
             $this->FormOpen().
-            "\nName: <input name=\"name\" value=\"".$this->htmlspecialchars_ent($name)."\" type=\"text\" /><br />".
+            "\nNavn: <input name=\"name\" value=\"".$this->htmlspecialchars_ent($name)."\" type=\"text\" /><br />".
             "\n<input type=\"hidden\" name=\"mail\" value=\"result\">".
-            "\nEmail: <input name=\"email\" value=\"".$this->htmlspecialchars_ent($email)."\" type=\"text\" /><br />".
-            "\nComments:<br />\n<textarea name=\"comments\" rows=\"15\" cols=\"40\">".$this->htmlspecialchars_ent($comments)."</textarea><br / >".
+            "\nE-post: <input name=\"email\" value=\"".$this->htmlspecialchars_ent($email)."\" type=\"text\" /><br />".
+            "\nKommentar:<br />\n<textarea name=\"comments\" rows=\"15\" cols=\"40\">".$this->htmlspecialchars_ent($comments)."</textarea><br / >".
             "\n<input type=\"submit\" value=\"Send\" />".
             $this->FormClose();
 

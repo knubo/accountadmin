@@ -5,9 +5,9 @@
  * @todo	Use a new HasRevisions() method instead of loading admin class
  */
 //i18n
-if (!defined('REVERTLINK_TEXT')) define('REVERTLINK_TEXT', '[Revert]');
-if (!defined('REVERTLINK_TITLE')) define('REVERTLINK_TITLE', 'Click to revert this page to the previous revision');
-if (!defined('REVERTLINK_OLDEST_TITLE')) define('REVERTLINK_OLDEST_TITLE', 'This is the oldest known version for this page');
+if (!defined('REVERTLINK_TEXT')) define('REVERTLINK_TEXT', '[Reverser]');
+if (!defined('REVERTLINK_TITLE')) define('REVERTLINK_TITLE', 'Klikk for a bytte til tidligere versjon');
+if (!defined('REVERTLINK_OLDEST_TITLE')) define('REVERTLINK_OLDEST_TITLE', 'Dette er den eldste kjente versjon av siden');
 
 if ($this->IsAdmin())
 {
@@ -15,7 +15,7 @@ if ($this->IsAdmin())
 	$res = LoadLastTwoPagesByTag($this, $this->tag);
 	if(null !== $res)
 	{
-		echo '<a href="'.$this->Href('revert').'" title="Click to revert this page to the previous revision">'.REVERTLINK_TEXT.'</a>';
+		echo '<a href="'.$this->Href('revert').'" title="Klikk for &aring; bytte til forrige versjon av siden">'.REVERTLINK_TEXT.'</a>';
 	}
 	else
 	{

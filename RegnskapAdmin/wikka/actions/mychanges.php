@@ -24,6 +24,7 @@
  * @uses	Wakka::Link()
  * @todo	fix RE (#104 etc.); also lose the comma in there!
  */
+date_default_timezone_set("Europe/Oslo");
 
 if (!defined('NO_PAGES_EDITED')) define('NO_PAGES_EDITED', 'You have not edited any pages yet.');
 if (!defined('MYCHANGES_ALPHA_LIST')) define('MYCHANGES_ALPHA_LIST', "This is a list of pages edited by %s, along with the time of the last change.");
