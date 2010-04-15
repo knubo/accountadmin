@@ -3,12 +3,12 @@
  * Edit link menulet
  */
 //i18n
-if (!defined('EDITLINK_TEXT')) define('EDITLINK_TEXT', '[Edit]');
-if (!defined('SHOWLINK_TEXT')) define('SHOWLINK_TEXT', '[Show]');
-if (!defined('SHOWCODELINK_TEXT')) define('SHOWCODELINK_TEXT', '[Source]');
-if (!defined('EDITLINK_TITLE')) define('EDITLINK_TITLE', 'Click to edit this page');
-if (!defined('SHOWLINK_TITLE')) define('SHOWLINK_TITLE', 'Displayed the formatted version of this page');
-if (!defined('SHOWCODELINK_TITLE')) define('SHOWCODELINK_TITLE', 'Display the markup for this page');
+if (!defined('EDITLINK_TEXT')) define('EDITLINK_TEXT', '[Rediger]');
+if (!defined('SHOWLINK_TEXT')) define('SHOWLINK_TEXT', '[Vis]');
+if (!defined('SHOWCODELINK_TEXT')) define('SHOWCODELINK_TEXT', '[Kilde]');
+if (!defined('EDITLINK_TITLE')) define('EDITLINK_TITLE', 'Klikk for &aring; redigere siden');
+if (!defined('SHOWLINK_TITLE')) define('SHOWLINK_TITLE', 'Vis formatert versjon av siden');
+if (!defined('SHOWCODELINK_TITLE')) define('SHOWCODELINK_TITLE', 'Vis koder for siden');
 
 if ($this->method == 'edit' || $this->method == 'showcode')
 {

@@ -124,53 +124,53 @@ if ($this->IsAdmin($this->GetUser()))
 	// -------------------------------------
 	// User-interface: strings
 
-	define('ADMINUSERS_PAGE_TITLE','User Administration');
-	define('ADMINUSERS_FORM_LEGEND','Filter view:');
-	define('ADMINUSERS_FORM_SEARCH_STRING_LABEL','Search user:');
-	define('ADMINUSERS_FORM_SEARCH_STRING_TITLE','Enter a search string');
-	define('ADMINUSERS_FORM_SEARCH_SUBMIT','Submit');
-	define('ADMINUSERS_FORM_PAGER_LABEL_BEFORE','Show');
-	define('ADMINUSERS_FORM_PAGER_TITLE','Select records-per-page limit');
-	define('ADMINUSERS_FORM_PAGER_LABEL_AFTER','records per page');
-	define('ADMINUSERS_FORM_PAGER_SUBMIT','Apply');
-	define('ADMINUSERS_FORM_PAGER_LINK','Show records from %d to %d');
-	define('ADMINUSERS_FORM_RESULT_INFO','Records');
-	define('ADMINUSERS_FORM_RESULT_SORTED_BY','Sorted by:');
-	define('ADMINUSERS_TABLE_HEADING_USERNAME','User Name');
-	define('ADMINUSERS_TABLE_HEADING_USERNAME_TITLE','Sort by user name');
-	define('ADMINUSERS_TABLE_HEADING_EMAIL','Email');
-	define('ADMINUSERS_TABLE_HEADING_EMAIL_TITLE','Sort by email');
-	define('ADMINUSERS_TABLE_HEADING_SIGNUPTIME','Signup Time');
-	define('ADMINUSERS_TABLE_HEADING_SIGNUPTIME_TITLE','Sort by signup time');
-	define('ADMINUSERS_TABLE_HEADING_SIGNUPIP','Signup IP');
-	define('ADMINUSERS_TABLE_HEADING_SIGNUPIP_TITLE','Sort by signup IP');
-	define('ADMINUSERS_TABLE_SUMMARY','List of users registered on this server');
-	define('ADMINUSERS_TABLE_HEADING_OWNED_TITLE','Owned Pages');
-	define('ADMINUSERS_TABLE_HEADING_EDITS_TITLE','Edits');
-	define('ADMINUSERS_TABLE_HEADING_COMMENTS_TITLE','Comments');
-	define('ADMINUSERS_ACTION_DELETE_LINK_TITLE','Remove user %s');
+	define('ADMINUSERS_PAGE_TITLE','Brukeradministrasjon');
+	define('ADMINUSERS_FORM_LEGEND','Filtrer visning:');
+	define('ADMINUSERS_FORM_SEARCH_STRING_LABEL','S&oslash;k etter bruker:');
+	define('ADMINUSERS_FORM_SEARCH_STRING_TITLE','Gi inn s&oslash;kestreng');
+	define('ADMINUSERS_FORM_SEARCH_SUBMIT','S&oslash;k');
+	define('ADMINUSERS_FORM_PAGER_LABEL_BEFORE','Vis');
+	define('ADMINUSERS_FORM_PAGER_TITLE','Velg antall per side');
+	define('ADMINUSERS_FORM_PAGER_LABEL_AFTER','linjer per side');
+	define('ADMINUSERS_FORM_PAGER_SUBMIT','Bruk');
+	define('ADMINUSERS_FORM_PAGER_LINK','Vis treff fra %d til %d');
+	define('ADMINUSERS_FORM_RESULT_INFO','Treff');
+	define('ADMINUSERS_FORM_RESULT_SORTED_BY','Sortert av:');
+	define('ADMINUSERS_TABLE_HEADING_USERNAME','Brukers navn');
+	define('ADMINUSERS_TABLE_HEADING_USERNAME_TITLE','Sorter etter brukers navn');
+	define('ADMINUSERS_TABLE_HEADING_EMAIL','E-post');
+	define('ADMINUSERS_TABLE_HEADING_EMAIL_TITLE','Sorter etter e-post');
+	define('ADMINUSERS_TABLE_HEADING_SIGNUPTIME','Registreringstidspunkt');
+	define('ADMINUSERS_TABLE_HEADING_SIGNUPTIME_TITLE','Sorter etter registreringstidspunkt');
+	define('ADMINUSERS_TABLE_HEADING_SIGNUPIP','Registrert fra IP');
+	define('ADMINUSERS_TABLE_HEADING_SIGNUPIP_TITLE','Sorter etter registrert fra IP');
+	define('ADMINUSERS_TABLE_SUMMARY','Liste av brukere registrert p&aring; serveren');
+	define('ADMINUSERS_TABLE_HEADING_OWNED_TITLE','Opprettet sider');
+	define('ADMINUSERS_TABLE_HEADING_EDITS_TITLE','Redigeringer');
+	define('ADMINUSERS_TABLE_HEADING_COMMENTS_TITLE','Kommentarer');
+	define('ADMINUSERS_ACTION_DELETE_LINK_TITLE','Slett bruker %s');
 	//define('ADMINUSERS_ACTION_FEEDBACK_LINK_TITLE','Send feedback to user %s'); #to be added in 1.1.7, see #608
-	define('ADMINUSERS_ACTION_DELETE_LINK','delete');
+	define('ADMINUSERS_ACTION_DELETE_LINK','Slett');
 	//define('ADMINUSERS_ACTION_FEEDBACK_LINK','feedback'); #to be added in 1.1.7, see #608
-	define('ADMINUSERS_TABLE_CELL_OWNED_TITLE','Display pages owned by %s (%d)');
-	define('ADMINUSERS_TABLE_CELL_EDITS_TITLE','Display page edits by %s (%d)');
-	define('ADMINUSERS_TABLE_CELL_COMMENTS_TITLE','Display comments by %s (%d)');
-	define('ADMINUSERS_SELECT_RECORD_TITLE','Select %s');
-	define('ADMINUSERS_SELECT_ALL_TITLE','Select all records');
-	define('ADMINUSERS_SELECT_ALL','Select all');
-	define('ADMINUSERS_DESELECT_ALL_TITLE','Deselect all records');
-	define('ADMINUSERS_DESELECT_ALL','Deselect all');
-	define('ADMINUSERS_FORM_MASSACTION_LEGEND','Mass-action');
-	define('ADMINUSERS_FORM_MASSACTION_LABEL','With selected');
-	define('ADMINUSERS_FORM_MASSACTION_SELECT_TITLE','Choose an action to apply to the selected records');
-	define('ADMINUSERS_FORM_MASSACTION_OPT_DELETE','Delete selected');
-	define('ADMINUSERS_FORM_MASSACTION_DELETE_ERROR', 'Cannot delete admins');
+	define('ADMINUSERS_TABLE_CELL_OWNED_TITLE','Vis sider skrevet av %s (%d)');
+	define('ADMINUSERS_TABLE_CELL_EDITS_TITLE','Vis sider redigert av %s (%d)');
+	define('ADMINUSERS_TABLE_CELL_COMMENTS_TITLE','Vis sider kommpentert av %s (%d)');
+	define('ADMINUSERS_SELECT_RECORD_TITLE','Velg %s');
+	define('ADMINUSERS_SELECT_ALL_TITLE','Velg alle elementer');
+	define('ADMINUSERS_SELECT_ALL','Velg alle');
+	define('ADMINUSERS_DESELECT_ALL_TITLE','Avvelg alle elementer');
+	define('ADMINUSERS_DESELECT_ALL','Velg alle');
+	define('ADMINUSERS_FORM_MASSACTION_LEGEND','Masseaksjon');
+	define('ADMINUSERS_FORM_MASSACTION_LABEL','Med valgte');
+	define('ADMINUSERS_FORM_MASSACTION_SELECT_TITLE','Velg en aksjon &aring; utf&oslash; p&aring; valgte elementer');
+	define('ADMINUSERS_FORM_MASSACTION_OPT_DELETE','Slett valgt');
+	define('ADMINUSERS_FORM_MASSACTION_DELETE_ERROR', 'Kan ikke slette administratorer');
 	//define('ADMINUSERS_FORM_MASSACTION_OPT_FEEDBACK','Send feedback to all'); #to be added in 1.1.7, see #608
-	define('ADMINUSERS_FORM_MASSACTION_SUBMIT','Submit');
-	define('ADMINUSERS_ERROR_NO_MATCHES','Sorry, there are no users matching "%s"');
-	define('ADMINUSERS_DELETE_USERS_HEADING', 'Delete these users?');
-	define('ADMINUSERS_DELETE_USERS_BUTTON', 'Delete Users');
-	define('ADMINUSERS_CANCEL_BUTTON', 'Cancel'); #TODO: replace with appropriate constant from language file!
+	define('ADMINUSERS_FORM_MASSACTION_SUBMIT','Utf&oslash;');
+	define('ADMINUSERS_ERROR_NO_MATCHES','Beklager, det er ingen bruker som treffer "%s"');
+	define('ADMINUSERS_DELETE_USERS_HEADING', 'Slett disse brukerne??');
+	define('ADMINUSERS_DELETE_USERS_BUTTON', 'Slett brukere');
+	define('ADMINUSERS_CANCEL_BUTTON', 'Avbryt'); #TODO: replace with appropriate constant from language file!
 
 	if(isset($_POST['cancel']) && ($_POST['cancel'] == ADMINUSERS_CANCEL_BUTTON))
 	{
