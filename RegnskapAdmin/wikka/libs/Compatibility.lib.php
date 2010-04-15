@@ -130,10 +130,6 @@ function instantiate($class, $par1=NULL, $par2=NULL, $par3=NULL)
 	{
 		$obj =  new $class($par1, $par2, $par3);	// [558] / #496 - comment 3
 	}
-	else
-	{
-		$obj =& new $class($par1, $par2, $par3);	// reverting [558] see #496 - comment 4
-	}
 	return $obj;
 }
 

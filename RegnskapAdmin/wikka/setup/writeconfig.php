@@ -1,6 +1,7 @@
 <?php
 // fetch config
 $config = $config2 = unserialize($_POST["config"]);
+date_default_timezone_set("Europe/Oslo");
 
 // merge existing configuration with new one
 $config = array_merge($wakkaConfig, $config);
