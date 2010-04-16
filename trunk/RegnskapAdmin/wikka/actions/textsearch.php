@@ -27,22 +27,22 @@
 	if (!defined('SEARCH_N_MATCH')) define('SEARCH_N_MATCH', 'Det var %d treff funnet');
 	if (!defined('SEARCH_RESULTS')) define('SEARCH_RESULTS', 'Search results: <strong>%1$s</strong> for <strong>%2$s</strong>'); #%1$s: n matches for | %2$s: search term
 	if (!defined('SEARCH_TRY_EXPANDED')) define('SEARCH_TRY_EXPANDED', '<br />Not sure which page to choose?<br />Try the <a href="$1">Expanded Text Search</a> which shows surrounding text.');
-	if (!defined('SEARCH_TIPS')) define('SEARCH_TIPS', "<br /><br /><hr /><br /><strong>Search Tips:</strong><br /><br />"
-		."<div class=\"indent\"><tt>apple banana</tt></div>"
-		."Find pages that contain at least one of the two words. <br />"
+	if (!defined('SEARCH_TIPS')) define('SEARCH_TIPS', "<br /><br /><hr /><br /><strong>S&oslash;ketips:</strong><br /><br />"
+		."<div class=\"indent\"><tt>eple banan</tt></div>"
+		."Finn sider som har minst ett av to ord.<br />"
 		."<br />"
-		."<div class=\"indent\"><tt>+apple +juice</tt></div>"
-		."Find pages that contain both words. <br />"
+		."<div class=\"indent\"><tt>+eple +juice</tt></div>"
+		."Find sider som inneholder begge ordene. <br />"
 		."<br />"
-		."<div class=\"indent\"><tt>+apple -macintosh</tt></div>"
-		."Find pages that contain the word 'apple' but not 'macintosh'. <br />"
+		."<div class=\"indent\"><tt>+eple -macintosh</tt></div>"
+		."Finn sider som har ordet 'eple', men ikke 'macintosh'. <br />"
 		."<br />"
-		."<div class=\"indent\"><tt>apple*</tt></div>"
-		."Find pages that contain words such as apple, apples, applesauce, or applet. <br />"
+		."<div class=\"indent\"><tt>eple*</tt></div>"
+		."Finn sider som har ord som eple, epler eller eplesaus.. <br />"
 		."<br />"
-		."<div class=\"indent\"><tt>\"some words\"</tt></div>"
-		."Find pages that contain the exact phrase 'some words' (for example, pages that contain 'some words of wisdom' <br />"
-		."but not 'some noise words'). <br />");
+		."<div class=\"indent\"><tt>\"noen ord\"</tt></div>"
+		."Find sider som har eksakte frasen 'noen ord' (for eksempel, sider som inneholder 'noen ord med visdom'"
+		.", men ikke 'noen tullete ord'. <br />");
 
 // init
 $result_page_list = '';
@@ -59,7 +59,7 @@ $case_disp = $this->htmlspecialchars_ent($case);
 <table border="0" cellspacing="0" cellpadding="0">
 	<tr>
 		<td><?php echo SEARCH_FOR; ?>:&nbsp;</td>
-		<td><input name="phrase" size="40" value="<?php echo $phrase_disp ?>" /> <input name="case" type="checkbox" value="1" <?php echo (1==$case?'checked="checked"':'') ?> /><label for="case">Case sensitive</label> <input type="submit" value="Search"/></td><!--i18n-->
+		<td><input name="phrase" size="40" value="<?php echo $phrase_disp ?>" /> <input name="case" type="checkbox" value="1" <?php echo (1==$case?'checked="checked"':'') ?> /><label for="case">Skill mellom store og sm&aring; bokstaver</label> <input type="submit" value="Search"/></td><!--i18n-->
 	</tr>
 </table><br />
 <?php echo $this->FormClose(); ?>
