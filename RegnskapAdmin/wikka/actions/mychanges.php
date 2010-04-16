@@ -26,17 +26,16 @@
  */
 date_default_timezone_set("Europe/Oslo");
 
-if (!defined('NO_PAGES_EDITED')) define('NO_PAGES_EDITED', 'You have not edited any pages yet.');
-if (!defined('MYCHANGES_ALPHA_LIST')) define('MYCHANGES_ALPHA_LIST', "This is a list of pages edited by %s, along with the time of the last change.");
-if (!defined('MYCHANGES_DATE_LIST')) define('MYCHANGES_DATE_LIST', "This is a list of pages edited by %s, ordered by the time of the last change.");
-if (!defined('ORDER_DATE_LINK_DESC')) define('ORDER_DATE_LINK_DESC', 'order by date');
-if (!defined('ORDER_ALPHA_LINK_DESC')) define('ORDER_ALPHA_LINK_DESC', 'order alphabetically');
-if (!defined('MYCHANGES_NOT_LOGGED_IN')) define('MYCHANGES_NOT_LOGGED_IN', "You're not logged in, thus the list of pages you've edited couldn't be retrieved.");
+if (!defined('NO_PAGES_EDITED')) define('NO_PAGES_EDITED', 'Du har ikke redigert noen sider enda.');
+if (!defined('MYCHANGES_ALPHA_LIST')) define('MYCHANGES_ALPHA_LIST', "Dette er en liste av sider redigert av %s, sammen med tidspunktet for dette.");
+if (!defined('MYCHANGES_DATE_LIST')) define('MYCHANGES_DATE_LIST', "Dette er en liste av sider redigert av %s, sortert etter tidspunktet for dette.");
+if (!defined('ORDER_DATE_LINK_DESC')) define('ORDER_DATE_LINK_DESC', 'sorter etter dato');
+if (!defined('ORDER_ALPHA_LINK_DESC')) define('ORDER_ALPHA_LINK_DESC', 'sorter alfabetisk');
+if (!defined('MYCHANGES_NOT_LOGGED_IN')) define('MYCHANGES_NOT_LOGGED_IN', "Du er ikke logget inn, alts&aring; har du ingen sider som du har redigert.");
 if(!defined('REVISION_DATE_FORMAT')) define('REVISION_DATE_FORMAT', 'D, d M Y');
 if(!defined('REVISION_TIME_FORMAT')) define('REVISION_TIME_FORMAT', 'H:i T');
-if (!defined('TITLE_REVISION_LINK')) define('TITLE_REVISION_LINK', 'View recent revisions list for %s');
-if (!defined('WIKKA_NO_PAGES_FOUND')) define('WIKKA_NO_PAGES_FOUND', "No
-edited pages found for %s.");
+if (!defined('TITLE_REVISION_LINK')) define('TITLE_REVISION_LINK', 'Vis siste revisjoner for  %s');
+if (!defined('WIKKA_NO_PAGES_FOUND')) define('WIKKA_NO_PAGES_FOUND', "Ingen redigerte sider funner for %s.");
 
 // order alphabetically or by time?
 $alpha = FALSE;

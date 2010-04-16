@@ -15,8 +15,8 @@
  */
 
 // defaults
-if(!defined('ERROR_CIRCULAR_REF')) define('ERROR_CIRCULAR_REF', 'Circular reference detected');
-if(!defined('ERROR_TARGET_ACL')) define('ERROR_TARGET_ACL', "You aren't allowed to read included page <tt>%s</tt>");
+if(!defined('ERROR_CIRCULAR_REF')) define('ERROR_CIRCULAR_REF', 'Sirkul&aelig;r avhengighet oppdaget');
+if(!defined('ERROR_TARGET_ACL')) define('ERROR_TARGET_ACL', "Do har ikke rettigheter til &aring; lese inkludert side.<tt>%s</tt>");
 
 $page ='';
 

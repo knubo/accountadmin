@@ -1,7 +1,7 @@
 [[CategoryCategory Categories]]
-PageIndex
-RecentChanges
-RecentlyCommented
-[[UserSettings Change settings/Logout]]
-You are {{whoami}}
+[[PageIndex Sideindeks]]
+[[RecentChanges Nylig oppdatert]]
+[[RecentlyCommented Nylig kommentert]]
+[[UserSettings Endre innstillinger/Logg ut]]
+Innlogget som {{whoami}}
 {{searchform}}
