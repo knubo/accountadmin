@@ -21,14 +21,14 @@ if (!defined('PAGE_EDITOR_DIVIDER')) define ('PAGE_EDITOR_DIVIDER', '&#8594;');
 if (!defined('MAX_REVISION_NUMBER')) define ('MAX_REVISION_NUMBER', '50');
 
 //i18n
-if (!defined('RECENT_CHANGES_HEADING')) define('RECENT_CHANGES_HEADING', '=====Recently changed pages=====');
-if (!defined('UNREGISTERED_USER')) define('UNREGISTERED_USER', 'unregistered user');
-if (!defined('LABEL_HISTORY')) define('LABEL_HISTORY', 'history');
-if (!defined('TITLE_REVISION_LINK')) define('TITLE_REVISION_LINK', 'View recent revisions list for %s');
-if (!defined('TITLE_HISTORY_LINK')) define('TITLE_HISTORY_LINK', 'View edit history of %s');
-if (!defined('WIKIPING_ENABLED')) define('WIKIPING_ENABLED', 'WikiPing enabled: Changes on this wiki are broadcast to <a href="http://%1$s">http://%1$s</a>');
-if (!defined('NO_RECENTLY_CHANGED_PAGES')) define ('NO_RECENTLY_CHANGED_PAGES', 'There are no recently changed pages.');
-if (!defined('NO_READABLE_RECENTLY_CHANGED_PAGES')) define ('NO_READABLE_RECENTLY_CHANGED_PAGES', 'There are no recently changed pages you have access to.');
+if (!defined('RECENT_CHANGES_HEADING')) define('RECENT_CHANGES_HEADING', '=====Nylige oppdaterte sider=====');
+if (!defined('UNREGISTERED_USER')) define('UNREGISTERED_USER', 'uregistrert bruker');
+if (!defined('LABEL_HISTORY')) define('LABEL_HISTORY', 'historikk');
+if (!defined('TITLE_REVISION_LINK')) define('TITLE_REVISION_LINK', 'Vis liste over nylig endret revisjoner for %s');
+if (!defined('TITLE_HISTORY_LINK')) define('TITLE_HISTORY_LINK', 'Vis redigeringshistorikk for %s');
+if (!defined('WIKIPING_ENABLED')) define('WIKIPING_ENABLED', 'WikiPing p&aring;skrudd. Endringer p&aring; denne wiki blir sendt til <a href="http://%1$s">http://%1$s</a>');
+if (!defined('NO_RECENTLY_CHANGED_PAGES')) define ('NO_RECENTLY_CHANGED_PAGES', 'Det er ingen nylig endrede sider.');
+if (!defined('NO_READABLE_RECENTLY_CHANGED_PAGES')) define ('NO_READABLE_RECENTLY_CHANGED_PAGES', 'Det er ingen nylig endrede sider som du har tilgang til.');
 
 //initialization
 $max = 0;

@@ -24,12 +24,12 @@
  */
 
 // i18n strings
-if(!defined('PAGE_HEADING')) define('PAGE_HEADING',"Page Index");
-if(!defined('INDEX_CAPTION')) define('INDEX_CAPTION',"This is an alphabetical list of pages you can read on this server.");
-if(!defined('ALL_PAGES')) define('ALL_PAGES',"All");
-if(!defined('PAGE_OWNER')) define('PAGE_OWNER'," . . . . Owner: %s");
-if(!defined('OWNED_PAGES_CAPTION')) define('OWNED_PAGES_CAPTION',"Items marked with a * indicate pages that you own.");
-if(!defined('ERROR_NO_PAGES_FOUND')) define('ERROR_NO_PAGES_FOUND', "No pages found.");
+if(!defined('PAGE_HEADING')) define('PAGE_HEADING',"Sideindeks");
+if(!defined('INDEX_CAPTION')) define('INDEX_CAPTION',"Dette er en alfabetisk liste over sider du kan lese p&aring; denne serveren.");
+if(!defined('ALL_PAGES')) define('ALL_PAGES',"Alle");
+if(!defined('PAGE_OWNER')) define('PAGE_OWNER'," . . . . Eier: %s");
+if(!defined('OWNED_PAGES_CAPTION')) define('OWNED_PAGES_CAPTION',"Elementer markert med * indikerer sider du eier.");
+if(!defined('ERROR_NO_PAGES_FOUND')) define('ERROR_NO_PAGES_FOUND', "Ingen sider funnet.");
 
 if ($pages = $this->LoadAllPages())
 {

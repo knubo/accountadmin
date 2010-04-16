@@ -23,7 +23,7 @@ if (!defined('READ_ACL_LABEL')) define('READ_ACL_LABEL', 'Lesetilgang:');
 if (!defined('WRITE_ACL_LABEL')) define('WRITE_ACL_LABEL', 'Skrivetilgang:');
 if (!defined('COMMENT_ACL_LABEL')) define('COMMENT_ACL_LABEL', 'Kommenteringstilgang:');
 if (!defined('CANCEL_ACL_LABEL')) define('CANCEL_ACL_LABEL', 'Avbryt');
-if (!defined('STORE_ACL_LABEL')) define('STORE_ACL_LABEL', 'Lagre tilgankgsliste');
+if (!defined('STORE_ACL_LABEL')) define('STORE_ACL_LABEL', 'Lagre tilgangsliste');
 if (!defined('SET_OWNER_LABEL')) define('SET_OWNER_LABEL', 'Sett sideeier:');
 if (!defined('SET_OWNER_CURRENT_LABEL')) define('SET_OWNER_CURRENT_LABEL', '(N&aring;v&aelig;rende eier)');
 if (!defined('SET_OWNER_PUBLIC_LABEL')) define('SET_OWNER_PUBLIC_LABEL','(&Aring;pen)');

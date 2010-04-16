@@ -11,7 +11,7 @@ $wakkaConfig = array(
 	'mysql_database' => 'bsc_kopi',
 	'mysql_user' => 'root',
 	'table_prefix' => 'wikka2_',
-	'root_page' => 'HomePage',
+	'root_page' => 'Startside',
 	'wakka_name' => 'Fritt Regnskap',
 	'base_url' => 'http://localhost/wakka/wikka.php?wakka=',
 	'rewrite_mode' => '0',
