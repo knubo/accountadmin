@@ -45,7 +45,7 @@ if ($cattag = $_GET['wakka'])	#312 (only files action uses POST for wakka)
 
 	if ($results)
 	{
-		$str = " pages belong to ".$page.":";
+		$str = " siden tilh&oslash;rer ".$page.":";
 		if (!$compact) $str .= '<br /><br /><table '.$class.' width="100%"><tr>';
 		else $str .= '<div '.$class.'><ul>';
 		

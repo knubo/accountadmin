@@ -134,7 +134,7 @@ else
 			{
 ?>
 <div id="commentheader">
-Comments [<a href="<?php echo $this->Href('', '', 'show_comments=0') ?>">Hide comments/form</a>]
+Kommentarer [<a href="<?php echo $this->Href('', '', 'show_comments=0') ?>">Skjul kommentarer/skjema</a>]
 </div>
 <?php
 				// display comments themselves
@@ -169,9 +169,9 @@ Comments [<a href="<?php echo $this->Href('', '', 'show_comments=0') ?>">Hide co
 				if ($this->HasAccess('comment'))
 				{?>
 		    		<?php echo $this->FormOpen('addcomment'); ?>
-					<label for="commentbox">Add a comment to this page:<br />
+					<label for="commentbox">Legg til en kommentar til siden:<br />
 						<textarea id="commentbox" name="body" rows="6" cols="78"></textarea><br />
-						<input type="submit" value="Add Comment" accesskey="s" />
+						<input type="submit" value="Legg til kommentar" accesskey="s" />
             		</label>
 					<?php echo $this->FormClose(); ?>
 				<?php
