@@ -12,7 +12,7 @@ if (isset($_GET["linking_to"]))
 	}
 	else
 	{
-		print('<em class="error">No page is linking to '.$this->Link($linking_to).".</em>");
+		print('<em class="error">Ingen side linker til '.$this->Link($linking_to).".</em>");
 	}
 }
 else
@@ -26,7 +26,7 @@ else
 	}
 	else
 	{
-		print('<em class="error">No wanted pages. Good!</em>');
+		print('<em class="error">Ingen sider er &oslash;nsket - godt!</em>');
 	}
 }
 ?>
