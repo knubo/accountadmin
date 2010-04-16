@@ -25,8 +25,8 @@
 	if (!defined('SEARCH_ZERO_MATCH')) define('SEARCH_ZERO_MATCH', 'Ingen treff');
 	if (!defined('SEARCH_ONE_MATCH')) define('SEARCH_ONE_MATCH', 'Et treff funnet');
 	if (!defined('SEARCH_N_MATCH')) define('SEARCH_N_MATCH', 'Det var %d treff funnet');
-	if (!defined('SEARCH_RESULTS')) define('SEARCH_RESULTS', 'Search results: <strong>%1$s</strong> for <strong>%2$s</strong>'); #%1$s: n matches for | %2$s: search term
-	if (!defined('SEARCH_TRY_EXPANDED')) define('SEARCH_TRY_EXPANDED', '<br />Not sure which page to choose?<br />Try the <a href="$1">Expanded Text Search</a> which shows surrounding text.');
+	if (!defined('SEARCH_RESULTS')) define('SEARCH_RESULTS', 'S&oslash;keresultat: <strong>%1$s</strong> for <strong>%2$s</strong>'); #%1$s: n matches for | %2$s: search term
+	if (!defined('SEARCH_TRY_EXPANDED')) define('SEARCH_TRY_EXPANDED', '<br />Ikke sikker hvilken side du skal velge?<br />Pr&oslash;v <a href="$1">utvidet teksts&oslash;k</a> som viser tekst rundt treffet.');
 	if (!defined('SEARCH_TIPS')) define('SEARCH_TIPS', "<br /><br /><hr /><br /><strong>S&oslash;ketips:</strong><br /><br />"
 		."<div class=\"indent\"><tt>eple banan</tt></div>"
 		."Finn sider som har minst ett av to ord.<br />"

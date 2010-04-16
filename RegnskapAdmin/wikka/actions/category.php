@@ -45,7 +45,7 @@ if ($cattag = $_GET['wakka'])	#312 (only files action uses POST for wakka)
 
 	if ($results)
 	{
-		$str = " siden tilh&oslash;rer ".$page.":";
+		$str = " sider tilh&oslash;rer ".$page.":";
 		if (!$compact) $str .= '<br /><br /><table '.$class.' width="100%"><tr>';
 		else $str .= '<div '.$class.'><ul>';
 		
@@ -62,7 +62,7 @@ if ($cattag = $_GET['wakka'])	#312 (only files action uses POST for wakka)
 			$count++;
 			$pagecount++;
 		}
-		$str = 'The following '.$pagecount.$str;
+		$str = 'F&oslash;lgende '.$pagecount.$str;
 		if (!$compact)  $str .= '</tr></table>'; else $str .= '</ul></div>';
 	}
 	else $str .= 'Sorry, no items found for ' . $page .'.';

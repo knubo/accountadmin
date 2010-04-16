@@ -19,11 +19,11 @@
  */
 
  //constants
-	if (!defined('SEARCH_FOR')) define('SEARCH_FOR', 'Search for');
-	if (!defined('SEARCH_ZERO_MATCH')) define('SEARCH_ZERO_MATCH', 'No matches');
-	if (!defined('SEARCH_ONE_MATCH')) define('SEARCH_ONE_MATCH', 'One match found');
-	if (!defined('SEARCH_N_MATCH')) define('SEARCH_N_MATCH', '%d matches found');
-	if (!defined('SEARCH_RESULTS')) define('SEARCH_RESULTS', 'Search results: <strong>%1$s</strong> for <strong>%2$s</strong>'); #%1$s: n matches for | %2$s: search term
+	if (!defined('SEARCH_FOR')) define('SEARCH_FOR', 'S&oslash;k etter');
+	if (!defined('SEARCH_ZERO_MATCH')) define('SEARCH_ZERO_MATCH', 'Ingen treff');
+	if (!defined('SEARCH_ONE_MATCH')) define('SEARCH_ONE_MATCH', 'Ett treff funnet');
+	if (!defined('SEARCH_N_MATCH')) define('SEARCH_N_MATCH', '%d treff funnet');
+	if (!defined('SEARCH_RESULTS')) define('SEARCH_RESULTS', 'S&oslash;keresultater: <strong>%1$s</strong> for <strong>%2$s</strong>'); #%1$s: n matches for | %2$s: search term
 	if (!defined('SEARCH_MAX_SNIPPETS')) define('SEARCH_MAX_SNIPPETS', 3);
 	if (!defined('SEARCH_MYSQL_IDENTICAL_CHARS')) define('SEARCH_MYSQL_IDENTICAL_CHARS', 'aàáâã,eèéêë,iìîï,oòóôõ,uùúû,cç,nñ,yý');
 
@@ -42,7 +42,7 @@ $case_disp = $this->htmlspecialchars_ent($case);
 <table border="0" cellspacing="0" cellpadding="0">
 	<tr>
 		<td><?php echo SEARCH_FOR; ?>:&nbsp;</td>
-		<td><input name="phrase" size="40" value="<?php echo $phrase_disp ?>" /> <input name="case" type="checkbox" value="1" <?php echo (1==$case?'checked="checked"':'') ?> /><label for="case">Case sensitive</label> <input type="submit" value="Search"/></td><!--i18n-->
+		<td><input name="phrase" size="40" value="<?php echo $phrase_disp ?>" /> <input name="case" type="checkbox" value="1" <?php echo (1==$case?'checked="checked"':'') ?> /><label for="case">Skill mellom sm&aring; og store bokstaver</label> <input type="submit" value="S&oslash;k"/></td><!--i18n-->
 	</tr>
 </table><br />
 <?php echo $this->FormClose(); ?>
