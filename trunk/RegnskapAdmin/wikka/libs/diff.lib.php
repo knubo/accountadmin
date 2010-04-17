@@ -104,21 +104,11 @@ class Side {
     }     
 
     function isspace($char) {
-       if (ereg('[[:space:]]',$char)) {
-	  return true;
-       }
-       else {
-	  return false;
-       }
+        return preg_match("/\s/", $char);
     }
 
     function isdigit($char) {
-       if (ereg('[[:digit:]]',$char)) {
-	  return true;
-       }
-       else {
-	  return false;
-       }
+        return preg_match("/\d/", $char);
     }
 
     function isend() {

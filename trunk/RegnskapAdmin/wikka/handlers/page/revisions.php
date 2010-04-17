@@ -1,12 +1,12 @@
 <?php
 // i18n strings
-if (!defined('BUTTON_RETURN_TO_NODE')) define('BUTTON_RETURN_TO_NODE', 'Return To Node / Cancel');
-if (!defined('BUTTON_SHOW_DIFFERENCES')) define('BUTTON_SHOW_DIFFERENCES', 'Show Differences');
-if (!defined('ERROR_ACL_READ')) define('ERROR_ACL_READ', 'You aren\'t allowed to read this page.');
-if (!defined('SIMPLE_DIFF')) define('SIMPLE_DIFF', 'Simple Diff');
-if (!defined('WHEN_BY_WHO')) define('WHEN_BY_WHO', '%1$s by %2$s');
-if (!defined('UNREGISTERED_USER')) define('UNREGISTERED_USER', 'unregistered user');
-if (!defined('REVISIONS_NO_REVISIONS_YET')) define('REVISIONS_NO_REVISIONS_YET', 'There are no revisions for this page yet');
+if (!defined('BUTTON_RETURN_TO_NODE')) define('BUTTON_RETURN_TO_NODE', 'Returner til node / Avbryt');
+if (!defined('BUTTON_SHOW_DIFFERENCES')) define('BUTTON_SHOW_DIFFERENCES', 'Vis forskjeller');
+if (!defined('ERROR_ACL_READ')) define('ERROR_ACL_READ', 'Du har ikke tilgang til &aring; lese denne siden.');
+if (!defined('SIMPLE_DIFF')) define('SIMPLE_DIFF', 'Enkel sammenligning');
+if (!defined('WHEN_BY_WHO')) define('WHEN_BY_WHO', '%1$s av %2$s');
+if (!defined('UNREGISTERED_USER')) define('UNREGISTERED_USER', 'uregistrert bruker');
+if (!defined('REVISIONS_NO_REVISIONS_YET')) define('REVISIONS_NO_REVISIONS_YET', 'Det er ingen revisjoner for denne siden enda');
 
 ?>
 <div id="content">

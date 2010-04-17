@@ -28,7 +28,7 @@ if (!defined('SET_OWNER_LABEL')) define('SET_OWNER_LABEL', 'Sett sideeier:');
 if (!defined('SET_OWNER_CURRENT_LABEL')) define('SET_OWNER_CURRENT_LABEL', '(N&aring;v&aelig;rende eier)');
 if (!defined('SET_OWNER_PUBLIC_LABEL')) define('SET_OWNER_PUBLIC_LABEL','(&Aring;pen)');
 if (!defined('SET_NO_OWNER_LABEL')) define('SET_NO_OWNER_LABEL', '(Ingen - Sett fri)');
-if (!defined('ACL_SYNTAX_HELP')) define('ACL_SYNTAX_HELP', '===Syntaks:=== ---##*## = Everyone ---##+## = Registered users ---##""JohnDoe""## = brukeren kalt ""JohnDoe"", inngi s&aring; mange brukere du vil, en per linje --- --- Disse kan inverteres med et ##!##: ---##!*## = Ingen (untatt administratorer) ---##!+## = Kun anonyme brukere ---##""!JohnDoe""## = ""JohnDoe"" will be denied access --- --- //Tilgangslister er testet i den rekkef&oslash;lgen de er inngitt:// --- S&aring; inngi ##*## p&aring; en separat linje  //etter// invertering av brukere, ikke f&oslash;r.');
+if (!defined('ACL_SYNTAX_HELP')) define('ACL_SYNTAX_HELP', '===Syntaks:=== ---##*## = Everyone ---##+## = Registered users ---##""JohnDoe""## = brukeren kalt ""JohnDoe"", inngi s&aring; mange brukere du vil, en per linje --- --- Disse kan inverteres med et ##!##: ---##!*## = Ingen (untatt administratorer) ---##!+## = Kun anonyme brukere ---##""!JohnDoe""## = ""JohnDoe"" will be denied access --- --- //Tilgangslister blir testet i den rekkef&oslash;lgen de er inngitt:// --- S&aring; inngi ##*## p&aring; en separat linje  //etter// invertering av brukere, ikke f&oslash;r.');
 
 echo '<div id="content">'."\n"; //TODO: move to templating class
 

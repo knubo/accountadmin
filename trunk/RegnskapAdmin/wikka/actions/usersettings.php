@@ -64,7 +64,7 @@ if (!defined('NEW_PASSWORD_CONFIRM_LABEL')) define('NEW_PASSWORD_CONFIRM_LABEL',
 if (!defined('CHANGE_BUTTON_LABEL')) define('CHANGE_BUTTON_LABEL', "Endre passord");
 if (!defined('REGISTER_BUTTON_LABEL')) define('REGISTER_BUTTON_LABEL', "Registrer");
 if (!defined('QUICK_LINKS_HEADING')) define('QUICK_LINKS_HEADING', "Hurtiglinker");
-if (!defined('QUICK_LINKS')) define('QUICK_LINKS', "Se en liste over sider du eier (MyPages) og sider du har redigert (MyChanges).");
+if (!defined('QUICK_LINKS')) define('QUICK_LINKS', "Se en liste over sider du eier ([[MyPages Mine sider]]) og sider du har redigert ([[MyChanges Mine redigeringer]]).");
 if (!defined('ERROR_WRONG_PASSWORD')) define('ERROR_WRONG_PASSWORD', "Beklager, du har skrevet inn feil passord.");
 if (!defined('ERROR_WRONG_HASH')) define('ERROR_WRONG_HASH', "Beklager, du har skrevet inn feil passordp&aring;minner.");
 if (!defined('ERROR_EMPTY_USERNAME')) define('ERROR_EMPTY_USERNAME', "Fyll inn ditt brukernavn.");

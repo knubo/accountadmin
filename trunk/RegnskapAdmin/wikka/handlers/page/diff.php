@@ -31,15 +31,15 @@
  */
 
 if (!defined('ERROR_DIV_LIBRARY_MISSING')) define ('ERROR_DIV_LIBRARY_MISSING', 'The necessary file "libs/diff.lib.php" could not be found. Please make sure the file exists and is placed in the right directory!');
-if (!defined('ERROR_NO_PAGE_ACCESS')) define ('ERROR_NO_PAGE_ACCESS', 'You are not authorized to view this page.');
-if (!defined('ERROR_BAD_PARAMETERS')) define ('ERROR_BAD_PARAMETERS', 'Sorry, no revisions to compare were specified.');
-if (!defined('CONTENT_ADDITIONS_HEADER')) define ('CONTENT_ADDITIONS_HEADER', 'Additions:');
-if (!defined('CONTENT_DELETIONS_HEADER')) define ('CONTENT_DELETIONS_HEADER', 'Deletions:');
-if (!defined('CONTENT_NO_DIFFERENCES')) define ('CONTENT_NO_DIFFERENCES', 'No Differences');
+if (!defined('ERROR_NO_PAGE_ACCESS')) define ('ERROR_NO_PAGE_ACCESS', 'Du har ikke rettigheter til &aring; se denne siden.');
+if (!defined('ERROR_BAD_PARAMETERS')) define ('ERROR_BAD_PARAMETERS', 'Ingen revisjoner valgt for sammenligning.');
+if (!defined('CONTENT_ADDITIONS_HEADER')) define ('CONTENT_ADDITIONS_HEADER', 'Tillegg:');
+if (!defined('CONTENT_DELETIONS_HEADER')) define ('CONTENT_DELETIONS_HEADER', 'Slettet:');
+if (!defined('CONTENT_NO_DIFFERENCES')) define ('CONTENT_NO_DIFFERENCES', 'Ingen forskjeller');
 if (!defined('WHEN_BY_WHO')) define('WHEN_BY_WHO', '%1$s by %2$s');
-if (!defined('UNREGISTERED_USER')) define('UNREGISTERED_USER', 'unregistered user');
-if (!defined('DIFF_SIMPLE_BUTTON')) define('DIFF_SIMPLE_BUTTON', 'Simple Diff');
-if (!defined('DIFF_FULL_BUTTON')) define('DIFF_FULL_BUTTON', 'Full Diff');
+if (!defined('UNREGISTERED_USER')) define('UNREGISTERED_USER', 'uregistrert bruker');
+if (!defined('DIFF_SIMPLE_BUTTON')) define('DIFF_SIMPLE_BUTTON', 'Enkel sammenligning');
+if (!defined('DIFF_FULL_BUTTON')) define('DIFF_FULL_BUTTON', 'Full sammenligning');
 
 echo '<div id="content">'."\n"; //TODO: move to templating class //TODO move _after_ redirect
 
@@ -91,7 +91,7 @@ if ($this->HasAccess('read'))
 		$deleted = array_diff($bodyB, $bodyA);
 		
 		$info = '<div class="revisioninfo">'."\n";
-		$info .= '<h3>Comparing <a title="Display the revision list for '.$pageA['tag'].'" href="'.$this->Href('revisions').'">revisions</a> for <a title="Return to the current revision of the page" href="'.$this->Href().'">'.$pageA['tag'].'</a></h3>'."\n";
+		$info .= '<h3>Sammenligner <a title="Viser revisjonsliste for '.$pageA['tag'].'" href="'.$this->Href('revisions').'">revisjoner</a> for <a title="Tilbake til n&aring;v&aelig;rende revisjon av siden" href="'.$this->Href().'">'.$pageA['tag'].'</a></h3>'."\n";
 		$info .= '<ul style="margin: 10px 0;">'."\n";
 		$info .= '	<li><a href="'.$this->Href('show', '', 'time='.urlencode($pageA['time'])).'">['.$pageA['id'].']</a> '.sprintf(WHEN_BY_WHO, '<a class="datetime" href="'.$this->Href('show','','time='.urlencode($pageA["time"])).'">'.$pageA['time'].'</a>', $pageA_edited_by).' <span class="pagenote smaller">'.$noteA.'</span></li>'."\n";
 		$info .= '	<li><a href="'.$this->Href('show', '', 'time='.urlencode($pageB['time'])).'">['.$pageB['id'].']</a> '.sprintf(WHEN_BY_WHO, '<a class="datetime" href="'.$this->Href('show','','time='.urlencode($pageB["time"])).'">'.$pageB['time'].'</a>', $pageB_edited_by).' <span class="pagenote smaller">'.$noteB.'</span></li>'."\n";
@@ -137,7 +137,7 @@ if ($this->HasAccess('read'))
 		$sideB->split_file_into_words($bodyB);
 	
 		// diff on these two file
-		$diff = new Diff(split("\n",$bodyA),split("\n",$bodyB));
+		$diff = new Diff(preg_split("/\n/",$bodyA),preg_split("/\n/",$bodyB));
 	
 		// format output
 		$fmt = new DiffFormatter();
@@ -153,7 +153,7 @@ if ($this->HasAccess('read'))
 		$sideB->init();
 
 		$info .= '<div class="revisioninfo">'."\n";
-		$info .= '<h3>Comparing <a title="Display the revision list for '.$pageA['tag'].'" href="'.$this->Href('revisions').'">revisions</a> for <a title="Return to the current revision of the page" href="'.$this->Href().'">'.$pageA['tag'].'</a></h3>'."\n";
+		$info .= '<h3>Sammenligner <a title="Viser revisjonsliste for '.$pageA['tag'].'" href="'.$this->Href('revisions').'">revisjoner</a> for <a title="Tilbake til n&aring;v&aelig;rende revisjon av siden" href="'.$this->Href().'">'.$pageA['tag'].'</a></h3>'."\n";
 		$info .= '<ul style="margin: 10px 0">'."\n";
 		$info .= '	<li><a href="'.$this->Href('show', '', 'time='.urlencode($pageA['time'])).'">['.$pageA['id'].']</a> '.sprintf(WHEN_BY_WHO, '<a class="datetime" href="'.$this->Href('show','','time='.urlencode($pageA["time"])).'">'.$pageA['time'].'</a>', $pageA_edited_by).' <span class="pagenote smaller">'.$noteA.'</span></li>'."\n";
 		$info .= '	<li><a href="'.$this->Href('show', '', 'time='.urlencode($pageB['time'])).'">['.$pageB['id'].']</a> '.sprintf(WHEN_BY_WHO, '<a class="datetime" href="'.$this->Href('show','','time='.urlencode($pageB["time"])).'">'.$pageB['time'].'</a>', $pageB_edited_by).' <span class="pagenote smaller">'.$noteB.'</span></li>'."\n";
