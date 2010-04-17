@@ -1,4 +1,5 @@
 <?php
+
 // i18n strings
 if (!defined('BUTTON_RETURN_TO_NODE')) define('BUTTON_RETURN_TO_NODE', 'Returner til node / Avbryt');
 if (!defined('BUTTON_SHOW_DIFFERENCES')) define('BUTTON_SHOW_DIFFERENCES', 'Vis forskjeller');
