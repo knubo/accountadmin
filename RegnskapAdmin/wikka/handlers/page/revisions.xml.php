@@ -17,21 +17,25 @@
  * @uses		Wakka::htmlspecialchars_ent()
  */
 
+
+date_default_timezone_set("Europe/Oslo");
+setlocale(LC_TIME, 'no_NO');
+
 /**
  * Defaults
  */
-if (!defined('I18N_LANG')) define('I18N_LANG', 'en-US');
+if (!defined('I18N_LANG')) define('I18N_LANG', 'no-NO');
 if (!defined('I18N_ENCODING_UTF8')) define('I18N_ENCODING_UTF8', 'UTF-8');
 if (!defined('RSS_REVISIONS_VERSION')) define('RSS_REVISIONS_VERSION','2.0');
 if (!defined('RSS_RECENTCHANGES_VERSION')) define('RSS_RECENTCHANGES_VERSION','0.92');
-if (!defined('REVISIONS_EDITED_BY')) define('REVISIONS_EDITED_BY','Edited by %s');
+if (!defined('REVISIONS_EDITED_BY')) define('REVISIONS_EDITED_BY','Redigert av %s');
 
 /**
  * i18n
  */
 define('EDITED_BY', 'Edited by %s');
 define('ERROR_ACL_READ_INFO', 'You\'re not allowed to access this information.');
-define('HISTORY_REVISIONS_OF', 'History/revisions of %s');
+define('HISTORY_REVISIONS_OF', 'Historikk/revisjoner av %s');
 
 header("Content-type: text/xml");
 
