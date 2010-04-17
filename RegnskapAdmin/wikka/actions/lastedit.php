@@ -32,9 +32,9 @@ define('LASTEDIT_BOX', 'lastedit');
 define('LASTEDIT_NOTES', 'lastedit_notes');
 
 // i18n strings
-define('ANONYMOUS_USER', 'anonymous');
-define('LASTEDIT_MESSAGE', 'Last edited by %s');
-define('DIFF_LINK_TITLE', 'Show differences from last revision');
+define('ANONYMOUS_USER', 'anonym');
+define('LASTEDIT_MESSAGE', 'Sist rediger av %s');
+define('DIFF_LINK_TITLE', 'Vis forskjeller fra forrige revisjon');
 
 if (!isset($show)) 
 {

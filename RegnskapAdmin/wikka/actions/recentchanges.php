@@ -13,9 +13,9 @@
  */
 
 date_default_timezone_set("Europe/Oslo");
-
+setlocale(LC_TIME, 'no_NO');
 //defaults
-if(!defined('REVISION_DATE_FORMAT')) define('REVISION_DATE_FORMAT', 'D, d M Y');
+if(!defined('REVISION_DATE_FORMAT')) define('REVISION_DATE_FORMAT', '%A, %e %B %Y'); //D, d M Y');
 if(!defined('REVISION_TIME_FORMAT')) define('REVISION_TIME_FORMAT', 'H:i T');
 if (!defined('PAGE_EDITOR_DIVIDER')) define ('PAGE_EDITOR_DIVIDER', '&#8594;');
 if (!defined('MAX_REVISION_NUMBER')) define ('MAX_REVISION_NUMBER', '50');
@@ -58,7 +58,7 @@ if ($pages = $this->LoadRecentlyChanged())
 			list($day, $time) = explode(' ', $page['time']);
 			if ($day != $curday)
 			{
-				$dateformatted = date(REVISION_DATE_FORMAT, strtotime($day));
+				$dateformatted = ucfirst(strftime(REVISION_DATE_FORMAT, strtotime($day)));
 
 				if ($curday)
 				{
@@ -68,7 +68,7 @@ if ($pages = $this->LoadRecentlyChanged())
 				$curday = $day;
 			}
 
-			$timeformatted = date(REVISION_TIME_FORMAT, strtotime($page["time"]));
+			$timeformatted = ucfirst(strftime(REVISION_TIME_FORMAT, strtotime($page["time"])));
 			$page_edited_by = $page['user'];	
 			if (!$this->LoadUser($page_edited_by)) $page_edited_by .= ' ('.UNREGISTERED_USER.')';
 

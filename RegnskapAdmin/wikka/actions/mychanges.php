@@ -25,6 +25,7 @@
  * @todo	fix RE (#104 etc.); also lose the comma in there!
  */
 date_default_timezone_set("Europe/Oslo");
+setlocale(LC_TIME, 'no_NO');
 
 if (!defined('NO_PAGES_EDITED')) define('NO_PAGES_EDITED', 'Du har ikke redigert noen sider enda.');
 if (!defined('MYCHANGES_ALPHA_LIST')) define('MYCHANGES_ALPHA_LIST', "Dette er en liste av sider redigert av %s, sammen med tidspunktet for dette.");
@@ -32,7 +33,7 @@ if (!defined('MYCHANGES_DATE_LIST')) define('MYCHANGES_DATE_LIST', "Dette er en 
 if (!defined('ORDER_DATE_LINK_DESC')) define('ORDER_DATE_LINK_DESC', 'sorter etter dato');
 if (!defined('ORDER_ALPHA_LINK_DESC')) define('ORDER_ALPHA_LINK_DESC', 'sorter alfabetisk');
 if (!defined('MYCHANGES_NOT_LOGGED_IN')) define('MYCHANGES_NOT_LOGGED_IN', "Du er ikke logget inn, alts&aring; har du ingen sider som du har redigert.");
-if(!defined('REVISION_DATE_FORMAT')) define('REVISION_DATE_FORMAT', 'D, d M Y');
+if(!defined('REVISION_DATE_FORMAT')) define('REVISION_DATE_FORMAT', '%A, %e %B %Y');
 if(!defined('REVISION_TIME_FORMAT')) define('REVISION_TIME_FORMAT', 'H:i T');
 if (!defined('TITLE_REVISION_LINK')) define('TITLE_REVISION_LINK', 'Vis siste revisjoner for  %s');
 if (!defined('WIKKA_NO_PAGES_FOUND')) define('WIKKA_NO_PAGES_FOUND', "Ingen redigerte sider funner for %s.");
@@ -130,9 +131,9 @@ if (($this->IsAdmin() && !empty($username)) ||
 				{
 					if ($current) $output .= "<br />\n";
 					$current = $day;
-					$output .= '<h5>'.date(REVISION_DATE_FORMAT, strtotime($day)).'</h5>'."\n";
+					$output .= '<h5>'.ucfirst(strftime(REVISION_DATE_FORMAT, strtotime($day))).'</h5>'."\n";
 				}
-				$time_output = date(REVISION_TIME_FORMAT, strtotime($time));
+				$time_output = ucfirst(strftime(REVISION_TIME_FORMAT, strtotime($time)));
 				//$time_output = $time;
 				$output .= '&nbsp;&nbsp;&nbsp;<a class="datetime" href="'.$this->Href('revisions', $page['tag']).'" title="'.sprintf(TITLE_REVISION_LINK, $page['tag']).'">'.$time_output.'</a> '.$this->Link($page["tag"], 'revisions', "[".$page['id']."]", 0)." ".$this->Link($page["tag"], "", "", 0)."<br />\n";
 			}

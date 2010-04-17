@@ -22,7 +22,12 @@
 /**
  * defaults
  */
-if(!defined('COMMENT_DATE_FORMAT')) define('COMMENT_DATE_FORMAT', 'D, d M Y');
+
+
+date_default_timezone_set("Europe/Oslo");
+setlocale(LC_TIME, 'no_NO');
+
+if(!defined('COMMENT_DATE_FORMAT')) define('COMMENT_DATE_FORMAT', '%A, %e %B %Y');
 if(!defined('COMMENT_TIME_FORMAT')) define('COMMENT_TIME_FORMAT', 'H:i T');
 if(!defined('COMMENT_SNIPPET_LENGTH')) define('COMMENT_SNIPPET_LENGTH', 120);
 /**
@@ -54,7 +59,7 @@ if ($comments = $this->LoadRecentlyCommented(50, $username))
 			list($day, $time) = explode(' ', $comment['time']);
 			if ($day != $curday)
 			{
-				$dateformatted = date(COMMENT_DATE_FORMAT, strtotime($day));
+				$dateformatted = ucfirst(strftime(COMMENT_DATE_FORMAT, strtotime($day)));
 	
 				if ($curday)
 				{
@@ -63,7 +68,7 @@ if ($comments = $this->LoadRecentlyCommented(50, $username))
 				echo '<strong>'.$dateformatted.':</strong><br />'."\n";
 				$curday = $day;
 			}
-			$timeformatted = date(COMMENT_TIME_FORMAT, strtotime($comment['time']));
+			$timeformatted = ucfirst(strftime(COMMENT_TIME_FORMAT, strtotime($comment['time'])));
 			$comment_preview = str_replace('<br />', '', $comment['comment']);
 			if (strlen($comment_preview) > COMMENT_SNIPPET_LENGTH)
 			{
