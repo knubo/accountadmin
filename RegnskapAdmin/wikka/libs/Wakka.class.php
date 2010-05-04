@@ -2181,6 +2181,10 @@ class Wakka
 		{
 			header('Location: css/' . $this->method);
 		}
+		elseif (preg_match("/ajax/", $this->method)) {
+			$content_body = $this->Method($this->method);
+			echo $content_body;
+		}
 		else
 		{
 			//output page
