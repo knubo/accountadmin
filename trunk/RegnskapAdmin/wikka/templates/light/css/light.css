@@ -1,35 +1,31 @@
 /*
 -----------------------------------------------
 Wikka Light Stylesheet (screen)
------------------------------------------------ */
-
-/* global styling */
-
-p, td, li, input, select, textarea {
-	font-family:  Georgia, "Trebuchet MS", Times, serif; 
+----------------------------------------------- */ /* global styling */
+p,td,li,input,select,textarea {
+	font-family: Georgia, "Trebuchet MS", Times, serif;
 	line-height: 20px;
 	font-size: 13px;
 }
 
-form, h1, h2, h3, h4, h5 {
+form,h1,h2,h3,h4,h5 {
 	margin: 0px;
 	padding: 0px;
 }
 
 /* page layout */
-
-body{
-	color:#333;
+body {
+	color: #333;
 	background-color: #EEE;
 	margin-top: 40pt;
 	margin-left: 80pt;
-	margin-right: 80pt;	
+	margin-right: 80pt;
 	margin-bottom: 40pt;
-	font: normal 10pt/16pt Georgia, "Trebuchet MS", Times, serif; 
+	font: normal 10pt/ 16pt Georgia, "Trebuchet MS", Times, serif;
 	text-align: left;
 	color: #444;
 	background: #FFF url(../images/bkg.gif) fixed top;
-	border: none 0; 
+	border: none 0;
 }
 
 #page {
@@ -38,32 +34,33 @@ body{
 }
 
 #header {
-	position: relative; /* needed for the correct positioning of system messages */
+	position: relative;
+	/* needed for the correct positioning of system messages */
 	padding: 10px;
 	padding-top: 0px;
 }
 
 #header h2 {
 	text-align: left;
-	font: normal 14pt Arial, Helvetica, sans-serif; 
+	font: normal 14pt Arial, Helvetica, sans-serif;
 }
 
 #content {
 	border: 1px solid #DDD;
 	text-align: left;
-	background-color: #FFF; 
+	background-color: #FFF;
 	padding: 40px 30px 30px 30px;
 }
 
 #footer {
-	float:left;	
-/*	background-color: #DDD; */
+	float: left;
+	/*	background-color: #DDD; */
 	width: auto;
 	padding: 0 10px;
 }
 
 #smallprint {
-	font-family: Arial, Helvetica, sans-serif; 
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 0.7em;
 	color: #777;
 	padding-right: 0.5%;
@@ -71,21 +68,21 @@ body{
 }
 
 /* comments */
-
 #comments {
-	margin-top: 20px;	
+	margin-top: 20px;
 	padding: 10px;
-	color: #333;	
+	color: #333;
 	background-color: #D0E0F0;
 	border: 1px solid #CCE;
 }
 
 #comments a {
-	color: #666;	
+	color: #666;
 	text-decoration: none;
 }
 
 #commentsheader {
+	
 }
 
 .comment {
@@ -104,7 +101,6 @@ body{
 }
 
 /* links */
-
 a {
 	color: #933;
 	text-decoration: none;
@@ -122,14 +118,13 @@ a.ext:hover {
 	color: #933;
 }
 
-#header a, #footer a {
+#header a,#footer a {
 	color: #369;
-	font-family: Verdana, Arial, Helvetica, sans-serif; 	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-
 #header h2 a {
-	font: normal 13pt Arial, Helvetica, sans-serif; 
+	font: normal 13pt Arial, Helvetica, sans-serif;
 	color: #AAA;
 }
 
@@ -146,7 +141,7 @@ a.ext:hover {
 	color: #333;
 }
 
-#content A:link, #content A:visited {
+#content A:link,#content A:visited {
 	font-family: inherit;
 	margin: 1pt;
 	font-size: inherit;
@@ -156,10 +151,10 @@ a.ext:hover {
 	width: auto;
 	color: #993357;
 	text-decoration: none;
-/*	background-color: #FFF; */
+	/*	background-color: #FFF; */
 }
 
-#content A:hover, #content A:active {
+#content A:hover,#content A:active {
 	font-family: inherit;
 	margin: 1pt;
 	font-size: inherit;
@@ -178,17 +173,15 @@ a.ext:hover {
 	font-family: "Lucida Console", Monaco, monospace;
 }
 
-#content a.keys, #content a.keys:hover {
+#content a.keys,#content a.keys:hover {
 	color: #666;
 	background-color: #DDD;
 	font: normal 95% Verdana, sans-serif;
 	text-decoration: none;
 }
 
-
 /* lists */
-
-ul, ol {
+ul,ol {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding-top: 0px;
@@ -200,32 +193,31 @@ li {
 }
 
 ul.thread {
-        list-style-type: none;
-        border-left: 2px #666 solid;
-        padding-left: 10px;
-        margin: 5px 0px;  
+	list-style-type: none;
+	border-left: 2px #666 solid;
+	padding-left: 10px;
+	margin: 5px 0px;
 }
-        
+
 ul.thread li {
-        color: #333;
-        font-size: 11px;
+	color: #333;
+	font-size: 11px;
 }
 
 /* images */
-
 img {
 	border: 0px;
 }
 
 img.centre {
-	display: block; 
-	text-align: center; 
+	display: block;
+	text-align: center;
 	margin: 5px auto;
 }
 
 img.center {
-	display: block; 
-	text-align: center; 
+	display: block;
+	text-align: center;
 	margin: 5px auto;
 }
 
@@ -235,7 +227,7 @@ img.left {
 }
 
 img.right {
-	margin: 5px -5px 5px 5px; 
+	margin: 5px -5px 5px 5px;
 	float: right;
 }
 
@@ -245,7 +237,6 @@ img.icon {
 }
 
 /* floats */
-
 .floatl {
 	float: left;
 	font-size: 90%;
@@ -257,9 +248,9 @@ img.icon {
 }
 
 .floatr {
-	float: right; 
-	font-size: 90%; 
-	line-height: 1.5em; 
+	float: right;
+	font-size: 90%;
+	line-height: 1.5em;
 	padding: 5px;
 	width: 48%;
 	margin-left: 3%;
@@ -268,65 +259,66 @@ img.icon {
 
 /* simply left-float element */
 .left {
-	float:left;
+	float: left;
 }
 
 /* simply right-float element */
 .right {
-	float:right;
+	float: right;
 }
 
-.clear {clear:both;}
+.clear {
+	clear: both;
+}
 
 /* text formatting */
-
 #content h1 {
-	font: normal 18pt/20pt  Arial, Helvetica, Verdana, sans-serif;
+	font: normal 18pt/ 20pt Arial, Helvetica, Verdana, sans-serif;
 	margin: 0pt;
 	color: #666;
 	padding-bottom: 10px;
 	border: none 0;
-	border-bottom: 1px dotted #DDD; 
+	border-bottom: 1px dotted #DDD;
 }
 
 #content h2 {
-	font: normal 16pt/18pt  Arial, Helvetica, Verdana, sans-serif;
+	font: normal 16pt/ 18pt Arial, Helvetica, Verdana, sans-serif;
 	margin: 0pt;
 	color: #666;
 	padding-bottom: 10px;
-	border-bottom: 1px dotted #DDD; 
+	border-bottom: 1px dotted #DDD;
 }
 
 #content h3 {
-	font: normal 14pt/16pt Arial, Helvetica, Verdana, sans-serif;
+	font: normal 14pt/ 16pt Arial, Helvetica, Verdana, sans-serif;
 	margin: 0pt;
 	color: #666;
 	padding-bottom: 8px;
 }
 
 #content h4 {
-	font: normal 12pt/14pt Arial, Helvetica, Verdana, sans-serif;
+	font: normal 12pt/ 14pt Arial, Helvetica, Verdana, sans-serif;
 	margin: 0pt;
 	color: #666;
 	padding-bottom: 6px;
 }
 
 #content h5 {
-	font: small-caps 10pt/16pt Arial, Helvetica, Verdana, sans-serif;
+	font: small-caps 10pt/ 16pt Arial, Helvetica, Verdana, sans-serif;
 	margin: 0pt;
 	color: #666;
 	letter-spacing: 0.1em;
 }
 
 #content h6 {
-	font: bold 10pt/12pt Arial, Helvetica, Verdana, sans-serif;
+	font: bold 10pt/ 12pt Arial, Helvetica, Verdana, sans-serif;
 	color: #666;
 }
 
 tt {
 	font-size: 11px;
 	color: #999;
-	background-color: #EEE; 
+	background-color: #EEE;
 }
 
 .hidden {
@@ -343,11 +335,19 @@ tt {
 	margin-bottom: .5em;
 }
 
-.highlight {color: red; background: #FFFFD0;}
+.highlight {
+	color: red;
+	background: #FFFFD0;
+}
 
-.strikethrough {color: #888; text-decoration: line-through;}
+.strikethrough {
+	color: #888;
+	text-decoration: line-through;
+}
 
-.underline {text-decoration: underline;}
+.underline {
+	text-decoration: underline;
+}
 
 .indent {
 	margin-left: 40px;
@@ -358,16 +358,20 @@ tt {
 	margin: 1pt;
 	padding: 1pt;
 	color: #666666;
-	font-weight: normal;	
+	font-weight: normal;
 }
 
 .help {
 	cursor: help;
 }
 
-.centre {text-align: center;}
+.centre {
+	text-align: center;
+}
 
-.center, .center p {text-align: center;}
+.center,.center p {
+	text-align: center;
+}
 
 .keys {
 	color: #666;
@@ -409,7 +413,7 @@ blockquote {
 
 hr {
 	border: none 0;
-	border-top: 1px dotted #DDD; 
+	border-top: 1px dotted #DDD;
 	margin: 8px auto;
 	height: 1px;
 }
@@ -419,9 +423,8 @@ hr {
 }
 
 /* code blocks */
-
 .code_header {
-	color: #336;	
+	color: #336;
 	background-color: #D0E0F0;
 	border-top: 1px solid #AAC;
 	border-right: 1px solid #AAC;
@@ -442,31 +445,33 @@ hr {
 	font-size: 11px;
 	font-family: "Lucida Console", Monaco, monospace;
 	margin: auto;
-	padding: 6px 5px 13px 5px;	/* padding-bottom solves hor. scrollbar hiding single line of code in IE6 but causes vert. scrollbar... */
-	text-align: left;			/* override justify on body */
-	overflow: auto;				/* allow scroll bar in case of long lines - goes together with white-space: nowrap! */
-	white-space: nowrap;		/* prevent line wrapping */
+	padding: 6px 5px 13px 5px;
+	/* padding-bottom solves hor. scrollbar hiding single line of code in IE6 but causes vert. scrollbar... */
+	text-align: left; /* override justify on body */
+	overflow: auto;
+	/* allow scroll bar in case of long lines - goes together with white-space: nowrap! */
+	white-space: nowrap; /* prevent line wrapping */
 }
 
 .code pre {
 	margin-top: 6px;
-	margin-bottom: 6px;			/* prevent vertical scroll bar in case of overflow */
+	margin-bottom: 6px;
+	/* prevent vertical scroll bar in case of overflow */
 	font-size: 11px;
 	font-family: "Lucida Console", Monaco, monospace;
 }
 
 /* form elements */
-
 fieldset {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	border: 1px solid #CCC;	
+	border: 1px solid #CCC;
 }
 
 fieldset legend {
 	font-size: 115%;
 	color: #666;
-	padding:2px;
+	padding: 2px;
 }
 
 textarea {
@@ -485,7 +490,7 @@ textarea:focus {
 }
 
 input {
-	border: 1px solid #CCC;	
+	border: 1px solid #CCC;
 }
 
 input:hover {
@@ -500,7 +505,7 @@ input[type=hidden] {
 	display: none;
 }
 
-input[type=submit], input[type=button] {
+input[type=submit],input[type=button] {
 	color: #666;
 	background-color: #EEE;
 	font: normal 95% Verdana, sans-serif;
@@ -512,7 +517,7 @@ input[type=submit], input[type=button] {
 	padding: .1em .2em;
 }
 
-input[type=submit]:hover, input[type=button]:hover {
+input[type=submit]:hover,input[type=button]:hover {
 	color: #333;
 	background-color: #DDD;
 	border-top: 1px solid #FFF;
@@ -522,14 +527,14 @@ input[type=submit]:hover, input[type=button]:hover {
 }
 
 /* editor textarea decorations */
-/* (decorations can't be in "textarea#body" declaration, else the "width:100%" won't work) */
+	/* (decorations can't be in "textarea#body" declaration, else the "width:100%" won't work) */
 #textarea_container {
 	border: 1px solid #CCC;
 	padding: 2px;
 	margin-bottom: 2px;
 }
 
-textarea#body{
+textarea#body {
 	width: 100%;
 	height: 500px;
 	/* padding and border must be 0 for the "width:100%" to work */
@@ -537,8 +542,7 @@ textarea#body{
 	border: 0;
 }
 
-.searchbox {
-	/* border: none; */
+.searchbox { /* border: none; */
 	border: 1px solid #CCA;
 	padding: 0px;
 	margin: 0px;
@@ -558,7 +562,6 @@ input.highlight {
 }
 
 /* system information */
-
 .missingpage {
 	color: #993357;
 	text-decoration: none;
@@ -573,21 +576,20 @@ input.highlight {
 
 /* inline system messages */
 em.error {
-	color: #A33; 
+	color: #A33;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 95%;
 }
 
 em.success {
-	color: #3A3; 
+	color: #3A3;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 95%;
 }
 
 /* redirection messages */
-
 div.success {
 	position: fixed;
 	top: 2em;
@@ -595,14 +597,16 @@ div.success {
 	max-width: 40%;
 	border: 2px solid #3A3;
 	padding: .2em .4em;
-	color: #3A3; 
+	color: #3A3;
 	background-color: #EFE;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 90%;
 }
 
-.comments {display: none;}
+.comments {
+	display: none;
+}
 
 .revisioninfo {
 	color: #000000;
@@ -625,8 +629,8 @@ div.success {
 
 .previewhead {
 	margin: auto;
-	z-index:20;
-	position:fixed;
+	z-index: 20;
+	position: fixed;
 	top: 80px;
 	left: 10px;
 	color: red;
@@ -646,11 +650,17 @@ del {
 	text-decoration: none;
 }
 
-.recentchanges {font-size: 0.9em;}
+.recentchanges {
+	font-size: 0.9em;
+}
 
-.pagenote {color: #888;}
+.pagenote {
+	color: #888;
+}
 
-.smaller {font-size: smaller;}
+.smaller {
+	font-size: smaller;
+}
 
 #smallprint a {
 	color: #666;
@@ -659,7 +669,7 @@ del {
 /* sort order information in sortable lists and tables*/
 .sortorder {
 	font-size: 70%;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 
@@ -667,10 +677,9 @@ del {
 .debug {
 	color: #AAA;
 	font-size: 70%;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 	letter-spacing: 1px;
 }
-
 
 /* Tables */
 table.data {
@@ -683,8 +692,8 @@ table.data caption {
 	border: 1px solid #CCC;
 	font-size: 95%;
 	color: #666;
-	margin:5px 0;
-	padding:2px;
+	margin: 5px 0;
+	padding: 2px;
 }
 
 table.data thead {
@@ -738,7 +747,6 @@ table.data td.datetime {
 }
 
 /* --- alternate row & column color --- */
-
 table.data tr.alt {
 	background-color: #EEE;
 }
@@ -815,10 +823,7 @@ table.data tr.alt td.c6 {
 	background-color: #EDE;
 }
 
-/* Action-related styling */
-
-/* Adminpages action */
-
+/* Action-related styling */ /* Adminpages action */
 table#adminpages {
 	border: 1px solid #CCC;
 	width: 100%;
@@ -827,15 +832,14 @@ table#adminpages {
 table#adminpages td.actions {
 	text-align: center;
 	font-size: 70%;
-	font-family: Verdana, Arial, Helvetica, sans-serif; 	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 form#form_page_admin_panel fieldset {
-	line-height: 2em;	
+	line-height: 2em;
 }
 
 /* Adminuser action */
-
 table#adminusers {
 	border: 1px solid #CCC;
 	width: 100%;
@@ -844,20 +848,21 @@ table#adminusers {
 table#adminusers td.actions {
 	text-align: center;
 	font-size: 70%;
-	font-family: Verdana, Arial, Helvetica, sans-serif; 	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 form#form_user_admin_panel fieldset {
-	line-height: 2em;	
+	line-height: 2em;
 }
 
 /* Lastedit action */
 .lastedit {
-	border:dotted 1px;
-	padding:3pt;
-	margin:8pt; color:#888;
-	font-size:8pt;
-	width:30%;
+	border: dotted 1px;
+	padding: 3pt;
+	margin: 8pt;
+	color: #888;
+	font-size: 8pt;
+	width: 30%;
 }
 
 .lastedit_notes {
@@ -880,10 +885,10 @@ table.calendar {
 
 table.calendar caption {
 	border: 1px solid #CCC;
-	margin:5px 0;
+	margin: 5px 0;
 	font-size: 95%;
 	color: #666;
-	padding:2px;
+	padding: 2px;
 }
 
 table.calendar thead {
@@ -966,12 +971,13 @@ table.calendar a:active {
 
 /* Usersettings action */
 table.usersettings {
+	
 }
 
 /* Wikkaconfig action */
 table.wikkaconfig {
 	width: 70%;
-	font-size: 90%;	
+	font-size: 90%;
 }
 
 table.wikkaconfig caption {
@@ -989,50 +995,116 @@ table.wikkaconfig tbody td {
 	padding-left: 5px;
 }
 
-
-/* Handler-related styling */
-
-/* Acls handler */
+/* Handler-related styling */ /* Acls handler */
 table.acls {
+	
 }
 
 /* 3rdparty-code related styling */
-
-/* syntax highlighting code - GeSHi */
+	/* syntax highlighting code - GeSHi */
 .code ol {
 	margin-top: 6px;
-	margin-bottom: 6px;			/* prevent vertical scroll bar in case of overflow */
+	margin-bottom: 6px;
+	/* prevent vertical scroll bar in case of overflow */
 }
+
 .code li {
 	font-size: 11px;
 	font-family: "Lucida Console", Monaco, monospace;
 }
-.code .br0	{ color: #6C6; }
-.code .co1	{ color: #808080; font-style: italic; }
-.code .co2	{ color: #808080; font-style: italic; }
-.code .coMULTI	{ color: #808080; font-style: italic; }
-.code .es0	{ color: #009; font-weight: bold; }
-.code .kw1	{ color: #b1b100; }
-.code .kw2	{ color: #000; font-weight: bold; }
-.code .kw3	{ color: #006; }
-.code .kw4	{ color: #933; }
-.code .kw5	{ color: #00F; }
-.code .me0	{ color: #060; }
-.code .nu0	{ color: #C6C; }
-.code .re0	{ color: #00F; }
-.code .re1	{ color: #00F; }
-.code .re2	{ color: #00F; }
-.code .re4	{ color: #099; }
-.code .sc0	{ color: #0BD; }
-.code .sc1	{ color: #DB0; }
-.code .sc2	{ color: #090; }
-.code .st0	{ color: #F00; }
+
+.code .br0 {
+	color: #6C6;
+}
+
+.code .co1 {
+	color: #808080;
+	font-style: italic;
+}
+
+.code .co2 {
+	color: #808080;
+	font-style: italic;
+}
+
+.code .coMULTI {
+	color: #808080;
+	font-style: italic;
+}
+
+.code .es0 {
+	color: #009;
+	font-weight: bold;
+}
+
+.code .kw1 {
+	color: #b1b100;
+}
+
+.code .kw2 {
+	color: #000;
+	font-weight: bold;
+}
+
+.code .kw3 {
+	color: #006;
+}
+
+.code .kw4 {
+	color: #933;
+}
+
+.code .kw5 {
+	color: #00F;
+}
+
+.code .me0 {
+	color: #060;
+}
+
+.code .nu0 {
+	color: #C6C;
+}
+
+.code .re0 {
+	color: #00F;
+}
+
+.code .re1 {
+	color: #00F;
+}
+
+.code .re2 {
+	color: #00F;
+}
+
+.code .re4 {
+	color: #099;
+}
+
+.code .sc0 {
+	color: #0BD;
+}
+
+.code .sc1 {
+	color: #DB0;
+}
+
+.code .sc2 {
+	color: #090;
+}
+
+.code .st0 {
+	color: #F00;
+}
 
 /* wikiedit */
+.toolbar tr {
+	background: ButtonFace;
+}
 
-.toolbar tr { background: ButtonFace; }
-.toolbar .btn-, .toolbar  .btn-hover,  .toolbar .btn-active,
-.toolbar .btn-pressed {
+.toolbar .btn-,.toolbar  .btn-hover,.toolbar .btn-active,.toolbar .btn-pressed
+	{
 	background: ButtonFace;
 	color: ButtonText;
 	border: 1px solid ButtonFace;
@@ -1040,12 +1112,29 @@ table.acls {
 	margin: 0px;
 	cursor: pointer;
 }
-.toolbar .btn- img  { width: 20px; height: 20px; }
-.toolbar .btn-hover { border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight; }
-.toolbar .btn-active,
-.toolbar .btn-pressed { border-color: ButtonShadow ButtonHighlight ButtonHighlight ButtonShadow; }
-.toolbar .btn-pressed { background: ButtonHighlight; }
-.editornamecss { background-color:#CCCCFF; font-size: 18px; padding: 0 10px; }
+
+.toolbar .btn- img {
+	width: 20px;
+	height: 20px;
+}
+
+.toolbar .btn-hover {
+	border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+}
+
+.toolbar .btn-active,.toolbar .btn-pressed {
+	border-color: ButtonShadow ButtonHighlight ButtonHighlight ButtonShadow;
+}
+
+.toolbar .btn-pressed {
+	background: ButtonHighlight;
+}
+
+.editornamecss {
+	background-color: #CCCCFF;
+	font-size: 18px;
+	padding: 0 10px;
+}
 
 ul#main_menu {
 	float: right;
@@ -1056,34 +1145,34 @@ ul#main_menu {
 
 ul#main_menu li {
 	margin-top: 0;
-    padding: 0;
-    float: left;
-    width: auto;
-    text-align: left;
-    font-size: 70%; 
-    margin-right: 5px;
+	padding: 0;
+	float: left;
+	width: auto;
+	text-align: left;
+	font-size: 70%;
+	margin-right: 5px;
 }
 
 ul#main_menu li a {
 	color: #935;
 }
 
-ul#main_menu li > a:hover {
-	  background-color: transparent;
-	  color: #333;
+ul#main_menu li>a:hover {
+	background-color: transparent;
+	color: #333;
 }
 
 ul#main_menu li form {
-    display: inline;
+	display: inline;
 }
 
 ul#main_menu li form input {
-    font-size: 1.1em;
-    line-height: 1.1em;
-    font-weight: bold;
-    color: #333;
-    border: none;
-    border-bottom: 1px solid #CCC;
+	font-size: 1.1em;
+	line-height: 1.1em;
+	font-weight: bold;
+	color: #333;
+	border: none;
+	border-bottom: 1px solid #CCC;
 }
 
 ul#options_menu {
@@ -1094,10 +1183,136 @@ ul#options_menu {
 }
 
 ul#options_menu li {
-    margin-top: 0;
-    padding: 0;
-    float: left;
-    width: auto;
-    text-align: left;
-    font-size: 70%; 
+	margin-top: 0;
+	padding: 0;
+	float: left;
+	width: auto;
+	text-align: left;
+	font-size: 70%;
+}
+
+.gwt-DecoratedTabBar {
+	background-color: #BFDFFF;
+}
+/* GWT */
+
+.gwtheader {
+	font-weight: bold;
+	font-size: larger;
+}
+
+.gwt-TabBar {
+}
+.gwt-TabBar .gwt-TabBarFirst {
+ width: 5px; /* first tab distance from the left */
+}
+.gwt-TabBar .gwt-TabBarRest {
+}
+.gwt-TabBar .gwt-TabBarItem {
+ margin-left: 6px;
+ padding: 3px 6px 3px 6px;
+ cursor: pointer;
+ cursor: hand;
+ color: black;
+ font-weight: bold;
+ text-align: center;
+ background: #d0e4f6;
+}
+.gwt-TabBar .gwt-TabBarItem-selected {
+ cursor: default;
+ background: #92c1f0;
+}
+.gwt-TabBar .gwt-TabBarItem-disabled {
+ cursor: default;
+ color: #999999;
+}
+.gwt-TabPanel {
+}
+.gwt-TabPanelBottom {
+ border-color: #92c1f0;
+ border-style: solid;
+ border-width: 3px 2px 2px;
+ overflow: hidden;
+ padding: 6px;
+}
+
+.gwt-DecoratedTabBar {
+}
+.gwt-DecoratedTabBar .gwt-TabBarFirst {
+ width: 5px; /* first tab distance from the left */
+}
+.gwt-DecoratedTabBar .gwt-TabBarRest {
+}
+.gwt-DecoratedTabBar .gwt-TabBarItem {
+ border-collapse: collapse;
+ margin-left: 6px;
+}
+.gwt-DecoratedTabBar .tabTopCenter {
+ padding: 0px;
+ background: #d0e4f6;
+}
+.gwt-DecoratedTabBar .tabTopLeft,
+.gwt-DecoratedTabBar .tabTopRight {
+ padding: 0px;
+ zoom: 1;
+}
+.gwt-DecoratedTabBar .tabTopLeftInner,
+.gwt-DecoratedTabBar .tabTopRightInner {
+ width: 6px;
+ height: 6px;
+}
+.gwt-DecoratedTabBar .tabTopLeft {
+ background: url(../images/corner.png) no-repeat 0px -55px;
+ -background: url(../images/corner_ie6.png) no-repeat 0px -55px;
+}
+.gwt-DecoratedTabBar .tabTopRight {
+ background: url(../images/corner.png) no-repeat -6px -55px;
+ -background: url(../images/corner_ie6.png) no-repeat -6px -55px;
+}
+* html .gwt-DecoratedTabBar .tabTopLeftInner,
+* html .gwt-DecoratedTabBar .tabTopRightInner {
+ width: 6px;
+ height: 6px;
+ overflow: hidden;
+}
+.gwt-DecoratedTabBar .tabMiddleLeft,
+.gwt-DecoratedTabBar .tabMiddleRight {
+ width: 6px;
+ padding: 0px;
+ background: #d0e4f6;
+}
+.gwt-DecoratedTabBar .tabMiddleLeftInner,
+.gwt-DecoratedTabBar .tabMiddleRightInner {
+ width: 1px;
+ height: 1px;
+}
+.gwt-DecoratedTabBar .tabMiddleCenter {
+ padding: 0px 4px 2px 4px;
+ cursor: pointer;
+ cursor: hand;
+ color: black;
+ font-weight: bold;
+ text-align: center;
+ background: #d0e4f6;
+}
+.gwt-DecoratedTabBar .gwt-TabBarItem-selected .tabTopCenter {
+ background: #92c1f0;
+}
+.gwt-DecoratedTabBar .gwt-TabBarItem-selected .tabTopLeft {
+ background-position: 0px -61px;
+}
+.gwt-DecoratedTabBar .gwt-TabBarItem-selected .tabTopRight {
+ background-position: -6px -61px;
+}
+.gwt-DecoratedTabBar .gwt-TabBarItem-selected .tabMiddleLeft,
+.gwt-DecoratedTabBar .gwt-TabBarItem-selected .tabMiddleRight {
+ background: #92c1f0;
+}
+.gwt-DecoratedTabBar .gwt-TabBarItem-selected .tabMiddleCenter {
+ cursor: default;
+ background: #92c1f0;
+}
+.gwt-DecoratedTabBar .gwt-TabBarItem-disabled .tabMiddleCenter {
+ cursor: default;
+ color: #999999;
 }
