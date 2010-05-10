@@ -11,7 +11,7 @@ if($this->GetUser()) {
     
     $this->Query("insert into to_install (wikilogin, secret) values ('".mysql_real_escape_string($username)."','".mysql_real_escape_string($secret)."')");
     
-    echo json_encode(array("secret"=>$secret));
+    echo json_encode(array("secret"=>$secret, "wikilogin" => $username));
     
 }
 
