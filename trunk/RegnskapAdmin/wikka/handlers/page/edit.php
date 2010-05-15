@@ -54,7 +54,7 @@ if (!defined('INPUT_ERROR_STYLE')) define('INPUT_ERROR_STYLE', 'class="highlight
 /**#@+
  * Internationalization (i18n).
  */
-if (!defined('PREVIEW_HEADER')) define('PREVIEW_HEADER', 'Forh&aring;ndsvis');
+if (!defined('PREVIEW_HEADER')) define('PREVIEW_HEADER', 'Forh&aring;ndsvisning');
 if (!defined('LABEL_EDIT_NOTE')) define('LABEL_EDIT_NOTE', 'Legg inn en notis om din redigering');
 if (!defined('ERROR_INVALID_PAGENAME')) define('ERROR_INVALID_PAGENAME', 'Sidenavnet er ugyldig. Gyldige sider m&aring; starte med stor bokstav og kun inneholde bokstaver og tall. ');
 if (!defined('ERROR_OVERWRITE_ALERT')) define('ERROR_OVERWRITE_ALERT', 'Overskrivings advarsel: Denne siden var endret av noen andre mens du redigerte den. Ta kopi av dine endringer og rediger siden p&aring; nytt.');
@@ -63,7 +63,7 @@ if (!defined('ERROR_TAG_TOO_LONG')) define('ERROR_TAG_TOO_LONG', 'Tag for lang! 
 if (!defined('ERROR_NO_WRITE_ACCESS')) define('ERROR_NO_WRITE_ACCESS', 'Du har ikke skrivetilgang til denne siden. Du m&aring; kanskje registrere en konto for &aring; kunne redigere denne siden.');
 if (!defined('ERROR_INVALID_PAGEID')) define('ERROR_INVALID_PAGEID', 'Revisjonsidentifikatoren finnes ikke for siden du sp&oslash;rr etter');
 if (!defined('MESSAGE_AUTO_RESIZE')) define('MESSAGE_AUTO_RESIZE', 'Trykk p&aring; %s og taggen blir klippet til riktig lengde');
-if (!defined('INPUT_SUBMIT_PREVIEW')) define('INPUT_SUBMIT_PREVIEW', 'Forh&aring;ndsvis');
+if (!defined('INPUT_SUBMIT_PREVIEW')) define('INPUT_SUBMIT_PREVIEW', 'Sjekk');
 if (!defined('INPUT_SUBMIT_STORE')) define('INPUT_SUBMIT_STORE', 'Lagre');
 if (!defined('INPUT_SUBMIT_REEDIT')) define('INPUT_SUBMIT_REEDIT', 'Rediger p&aring; nytt');
 if (!defined('INPUT_BUTTON_CANCEL')) define('INPUT_BUTTON_CANCEL', 'Avbryt');
