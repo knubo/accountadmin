@@ -25,6 +25,7 @@ if ( substr_count($site_base, 'wikka.php?wakka=') > 0 ) $site_base = substr($sit
 	<link rel="stylesheet" type="text/css" href="<?php echo $this->GetThemePath('/') ?>/css/print.css" media="print" />
 	<link rel="icon" href="<?php echo $this->GetThemePath('/') ?>/images/favicon.ico" type="image/x-icon" />
 	<link rel="shortcut icon" href="<?php echo $this->GetThemePath('/') ?>/images/favicon.ico" type="image/x-icon" />
+	<script type="text/javascript" src="templates/jquery-1.4.2.min.js"></script>
 <?php
 if ($this->GetMethod() != 'edit')
 {
@@ -54,7 +55,35 @@ if (isset($message) && strlen($message)>0)
 }
 ?>
 <!-- BEGIN PAGE HEADER -->
+
+<script type="text/javascript">
+function toggleWiki(speed) {
+	$('#main_menu').toggle(speed);
+	$('#options_menu').toggle(speed);
+
+	var c_name = "wikitoggle";
+	var toggled = 0;
+
+	var c_start=document.cookie.indexOf(c_name + "=");
+	  if (c_start!=-1) {
+		  c_start=c_start + c_name.length+1;
+		  var c_end=document.cookie.indexOf(";",c_start);
+		  if (c_end==-1) c_end=document.cookie.length;
+
+		  toggled = unescape(document.cookie.substring(c_start,c_end));
+	  }
+
+
+	  expiration_date = new Date();
+	  expiration_date.setYear(1900 + expiration_date.getYear () + 1);
+
+	  document.cookie=c_name+'='+ (toggled == 0 ? "1" : "0") +'; expires=' + expiration_date.toGMTString();
+}
+</script>
+
 <div id="header">
+<div style="float:right;font-size:smaller;"><a onclick="toggleWiki('slow');">toggle wiki</a></div>
+
 <h2><a id="homepage_link" href="<?php echo $this->href('', $this->config['root_page'], ''); ?>"><?php echo $this->config['wakka_name'];?></a> : <a href="<?php echo $this->href('backlinks', '', ''); ?>" title="Display a list of pages linking to <?php echo $this->tag ?>"><?php echo $this->GetPageTag(); ?></a></h2>
 <?php echo $this->MakeMenu('main_menu'); ?>
 </div>

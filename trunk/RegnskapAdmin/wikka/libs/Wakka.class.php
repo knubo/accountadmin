@@ -1752,7 +1752,7 @@ class Wakka
 		$hdl = opendir('templates');
 		while ($f = readdir($hdl))
 		{
-			if ($f[0] == '.') continue;
+			if ($f[0] == '.' || strncasecmp($f, "jquery", 5) == 0) continue;
 			// theme override
 			else if (!in_array($f, $plugin))
 			{

@@ -384,6 +384,35 @@ if (!function_exists("wakka2callback")) # DotMG [many lines] : Unclosed tags fix
 		{
 			return (++$trigger_center % 2 ? "<div class=\"center\">\n" : "\n</div>\n");
 		}
+		// TabsMenu
+		else if (preg_match("/:::(.+?):::/s", $thing, $matches))
+		{
+			// Determine if first tab is active or not
+			$output = $matches[1];
+			if (substr($output, 0 , 1) == '@') {
+				$tabclass = 'activetab';
+				$output = substr($output, 1);
+			}
+			else {
+				$tabclass = 'inactivetab';
+			}
+			
+			// Fix links or other wiki markup inside tabs
+			$output = preg_replace_callback(
+			"/(".
+			"\[\[[^\[]*?\]\]|".																	# forced link
+			"\b[a-z]+:\/\/\S+|".																	# URL
+			"\b[A-ZÅÄÖÜ][A-Za-zÅÄÖÜßåäöü]+[:](?![=_])\S*\b|".										# InterWiki link
+			"\b([A-ZÅÄÖÜ]+[a-zßåäöü]+[A-Z0-9ÅÄÖÜ][A-Za-z0-9ÅÄÖÜßåäöü]*)\b|".						# CamelWords
+			")/ms", "wakka2callback", $output);
+
+			
+			$output = str_replace('::@', '</span><span class="activetab">', $output);
+			$output = str_replace('::', '</span><span class="inactivetab">', $output);
+			
+			return '<span class="tabline">&nbsp;&nbsp;&nbsp;</span><span class="' . $tabclass . '">' . $output . '</span><span class="tabline">&nbsp;&nbsp;&nbsp;</span>';
+			
+		}
 		// urls
 		else if (preg_match("/^([a-z]+:\/\/\S+?)([^[:alnum:]^\/])?$/", $thing, $matches))
 		{
@@ -742,7 +771,8 @@ $text = preg_replace_callback(
 	"\{\{.*?\}\}|".																			# action
 	"\b[A-ZÄÖÜ][A-Za-zÄÖÜßäöü]+[:](?![=_])\S*\b|".											# InterWiki link
 	"\b([A-ZÄÖÜ]+[a-zßäöü]+[A-Z0-9ÄÖÜ][A-Za-z0-9ÄÖÜßäöü]*)\b|".								# CamelWords
-	"\n".																					# new line
+	":::.+?:::|".                                                                            # TabsMenu  <== just add this line																					# new line
+	"\n".
 	"/ms", "wakka2callback", $text."\n"); #append \n (#444)
 
 // we're cutting the last <br />
