@@ -29,6 +29,25 @@ if ($this->GetConfigValue('sql_debugging'))
 echo '<!--'.sprintf(PAGE_GENERATION_TIME, $this->microTimeDiff($tstart)).'-->'."\n";
 ?>
 </div>
+<script type="text/javascript">
+var c_name = "wikitoggle";
+var toggled = 0;
+
+var c_start=document.cookie.indexOf(c_name + "=");
+  if (c_start!=-1) {
+	  c_start=c_start + c_name.length+1;
+	  var c_end=document.cookie.indexOf(";",c_start);
+	  if (c_end==-1) c_end=document.cookie.length;
+
+	  toggled = unescape(document.cookie.substring(c_start,c_end));
+  }
+
+  if(toggled == 0) {
+		$('#main_menu').toggle();
+		$('#options_menu').toggle();
+  }
+</script>
+
 <!-- END PAGE WRAPPER -->
 </body>
 </html>
