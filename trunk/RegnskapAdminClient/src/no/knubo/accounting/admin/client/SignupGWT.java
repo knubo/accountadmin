@@ -24,6 +24,7 @@ import com.google.gwt.user.client.ui.Anchor;
 import com.google.gwt.user.client.ui.DecoratedTabPanel;
 import com.google.gwt.user.client.ui.FlexTable;
 import com.google.gwt.user.client.ui.FlowPanel;
+import com.google.gwt.user.client.ui.HTML;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.Widget;
 
@@ -41,7 +42,7 @@ public class SignupGWT implements EntryPoint, ClickHandler {
     private Status status;
 
     enum Status {
-        UNREGISTERED, PENDING_OR_COMPLETE;
+        UNREGISTERED, PENDING_OR_COMPLETE, FULL_DB;
     }
 
     /**
@@ -72,7 +73,7 @@ public class SignupGWT implements EntryPoint, ClickHandler {
     private JSONArray installations;
 
     private void calculateStatus() {
-        ServerResponse callback = new ServerResponse() {
+        ServerResponseWithValidation callback = new ServerResponseWithValidation() {
 
             public void serverResponse(JSONValue responseObj) {
                 installations = responseObj.isArray();
@@ -81,6 +82,11 @@ public class SignupGWT implements EntryPoint, ClickHandler {
                 } else {
                     status = Status.PENDING_OR_COMPLETE;
                 }
+                setModeBasedOnStatus();
+            }
+
+            public void validationError(List<String> fields) {
+                status = Status.FULL_DB;
                 setModeBasedOnStatus();
             }
         };
@@ -102,6 +108,11 @@ public class SignupGWT implements EntryPoint, ClickHandler {
             tabPanel.add(addStatusTable(), "Status");
             tabPanel.selectTab(0);
             break;
+        case FULL_DB:
+            tabPanel.add(new HTML("Fritt Regnskap tar ikke i mot flere nyregistreringer for \u00F8yeblikket"),
+                    "Beklager stengt");
+            tabPanel.selectTab(0);
+            break;
         }
     }
 
@@ -118,8 +129,8 @@ public class SignupGWT implements EntryPoint, ClickHandler {
 
             if (complete) {
                 String name = Util.str(install.get("hostprefix")) + ".frittregnskap.no";
-                String url = "http://"+name+"/prg/AccountingGWT.html";
-                
+                String url = "http://" + name + "/prg/AccountingGWT.html";
+
                 ft.setWidget(i + 1, 0, new Anchor(name, url));
             } else {
                 ft.setText(i + 1, 0, Util.str(install.get("hostprefix")) + ".frittregnskap.no");

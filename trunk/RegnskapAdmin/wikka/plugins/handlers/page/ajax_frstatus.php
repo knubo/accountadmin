@@ -1,5 +1,6 @@
 <?php
 if($this->GetUser()) {
+
     $user = $this->GetUser();
 
     $username = $user["name"];
@@ -13,7 +14,19 @@ if($this->GetUser()) {
         $one["ip"] = $ip;
         $one["hostname"] = $one["hostprefix"].".frittregnskap.no";
     }
-    
+
+    if(count($result == 0)) {
+        $result = $this->LoadSingle("select count(*) as c from installations");
+
+        if($result["c"] > 100) {
+            header("HTTP/1.0 513 Validation Error");
+
+            die(json_encode(array($result["c"])));
+
+        }
+
+    }
+
     echo json_encode($result);
 }
 ?>
