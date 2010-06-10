@@ -1,4 +1,4 @@
-<!-- BEGIN PAGE FOOTER -->
+	<!-- BEGIN PAGE FOOTER -->
 <div id="footer">
 <?php
 	$wikka_patch_level = ($this->GetWikkaPatchLevel() == '0') ? '' : '-p'.$this->GetWikkaPatchLevel();

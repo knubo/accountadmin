@@ -506,10 +506,10 @@ div.success {
 	margin: auto;
 	z-index:20;
 	position:fixed;
-	top: 80px;
-	left: 10px;
+	top: 95px;
+	left: 35px;
 	color: red;
-	font-size: xx-large;
+	font-size: x-large;
 	font-weight: bold;
 	padding: 5px;
 }
@@ -984,9 +984,6 @@ ul#options_menu:before {
 
 ul#options_menu {
 	width: 200px;
-	font-size: 10px;
-	text-align: left;
-	font: 1em 'Lucida Grande', Verdana, Arial, Sans-Serif;
 }
 
 ul#options_menu li {

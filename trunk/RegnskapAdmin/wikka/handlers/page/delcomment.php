@@ -45,11 +45,11 @@ if(isset($_POST['form_id']) && isset($_POST["comment_id"]))
 	{
 		$this->Query("DELETE FROM ".$this->config["table_prefix"]."comments WHERE id = '".$comment_id."' LIMIT 1");
 		// redirect to page
-		$this->redirect($this->Href(), 'Comment succesfully deleted.');
+		$this->redirect($this->Href(), 'Kommentar slettet.');
 	}
 	else
 	{
-		echo '<div id="content"><em class="error">Sorry, you are not allowed to delete this comment!</em></div>'."\n";
+		echo '<div id="content"><em class="error">Du har ikke lov til &aring; slette denne kommentaren!</em></div>'."\n";
 	}
 }
 ?>
