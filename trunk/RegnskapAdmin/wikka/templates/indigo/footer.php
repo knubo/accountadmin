@@ -30,7 +30,7 @@ function toggleWiki(speed) {
 }
 </script>
 
-<div style="float:right;font-size:smaller;"><a onclick="toggleWiki('slow');">toggle wiki</a></div>
+<div style="float:right;font-size:larger"><a onclick="toggleWiki('slow');">wiki</a></div>
 
 <h2 id="homepageheader"><a id="homepage_link" href="<?php echo $this->href('', $this->config['root_page'], ''); ?>"><?php echo $this->config['wakka_name'];?></a> : <a href="<?php echo $this->href('backlinks', '', ''); ?>" title="Display a list of pages linking to <?php echo $this->tag ?>"><?php echo $this->GetPageTag(); ?></a></h2>
 <?php echo $this->MakeMenu('main_menu'); ?>
@@ -90,6 +90,7 @@ var c_start=document.cookie.indexOf(c_name + "=");
   if(toggled == 0) {
 		$('#main_menu').toggle();
 		$('#options_menu').toggle();
+		$('#homepageheader').toggle();
   }
 </script>
 

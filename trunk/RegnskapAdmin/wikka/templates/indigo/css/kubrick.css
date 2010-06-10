@@ -951,9 +951,7 @@ ul#main_menu:before {
 
 ul#main_menu {
 	width: 200px;
-	font-size: 10px;
 	text-align: left;
-	font: 1em 'Lucida Grande', Verdana, Arial, Sans-Serif;
 }
 
 ul#main_menu li {
