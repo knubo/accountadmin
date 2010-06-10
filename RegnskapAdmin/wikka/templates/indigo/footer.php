@@ -35,6 +35,12 @@ function toggleWiki(speed) {
 <h2 id="homepageheader"><a id="homepage_link" href="<?php echo $this->href('', $this->config['root_page'], ''); ?>"><?php echo $this->config['wakka_name'];?></a> : <a href="<?php echo $this->href('backlinks', '', ''); ?>" title="Display a list of pages linking to <?php echo $this->tag ?>"><?php echo $this->GetPageTag(); ?></a></h2>
 <?php echo $this->MakeMenu('main_menu'); ?>
 
+<?php
+	//page generation start
+	global $tstart;
+	echo $this->MakeMenu('options_menu');
+	$wikka_patch_level = ($this->GetWikkaPatchLevel() == '0') ? '' : '-p'.$this->GetWikkaPatchLevel();
+?>
 		</div>
 	
 		<div class="clearer"><span></span></div>
@@ -45,9 +51,7 @@ function toggleWiki(speed) {
 
 <!-- BEGIN PAGE FOOTER -->
 <div id="footer" class="footer">
-<?php
-	$wikka_patch_level = ($this->GetWikkaPatchLevel() == '0') ? '' : '-p'.$this->GetWikkaPatchLevel();
-?>
+
 <!-- END PAGE FOOTER -->
 <!-- BEGIN SYSTEM INFO -->
 <?php

@@ -4,7 +4,7 @@
 if ($this->page && !$this->GetPageOwner() && $this->GetUser())
 {
 	$this->SetPageOwner($this->GetPageTag(), $this->GetUserName());
-	$this->SetRedirectMessage("You are now the owner of this page.");
+	$this->SetRedirectMessage("Du eier n&aring; denne siden.");
 }
 
 $this->Redirect($this->Href());

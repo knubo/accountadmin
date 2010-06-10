@@ -33,7 +33,7 @@ if ($this->IsAdmin())
 	        $this->Query("delete from ".$this->config["table_prefix"]."referrers where page_tag = '".mysql_real_escape_string($tag)."'");
 	
 	        // redirect back to main page
-	        $this->Redirect($this->config["base_url"], "Page has been deleted!");
+	        $this->Redirect($this->config["base_url"], "Siden er slettet!");
     	}
     }
     else
@@ -59,7 +59,7 @@ if ($this->IsAdmin())
 }
 else
 {
-    print("<em class='error'>You are not allowed to delete pages.</em>");
+    print("<em class='error'>Du har ikke lov til &aring; slette sider.</em>");
 }
 
 ?>

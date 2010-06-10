@@ -27,10 +27,10 @@
 */
 
 // User-interface: strings
-define('PAGE_TITLE','Pages linking to %s');
-define('MESSAGE_NO_BACKLINKS','There are no backlinks to this page.');
-define('MESSAGE_MISSING_PAGE','Sorry, page %s does not exist.');
-define('MESSAGE_PAGE_INACCESSIBLE',	'You are not allowed to read this page');
+define('PAGE_TITLE','Sider som lenker til %s');
+define('MESSAGE_NO_BACKLINKS','Ingen sider lenker til denne siden.');
+define('MESSAGE_MISSING_PAGE','Siden %s eksisterer ikke.');
+define('MESSAGE_PAGE_INACCESSIBLE',	'Du har ikke lov til &aring; lese denne siden');
 
 echo '<div id="content">'."\n";
 

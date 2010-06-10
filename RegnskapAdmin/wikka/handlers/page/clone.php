@@ -47,19 +47,19 @@ if(!defined('VALID_PAGENAME_PATTERN')) define ('VALID_PAGENAME_PATTERN', '/^[A-Z
 
 // i18n
 #define('CLONE_HEADER', '==== Clone current page ====');
-define('CLONE_HEADER', 'Clone current page');
-define('CLONE_SUCCESSFUL', '%s was succesfully created!');
-define('CLONE_X_TO', 'Clone %s to:');
-define('CLONED_FROM', 'Cloned from %s');
-define('EDIT_NOTE', 'Edit note:');
-define('ERROR_ACL_READ', 'You are not allowed to read the source of this page.');
-define('ERROR_ACL_WRITE', 'Sorry! You don\'t have write-access to %s');
-define('ERROR_INVALID_PAGENAME', 'This page name is invalid. Valid page names must start with a letter and contain only letters and numbers.');
-define('ERROR_PAGE_ALREADY_EXIST', 'Sorry, the destination page already exists');
-define('ERROR_PAGE_NOT_EXIST', ' Sorry, page %s does not exist.');
-define('LABEL_CLONE', 'Clone');
-define('LABEL_EDIT_OPTION', ' Edit after creation ');
-define('PLEASE_FILL_VALID_TARGET', 'Please fill in a valid target <tt>PageName</tt> and an (optional) edit note.');
+define('CLONE_HEADER', 'Kopier n&aring;v&aelig;rende side');
+define('CLONE_SUCCESSFUL', '%s ble vellykket opprettet!');
+define('CLONE_X_TO', 'Kopier %s til:');
+define('CLONED_FROM', 'Kopiert fra %s');
+define('EDIT_NOTE', 'Notis ved redigering:');
+define('ERROR_ACL_READ', 'Du har ikke lov til &aring; lese kilden til denne siden.');
+define('ERROR_ACL_WRITE', 'Du har ikke skrivetilgang til %s');
+define('ERROR_INVALID_PAGENAME', 'Sidenavnet er ikke gyldig. Gyldige sider m&aring; starte med en bokstav og ha kun tall og bokstaver i navnet.');
+define('ERROR_PAGE_ALREADY_EXIST', 'M&aring;lsiden eksisterer allerede');
+define('ERROR_PAGE_NOT_EXIST', ' Siden %s eksisterer ikke.');
+define('LABEL_CLONE', 'Kopier');
+define('LABEL_EDIT_OPTION', ' Rediger etter oppretting ');
+define('PLEASE_FILL_VALID_TARGET', 'Fyll inn et gyldig m&aring;l <tt>SideNavn</tt> og en redigeringsnotis om &oring;sket.');
 
 // initialization
 $from = $this->tag;

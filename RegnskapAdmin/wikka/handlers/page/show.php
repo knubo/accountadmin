@@ -49,14 +49,14 @@ echo '>'."\n"; //TODO: move to templating class
 
 if (!$this->HasAccess('read'))
 {
-	echo '<p><em class="error">You aren\'t allowed to read this page.</em></p>';
+	echo '<p><em class="error">Du har ikke tilgang til &aring; lese denne siden.</em></p>';
 	echo "\n".'</div><!--closing page content-->'."\n"; //TODO: move to templating class
 }
 else
 {
 	if (!$this->page)
 	{
-		echo '<p>This page doesn\'t exist yet. Maybe you want to <a href="'.$this->Href('edit').'">create</a> it?</p>';
+		echo '<p>Denne siden finnes ikke enda. Vil du kanskje <a href="'.$this->Href('edit').'">opprette</a> den?</p>';
 		echo '</div><!--closing page content-->'."\n"; //TODO: move to templating class
 	}
 	else
@@ -64,8 +64,8 @@ else
 		if ($this->page['latest'] == 'N')
 		{
 			echo '<div class="revisioninfo">'."\n";
-			echo '<h4>Revision ['.$this->page['id'].']</h4>'."\n";
-			echo 'This is an <a href="'.$this->Href('revisions').'">old revision</a> of <a href="'.$this->Href().'">'.$this->GetPageTag().'</a> made by '.$this->page['user'].' on <span class="datetime">'.$this->page['time'].'</span>.'."\n";
+			echo '<h4>Revisjon ['.$this->page['id'].']</h4>'."\n";
+			echo 'Dette er en <a href="'.$this->Href('revisions').'">gammel revisjon</a> av <a href="'.$this->Href().'">'.$this->GetPageTag().'</a> skrevet av '.$this->page['user'].' den <span class="datetime">'.$this->page['time'].'</span>.'."\n";
 ?>
 				<br />
 				<?php echo $this->FormOpen('show', '', 'GET', '', 'left') ?>
@@ -187,16 +187,16 @@ Kommentarer [<a href="<?php echo $this->Href('', '', 'show_comments=0') ?>">Skju
 				switch (count($comments))
 				{
 				case 0:
-					echo 'There are no comments on this page. ';
-					$showcomments_text = 'Add comment';
+					echo 'Det er ingen kommentarer p&aring; denne siden. ';
+					$showcomments_text = 'Legg til kommentar';
 					break;
 				case 1:
-					echo 'There is one comment on this page. ';
-					$showcomments_text = 'Display comment';
+					echo 'Det er en kommentar p&aring; denne siden. ';
+					$showcomments_text = 'Vis kommentar';
 					break;
 				default:
-					echo 'There are '.count($comments).' comments on this page. ';
-					$showcomments_text = 'Display comments';
+					echo 'Det er  '.count($comments).' kommentarer p&aring; siden. ';
+					$showcomments_text = 'Vis kommentarer';
 				}
 ?>
 [<a href="<?php echo $this->Href('', '', 'show_comments=1#comments'); ?>"><?php echo $showcomments_text; ?></a>]</p>
