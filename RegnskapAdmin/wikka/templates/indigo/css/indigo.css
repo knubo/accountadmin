@@ -37,6 +37,13 @@ h1 {
 	font-size: 1.4em;
 	margin-bottom: 4px;
 }
+
+h2 {
+	font-size: 1.3em;
+	margin-bottom: 4px;
+}
+
+
 code {
 	background: url(../images/bgcode.gif);
 	border: 1px solid #F0F0F0;
