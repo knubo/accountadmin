@@ -26,7 +26,7 @@ function toggleWiki(speed) {
 	  expiration_date = new Date();
 	  expiration_date.setYear(1900 + expiration_date.getYear () + 1);
 
-	  document.cookie=c_name+'='+ (toggled == 0 ? "1" : "0") +'; expires=' + expiration_date.toGMTString();
+	  document.cookie=c_name+'='+ (toggled == 0 ? "1" : "0") +'; expires=' + expiration_date.toGMTString()+';path=/';
 }
 </script>
 

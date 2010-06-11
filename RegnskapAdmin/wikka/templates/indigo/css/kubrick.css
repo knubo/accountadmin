@@ -917,7 +917,7 @@ ul#main_menu:before {
 	font-size: 1.2em;
 	line-height: 250%;
 	font-weight: bold;
-	content: "Links";
+	content: "Sider";
 }
 
 ul#main_menu {
@@ -950,7 +950,7 @@ ul#options_menu:before {
 	font-size: 1.2em;
 	line-height: 250%;
 	font-weight: bold;
-	content: "Options";
+	content: "Sidevalg";
 }
 
 ul#options_menu {
