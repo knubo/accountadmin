@@ -15,7 +15,7 @@ if($this->GetUser()) {
         $one["hostname"] = $one["hostprefix"].".frittregnskap.no";
     }
 
-    if(count($result == 0)) {
+    if(count($result) == 0) {
         $result = $this->LoadSingle("select count(*) as c from installations");
 
         if($result["c"] > 100) {
