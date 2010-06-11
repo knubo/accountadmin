@@ -48,6 +48,7 @@ if (!defined('USER_LOGGED_OUT')) define('USER_LOGGED_OUT', "Du har logget ut.");
 if (!defined('USER_SETTINGS_STORED')) define('USER_SETTINGS_STORED', "Brukerinnstillinger lagret!");
 if (!defined('ERROR_NO_BLANK')) define('ERROR_NO_BLANK', "Blank er ikke tillatt i passord.");
 if (!defined('ERROR_PASSWORD_TOO_SHORT')) define('ERROR_PASSWORD_TOO_SHORT', "Passord m&aring; ha minst %s tegn.");
+if (!defined('ERROR_CAPCHA')) define('ERROR_CAPCHA', "Capcha ikke skrevet inn rett.");
 if (!defined('PASSWORD_CHANGED')) define('PASSWORD_CHANGED', "Passord byttet!");
 if (!defined('ERROR_OLD_PASSWORD_WRONG')) define('ERROR_OLD_PASSWORD_WRONG', "Det gamle passordet stemmer ikke.");
 if (!defined('USER_EMAIL_LABEL')) define('USER_EMAIL_LABEL', "Din e-postadresse:");
@@ -66,13 +67,13 @@ if (!defined('REGISTER_BUTTON_LABEL')) define('REGISTER_BUTTON_LABEL', "Registre
 if (!defined('QUICK_LINKS_HEADING')) define('QUICK_LINKS_HEADING', "Hurtiglinker");
 if (!defined('QUICK_LINKS')) define('QUICK_LINKS', "Se en liste over sider du eier ([[MyPages Mine sider]]) og sider du har redigert ([[MyChanges Mine redigeringer]]).");
 if (!defined('ERROR_WRONG_PASSWORD')) define('ERROR_WRONG_PASSWORD', "Beklager, du har skrevet inn feil passord.");
-if (!defined('ERROR_WRONG_HASH')) define('ERROR_WRONG_HASH', "Beklager, du har skrevet inn feil passordp&aring;minner.");
+if (!defined('ERROR_WRONG_HASH')) define('ERROR_WRONG_HASH', "Beklager, du har skrevet inn feil engangspassord.");
 if (!defined('ERROR_EMPTY_USERNAME')) define('ERROR_EMPTY_USERNAME', "Fyll inn ditt brukernavn.");
 if (!defined('ERROR_NON_EXISTENT_USERNAME')) define('ERROR_NON_EXISTENT_USERNAME', "Oppgitt brukernavn finnes ikke.");
 if (!defined('ERROR_USERNAME_EXISTS')) define('ERROR_USERNAME_EXISTS', "Oppgitt brukernavn er opptatt.");
 if (!defined('ERROR_USER_SUSPENDED')) define('ERROR_USER_SUSPENDED', "Denne kontoen har blitt suspandert. Kontakt en administrator for detaljer.");
 if (!defined('ERROR_RESERVED_PAGENAME')) define('ERROR_RESERVED_PAGENAME', "Beklager, men dette navnet er reservert for en side. Velg et annet navn.");
-if (!defined('ERROR_WIKINAME')) define('ERROR_WIKINAME', "Brukernavn m&aring; v&aelig;re p&aring; formen ##\"\"WikiName\"\"##, e.g. ##\"\"JohnDoe\"\"##.");
+if (!defined('ERROR_WIKINAME')) define('ERROR_WIKINAME', "Brukernavn m&aring; v&aelig;re p&aring; formen ##\"\"WikiNavn\"\"##, e.g. ##\"\"JohnDoe\"\"##.");
 if (!defined('ERROR_EMPTY_PASSWORD')) define('ERROR_EMPTY_PASSWORD', "Fyll inn passord.");
 if (!defined('ERROR_EMPTY_PASSWORD_OR_HASH')) define('ERROR_EMPTY_PASSWORD_OR_HASH', "Fill inn passord eller hash.");
 if (!defined('ERROR_EMPTY_CONFIRMATION_PASSWORD')) define('ERROR_EMPTY_CONFIRMATION_PASSWORD', "Bekreft passord for &aring; opprette ny konto.");
@@ -88,15 +89,15 @@ if (!defined('REGISTRATION_SUCCEEDED')) define('REGISTRATION_SUCCEEDED', "Du er 
 if (!defined('REGISTERED_USER_LOGIN_LABEL')) define('REGISTERED_USER_LOGIN_LABEL', "Hvis du allered er registrert, logg deg inn her.");
 if (!defined('LOGIN_HEADING')) define('LOGIN_HEADING', "===Logg inn===");
 if (!defined('LOGIN_REGISTER_HEADING')) define('LOGIN_REGISTER_HEADING', "===Logg inn/Registrering===");
-if (!defined('WIKINAME_LABEL')) define('WIKINAME_LABEL', "Ditt <abbr title=\"Ett WikiName er en eller to ord med stor forbokstav uten mellomrom, f.eks. JohnDoe\">WikiName</abbr>:");
+if (!defined('WIKINAME_LABEL')) define('WIKINAME_LABEL', "Ditt <abbr title=\"Ett WikiNavn er en eller to ord med stor forbokstav uten mellomrom, f.eks. JohnDoe\">WikiNavn</abbr>:");
 if (!defined('PASSWORD_LABEL')) define('PASSWORD_LABEL', "Passord (%s+ tegn):");
 if (!defined('LOGIN_BUTTON_LABEL')) define('LOGIN_BUTTON_LABEL', "Logg inn");
 if (!defined('LOGOUT_BUTTON_LABEL')) define('LOGOUT_BUTTON_LABEL', "Logg out");
 if (!defined('NEW_USER_REGISTER_LABEL')) define('NEW_USER_REGISTER_LABEL', "Felter du kun trenger &aring; fylle ut f&oslash;rste gang du logger p&aring; (ved nyregistrering).");
 if (!defined('CONFIRM_PASSWORD_LABEL')) define('CONFIRM_PASSWORD_LABEL', "Bekreft passord:");
 if (!defined('RETRIEVE_PASSWORD_HEADING')) define('RETRIEVE_PASSWORD_HEADING', "===Glemt passord?===");
-if (!defined('RETRIEVE_PASSWORD_MESSAGE')) define('RETRIEVE_PASSWORD_MESSAGE', "Hvis du trenger en passordp&aring;minner, klikk [[PasswordForgotten her]]. --- Du kan logge p&aring; med passordp&aring;minner.");
-if (!defined('TEMP_PASSWORD_LABEL')) define('TEMP_PASSWORD_LABEL', "Passordp&aring;minner:");
+if (!defined('RETRIEVE_PASSWORD_MESSAGE')) define('RETRIEVE_PASSWORD_MESSAGE', "Hvis du trenger et engangspassord, klikk [[PasswordForgotten her]]. --- Du kan logge p&aring; med engangspassord.");
+if (!defined('TEMP_PASSWORD_LABEL')) define('TEMP_PASSWORD_LABEL', "Engangspassord:");
 if (!defined('USERSETTINGS_REDIRECT_AFTER_LOGIN_LABEL')) define('USERSETTINGS_REDIRECT_AFTER_LOGIN_LABEL', 'Bytt til side %s etter innlogging');	// %s page to redirect to
 if (!defined('THEME_LABEL')) define('THEME_LABEL', 'Stil:');
 
@@ -125,6 +126,11 @@ $changescount_highlight = '';
 
 // Create URAuth object
 include_once('libs/userregistration.class.php');
+require_once('3rdparty/core/frsignup/classes/recaptchalib.php');
+
+$publickey = "6LdPyboSAAAAAFeYR5T20TwfhY9FglZDQypByDT3"; 
+
+
 $urobj = new URAuth($this);
 
 //create URL
@@ -455,6 +461,14 @@ else
 		$email = trim($this->GetSafeVar('email', 'post'));
 		$password = $_POST['password'];
 		$confpassword = $_POST['confpassword'];
+		
+		$privatekey = $this->GetConfigValue('capcha_private_key');
+		$resp = recaptcha_check_answer ($privatekey,
+                                $_SERVER["REMOTE_ADDR"],
+                                $_POST["recaptcha_challenge_field"],
+                                $_POST["recaptcha_response_field"]);
+
+		
 
 		// validate input
 		switch(TRUE)
@@ -512,6 +526,9 @@ else
 				$password_highlight = INPUT_ERROR_STYLE;
 				$password_confirm_highlight = INPUT_ERROR_STYLE;
 				break;
+			case (!$resp->is_valid):
+			    $error = ERROR_CAPCHA;
+			    break;
 			default: //valid input, create user
 				$this->Query("INSERT INTO ".$this->config['table_prefix']."users SET ".
 					"signuptime = now(), ".
@@ -640,6 +657,11 @@ else
 	<tr>
 		<td align="right"><?php echo USER_EMAIL_LABEL ?></td>
 		<td><input <?php echo $email_highlight; ?> name="email" size="40" value="<?php echo $email; ?>" /></td>
+	</tr>
+	
+	<tr>
+		<td align="right">Fyll inn</td>
+		<td><?=recaptcha_get_html($publickey)?></td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>

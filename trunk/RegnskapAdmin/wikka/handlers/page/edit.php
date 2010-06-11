@@ -174,6 +174,11 @@ elseif ($this->HasAccess("write") && $this->HasAccess("read"))
 					// add page (revisions)
 					$this->SavePage($this->tag, $body, $note);
 
+					$this->SaveACL($this->GetPageTag(), 'read', '*');
+				    $this->SaveACL($this->GetPageTag(), 'write', '+');
+				    $this->SaveACL($this->GetPageTag(), 'comment', '+');
+					
+					
 					// now we render it internally so we can write the updated link table.
 					$this->ClearLinkTable();
 					$dummy = $this->Header();
