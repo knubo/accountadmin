@@ -213,7 +213,37 @@ h1,h2,h3 {
 	text-decoration: underline;
 }
 
-.box {
-	background-color: #FEE;
-	border: 1px solid #EDD
+
+.gwt-DecoratedTabPanel , .box{
+	border-color:#3E9CD2;
+	border-width: 5px;
+	border-style: outset;
+}
+
+.statustable {
+	border-collapse: collapse;	
+}
+
+.statustable TD {
+	padding:3px;
+}
+
+.statustable TR+TR+TR {
+	border-top: 1px dashed;
+}
+
+.gwt-TabBarItem {
+	color:#FF7700;
+	font-weight: bolder;
+}
+
+#signupapp .header {
+	height:auto;
+	background-color: #0094D6;
+	color:white;
+}
+
+#signupapp .header TD {
+	padding:0px;
+	padding-left:3px;
 }
