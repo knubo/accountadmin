@@ -118,9 +118,13 @@ public class SignupGWT implements EntryPoint, ClickHandler {
 
     private Widget addStatusTable() {
         FlexTable ft = new FlexTable();
+        ft.addStyleName("statustable");
         ft.setText(0, 0, "Webadresse");
         ft.setText(0, 1, "Beskrivelse");
         ft.setText(0, 2, "Status");
+        
+        ft.getRowFormatter().setStyleName(0, "header");
+
 
         for (int i = 0; i < installations.size(); i++) {
             JSONObject install = installations.get(i).isObject();
@@ -145,20 +149,20 @@ public class SignupGWT implements EntryPoint, ClickHandler {
     private void setupRegisterInfo() {
         registerTable.setText(0, 0, "Registrering for regnskapsbruker");
         registerTable.getFlexCellFormatter().setColSpan(0, 0, 2);
-        registerTable.getCellFormatter().setStyleName(0, 0, "gwtheader");
+        registerTable.getRowFormatter().setStyleName(0, "header");
 
         nameGivesWidget = new HashMap<String, TextBoxWithErrorText>();
 
-        addRow("Superbruker*", "superuser");
-        addRow("Superbruker passord*", "password");
-        addRow("Domenenavn*", "domainname");
-        addRow("Klubbnavn*", "clubname");
-        addRow("Kontaktperson*", "contact");
-        addRow("E-post adresse*", "email");
-        addRow("Adresse*", "address");
-        addRow("Postnummer*", "zipcode");
-        addRow("Sted*", "city");
-        addRow("Telefon", "phone");
+        addRow("Superbruker*", "superuser", "Brukernavnet til f\u00F8rste bruker som blir opprettet i regnskapssystemet. Dette blir din superbruker.");
+        addRow("Superbruker passord*", "password","");
+        addRow("Domenenavn*", "domainname","Underdomene hvor regnskapssystemet blir tilgjenglig under frittregnskap.no. For eksempel 'eksempel' gir 'eksempel.frittregnskap.no'.");
+        addRow("Klubbnavn*", "clubname","Din klubbs klubbnavn");
+        addRow("Kontaktperson*", "contact","");
+        addRow("E-post adresse*", "email","");
+        addRow("Adresse*", "address","");
+        addRow("Postnummer*", "zipcode","");
+        addRow("Sted*", "city","");
+        addRow("Telefon", "phone","");
 
         registerButton = new NamedButton("register", "Opprett regnskapssystem");
         registerButton.addClickHandler(this);
@@ -174,11 +178,12 @@ public class SignupGWT implements EntryPoint, ClickHandler {
         registerTable.getFlexCellFormatter().setColSpan(row, 0, 2);
     }
 
-    private TextBoxWithErrorText addRow(String title, String uiName) {
+    private TextBoxWithErrorText addRow(String title, String uiName, String tooltip) {
         int row = registerTable.getRowCount();
         registerTable.setText(row, 0, title);
         TextBoxWithErrorText t = new TextBoxWithErrorText(uiName);
         registerTable.setWidget(row, 1, t);
+        t.setTitle(tooltip);
 
         nameGivesWidget.put(uiName, t);
         return t;
