@@ -213,19 +213,18 @@ h1,h2,h3 {
 	text-decoration: underline;
 }
 
-
-.gwt-DecoratedTabPanel , .box{
-	border-color:#3E9CD2;
+.gwt-DecoratedTabPanel,.box {
+	border-color: #3E9CD2;
 	border-width: 5px;
 	border-style: outset;
 }
 
 .statustable {
-	border-collapse: collapse;	
+	border-collapse: collapse;
 }
 
 .statustable TD {
-	padding:3px;
+	padding: 3px;
 }
 
 .statustable TR+TR+TR {
@@ -233,17 +232,44 @@ h1,h2,h3 {
 }
 
 .gwt-TabBarItem {
-	color:#FF7700;
+	color: #FF7700;
 	font-weight: bolder;
 }
 
 #signupapp .header {
-	height:auto;
+	height: auto;
 	background-color: #0094D6;
-	color:white;
+	color: white;
 }
 
-#signupapp .header TD {
-	padding:0px;
-	padding-left:3px;
+#signupapp .header td {
+	padding: 0px;
+	padding-left: 3px;
+}
+
+.signuphelp table tr{
+	padding-top:5px;	
+}
+
+.signuphelp {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 30em;
+}
+
+#signupapp .firstcolumn {
+	padding-top:5px;
+}
+
+#signupapp tr TD {
+	white-space: nowrap;
+}
+#signupapp tr TD+TD {
+	white-space: normal;
+}
+
+#signupapp .gwt-Button {
+ 	margin-bottom: 10px;
+ 	margin-left:5px;
+ 	margin-top: 5px;
 }
