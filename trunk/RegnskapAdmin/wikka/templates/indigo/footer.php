@@ -47,7 +47,6 @@ function toggleWiki(speed) {
 
 	</div>
 
-</div>
 
 <!-- BEGIN PAGE FOOTER -->
 <div id="footer" class="footer">
