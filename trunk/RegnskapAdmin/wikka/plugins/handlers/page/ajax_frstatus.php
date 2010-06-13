@@ -13,6 +13,7 @@ if($this->GetUser()) {
         $one["status"] = strcmp($ip, $hostname) != 0 ? 1 : 0;
         $one["ip"] = $ip;
         $one["hostname"] = $one["hostprefix"].".frittregnskap.no";
+        $one["allowmore"] = $this->IsAdmin();
     }
 
     if(count($result) == 0) {
