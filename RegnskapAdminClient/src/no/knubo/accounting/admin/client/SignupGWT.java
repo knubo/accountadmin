@@ -42,7 +42,7 @@ public class SignupGWT implements EntryPoint, ClickHandler {
     private Status status;
 
     enum Status {
-        UNREGISTERED, PENDING_OR_COMPLETE, FULL_DB;
+        UNREGISTERED, PENDING_OR_COMPLETE, STATUS_AND_NEW, FULL_DB;
     }
 
     /**
@@ -80,7 +80,11 @@ public class SignupGWT implements EntryPoint, ClickHandler {
                 if (installations == null || installations.size() == 0) {
                     status = Status.UNREGISTERED;
                 } else {
-                    status = Status.PENDING_OR_COMPLETE;
+                    if (isAdministrator()) {
+                        status = Status.STATUS_AND_NEW;
+                    } else {
+                        status = Status.PENDING_OR_COMPLETE;
+                    }
                 }
                 setModeBasedOnStatus();
             }
@@ -92,6 +96,12 @@ public class SignupGWT implements EntryPoint, ClickHandler {
         };
         AdminAuthResponder.getWikka(callback, "?wakka=AjaxFrSignup/ajax_frstatus");
 
+    }
+
+    protected boolean isAdministrator() {
+        JSONObject install = installations.get(0).isObject();
+        
+        return Util.getBoolean(install.get("allowmore"));
     }
 
     private void setModeBasedOnStatus() {
@@ -107,6 +117,12 @@ public class SignupGWT implements EntryPoint, ClickHandler {
             tabPanel.remove(registerTable);
             tabPanel.add(addStatusTable(), "Status");
             tabPanel.selectTab(0);
+            break;
+        case STATUS_AND_NEW:
+            tabPanel.add(addStatusTable(), "Status");
+            tabPanel.selectTab(0);
+            setupRegisterInfo();
+            tabPanel.add(registerTable, "Ny bruker");
             break;
         case FULL_DB:
             tabPanel.add(new HTML("Fritt Regnskap tar ikke i mot flere nyregistreringer for \u00F8yeblikket"),
@@ -189,10 +205,9 @@ public class SignupGWT implements EntryPoint, ClickHandler {
         registerTable.setHTML(2, 2, help);
         registerTable.getFlexCellFormatter().setRowSpan(2, 2, 9);
         registerTable.getCellFormatter().addStyleName(2, 2, "signuphelp");
-        
+
         registerTable.getCellFormatter().addStyleName(1, 0, "firstcolumn");
     }
-    
 
     private TextBoxWithErrorText addRow(String title, String uiName, String tooltip) {
         int row = registerTable.getRowCount();
