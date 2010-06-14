@@ -68,7 +68,7 @@ if (isset($message) && strlen($message)>0)
 			<a href="<?=$this->href('',  'DokumentasjonFrittRegnskap', '')?>">Dokumentasjon</a>
 			<a href="<?=$this->href('',  'SporsmalOgSvar', '')?>">Sp&oslash;rsm&aring;l og svar</a>
 			<a href="<?=$this->href('',  'RegnskapTips', '')?>">Regnskapstips</a>
-			<a href="<?=$this->href('',  'UserSettings', '')?>">Logg inn</a>
+			<a href="<?=$this->href('',  'UserSettings', '')?>"><?= $this->getUser() ? "Min Profil" : "Logg inn"?></a>
 			<div class="clearer"><span></span></div>
 		</div>
 
