@@ -19,7 +19,8 @@ if ( substr_count($site_base, 'wikka.php?wakka=') > 0 ) $site_base = substr($sit
 <?php if ($this->GetMethod() != 'show' || $this->page["latest"] == 'N' || $this->page["tag"] == 'SandBox') echo "<meta name=\"robots\" content=\"noindex, nofollow, noarchive\" />\n"; ?>
 	<meta name="generator" content="WikkaWiki" />
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-	<meta name="keywords" content="<?php echo $this->htmlspecialchars_ent($this->GetConfigValue("meta_keywords")) ?>" />
+	<meta name="keywords" content="fritt gratis regnskapssystem nettbasert" />
+	<meta name="google-site-verification" content="uXtHi61lVDRPWyyQ6AoCD8p5CRc_-F1QklvYTsntCC8" />
 	<meta name="description" content="<?php echo $this->htmlspecialchars_ent($this->GetConfigValue("meta_description")) ?>" />
 	<link rel="stylesheet" type="text/css" href="<?php echo $this->GetThemePath('/') ?>/css/kubrick.css?<?php echo $this->htmlspecialchars_ent($this->GetConfigValue('stylesheet_hash')) ?>" />
 	<link rel="stylesheet" type="text/css" href="<?php echo $this->GetThemePath('/') ?>/css/indigo.css?<?php echo $this->htmlspecialchars_ent($this->GetConfigValue('stylesheet_hash')) ?>" />
