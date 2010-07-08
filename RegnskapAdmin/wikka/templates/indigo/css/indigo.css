@@ -247,8 +247,8 @@ h1,h2,h3 {
 	padding-left: 3px;
 }
 
-.signuphelp table tr{
-	padding-top:5px;	
+.signuphelp table tr {
+	padding-top: 5px;
 }
 
 .signuphelp {
@@ -258,41 +258,50 @@ h1,h2,h3 {
 }
 
 #signupapp .firstcolumn {
-	padding-top:5px;
+	padding-top: 5px;
 }
 
 #signupapp tr TD {
 	white-space: nowrap;
 }
+
 #signupapp tr TD+TD {
 	white-space: normal;
 }
 
 #signupapp .gwt-Button {
- 	margin-bottom: 10px;
- 	margin-left:5px;
- 	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-top: 5px;
 }
 
 .installs {
-        padding: 0 16px;
-        background-color: #4A91C3;
+	padding: 0 16px;
+	background-color: #4A91C3;
+}
+
+.installs ul {
+	margin-top:5px;
 }
 
 .installs li {
-    list-style:none;
-    margin-top:2px;
+	list-style: none;
+	margin-top: 2px;
 }
 
 .installs a {
-        color: #FFF;
-        font: bold 1.2em "Trebuchet MS", sans-serif;
-        text-align: center;
-        text-decoration: none;
+	color: #FFF;
+	font: bold 1.2em "Trebuchet MS", sans-serif;
+	text-align: center;
+	text-decoration: none;
 }
 
-.hovering  {
-        background-color: #4A91C3;
-        color: #FFF;
+.installs a:hover {
+	color: #FFFF66;
 }
+	
 
+.hovering {
+	background-color: #4A91C3;
+	color: #FFF;
+}
