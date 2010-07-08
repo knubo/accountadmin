@@ -273,3 +273,26 @@ h1,h2,h3 {
  	margin-left:5px;
  	margin-top: 5px;
 }
+
+.installs {
+        padding: 0 16px;
+        background-color: #4A91C3;
+}
+
+.installs li {
+    list-style:none;
+    margin-top:2px;
+}
+
+.installs a {
+        color: #FFF;
+        font: bold 1.2em "Trebuchet MS", sans-serif;
+        text-align: center;
+        text-decoration: none;
+}
+
+.hovering  {
+        background-color: #4A91C3;
+        color: #FFF;
+}
+

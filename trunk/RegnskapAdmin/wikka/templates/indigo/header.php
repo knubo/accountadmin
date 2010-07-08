@@ -1,15 +1,17 @@
 <?php
+
+
 //init
 $message = $this->GetRedirectMessage();
 $user = $this->GetUser();
 $site_base = $this->GetConfigValue("base_url");
 //UniversalEditButton (http://universaleditbutton.org/Universal_Edit_Button) #779
 $ueb = '';
-if ($this->GetMethod() != 'edit' && $this->HasAccess("write", $this->page["tag"])) 
-{
-	$ueb .= '	<link rel="alternate" type="application/x-wiki" title="'.sprintf('Click to edit %s', $this->page["tag"]).'" href="'.$this->Href('edit', $this->page["tag"]).'"/>'."\n"; 
+if ($this->GetMethod() != 'edit' && $this->HasAccess("write", $this->page["tag"])) {
+	$ueb .= '	<link rel="alternate" type="application/x-wiki" title="' . sprintf('Click to edit %s', $this->page["tag"]) . '" href="' . $this->Href('edit', $this->page["tag"]) . '"/>' . "\n";
 }
-if ( substr_count($site_base, 'wikka.php?wakka=') > 0 ) $site_base = substr($site_base,0,-16);
+if (substr_count($site_base, 'wikka.php?wakka=') > 0)
+	$site_base = substr($site_base, 0, -16);
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -29,18 +31,17 @@ if ( substr_count($site_base, 'wikka.php?wakka=') > 0 ) $site_base = substr($sit
 	<link rel="shortcut icon" href="<?php echo $this->GetThemePath('/') ?>/images/favicon.ico" type="image/x-icon" />
 	<script type="text/javascript" src="templates/jquery-1.4.2.min.js"></script>
 <?php
-if ($this->GetMethod() != 'edit')
-{
-	$rsslink  = '	<link rel="alternate" type="application/rss+xml" title="'.$this->GetWakkaName().': revisions for '.$this->tag.' (RSS)" href="'.$this->Href('revisions.xml', $this->tag).'" />'."\n";
-	$rsslink .= '	<link rel="alternate" type="application/rss+xml" title="'.$this->GetWakkaName().': recently edited pages (RSS)" href="'.$this->Href('recentchanges.xml', $this->tag).'" />'."\n";
-	echo $rsslink;	
+
+
+if ($this->GetMethod() != 'edit') {
+	$rsslink = '	<link rel="alternate" type="application/rss+xml" title="' . $this->GetWakkaName() . ': revisions for ' . $this->tag . ' (RSS)" href="' . $this->Href('revisions.xml', $this->tag) . '" />' . "\n";
+	$rsslink .= '	<link rel="alternate" type="application/rss+xml" title="' . $this->GetWakkaName() . ': recently edited pages (RSS)" href="' . $this->Href('recentchanges.xml', $this->tag) . '" />' . "\n";
+	echo $rsslink;
 }
-if (isset($this->additional_headers) && is_array($this->additional_headers) && count($this->additional_headers)) 
-{ 
-		foreach ($this->additional_headers as $additional_headers) 
-		{ 
-				echo $additional_headers; 
-		} 
+if (isset ($this->additional_headers) && is_array($this->additional_headers) && count($this->additional_headers)) {
+	foreach ($this->additional_headers as $additional_headers) {
+		echo $additional_headers;
+	}
 }
 //UniversalEditButton
 echo $ueb;
@@ -51,10 +52,11 @@ echo $ueb;
 <!-- BEGIN PAGE WRAPPER -->
 <div id="page" class="container">
 <?php
+
+
 //display system messages
-if (isset($message) && strlen($message)>0)
-{
-	echo '<div class="success">'.$message.'</div>';
+if (isset ($message) && strlen($message) > 0) {
+	echo '<div class="success">' . $message . '</div>';
 }
 ?>
 
@@ -66,12 +68,36 @@ if (isset($message) && strlen($message)>0)
 
 		<div class="navigation">
 			<a href="<?=$this->href('',  $this->config['root_page'], '')?>">Hjem</a>
+<?php
+$installs = array();
+if ($user) {
+	$installs = $this->LoadAll("select * from installations where wikilogin = '" . mysql_real_escape_string($user) . "'");
+	$c = count($installs);
+	if (c == 1) {
+		echo "<a id='mittregnskap'>Mitt Regnskap</a>";
+	} else if(c > 1) {
+		echo "<a id='mittregnskap'>Mine Regnskap</a>";		
+	}
+}
+?>
 			<a href="<?=$this->href('',  'DokumentasjonFrittRegnskap', '')?>">Dokumentasjon</a>
 			<a href="<?=$this->href('',  'SporsmalOgSvar', '')?>">Sp&oslash;rsm&aring;l og svar</a>
 			<a href="<?=$this->href('',  'RegnskapTips', '')?>">Regnskapstips</a>
 			<a href="<?=$this->href('',  'UserSettings', '')?>"><?= $this->getUser() ? "Min Profil" : "Logg inn"?></a>
 			<div class="clearer"><span></span></div>
 		</div>
+
+  		<div id="installs" class="installs" style="display:none;">
+           <ul>
+           <?php
+           	foreach($installs as $one) {
+           		echo '<li><a target="regnskap" href="http://'.$one["hostprefix"].'frittregnskap.no/prg/AccountingGWT.html>">'.$one["hostprefix"].'.frittregnskap.no</a>';
+           	}
+           	?>
+           <ul>
+        </div>
+
+        <script type="text/javascript" src="<?php echo $this->GetThemePath('/') ?>/js/installs.js"></script>
 
 	</div>
 
