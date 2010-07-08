@@ -71,12 +71,13 @@ if (isset ($message) && strlen($message) > 0) {
 <?php
 $installs = array();
 if ($user) {
-	$installs = $this->LoadAll("select * from installations where wikilogin = '" . mysql_real_escape_string($user) . "'");
+    $installs = $this->LoadAll("select * from installations where wikilogin = '" . mysql_real_escape_string($user["name"]) . "'");
 	$c = count($installs);
-	if (c == 1) {
-		echo "<a id='mittregnskap'>Mitt Regnskap</a>";
-	} else if(c > 1) {
-		echo "<a id='mittregnskap'>Mine Regnskap</a>";		
+
+	if ($c == 1) {
+		echo '<a id="mittregnskap">Mitt Regnskap</a>';
+	} else if($c > 1) {
+		echo '<a id="mittregnskap">Mine Regnskap</a>';		
 	}
 }
 ?>
@@ -91,10 +92,10 @@ if ($user) {
            <ul>
            <?php
            	foreach($installs as $one) {
-           		echo '<li><a target="regnskap" href="http://'.$one["hostprefix"].'frittregnskap.no/prg/AccountingGWT.html>">'.$one["hostprefix"].'.frittregnskap.no</a>';
+           		echo '<li><a class="whiteglow" id="'.$one["hostprefix"].'" target="regnskap" href="http://'.$one["hostprefix"].'.frittregnskap.no/prg/AccountingGWT.html">'.$one["hostprefix"].'.frittregnskap.no</a>';
            	}
            	?>
-           <ul>
+           </ul>
         </div>
 
         <script type="text/javascript" src="<?php echo $this->GetThemePath('/') ?>/js/installs.js"></script>
