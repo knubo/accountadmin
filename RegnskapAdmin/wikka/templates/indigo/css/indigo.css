@@ -85,6 +85,7 @@ h1,h2,h3 {
 
 .header {
 	height: 92px;
+	min-width:920px;
 }
 
 /* title */
@@ -102,7 +103,7 @@ h1,h2,h3 {
 .navigation {
 	float: left;
 	height: 92px;
-	margin-left: 24px;
+	margin-left: 0px;
 	padding: 0 16px;
 }
 
