@@ -13,6 +13,8 @@
 	[UIView setAnimationDuration:1.0];
 	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self cache:YES];
 	
+	[config saveSettings];
+	
     [config removeFromSuperview];
 	[UIView commitAnimations];
 }
@@ -22,6 +24,7 @@
 	[UIView setAnimationDuration:1.0];
 	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self cache:YES];
 
+	[config loadSettings];
 	
     [self addSubview:config];
 
