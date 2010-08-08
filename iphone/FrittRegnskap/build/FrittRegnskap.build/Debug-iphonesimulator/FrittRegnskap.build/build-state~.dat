@@ -1,0 +1,256 @@
+TFrittRegnskap
+v7
+r0
+t302956815.219762
+cCheck dependencies
+cProcessInfoPlistFile /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/Info.plist FrittRegnskap-Info.plist
+cCompileXIB /Users/knuterikborgen/kode/iphone/FrittRegnskap/MainWindow.xib
+cCompileXIB /Users/knuterikborgen/kode/iphone/FrittRegnskap/FrittRegnskapViewController.xib
+cProcessPCH /var/folders/OX/OXACvVLB2RWY-++8ZRlcB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrittRegnskap_Prefix-embzkqjuaospshejacybgaxthppe/FrittRegnskap_Prefix.pch.gch FrittRegnskap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/Objects-normal/i386/main.o /Users/knuterikborgen/kode/iphone/FrittRegnskap/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/Objects-normal/i386/FrittRegnskapAppDelegate.o /Users/knuterikborgen/kode/iphone/FrittRegnskap/Classes/FrittRegnskapAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/Objects-normal/i386/FrittRegnskapViewController.o /Users/knuterikborgen/kode/iphone/FrittRegnskap/Classes/FrittRegnskapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/FrittRegnskap normal i386
+cGenerateDSYMFile /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app.dSYM /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/FrittRegnskap
+cTouch /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C5D7B580000000000000132
+t1281194840
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/knuterikborgen/kode/iphone/FrittRegnskap/Classes/FrittRegnskapAppDelegate.h
+c000000004C5E898B0000000000000208
+t1281264011
+s520
+i<UIKit/UIKit.h>
+
+N/Users/knuterikborgen/kode/iphone/FrittRegnskap/Classes/FrittRegnskapAppDelegate.m
+c000000004C5E898B0000000000000AAE
+t1281264011
+s2734
+i"FrittRegnskapAppDelegate.h"
+i"FrittRegnskapViewController.h"
+
+N/Users/knuterikborgen/kode/iphone/FrittRegnskap/Classes/FrittRegnskapViewController.h
+c000000004C5E898B0000000000000105
+t1281264011
+s261
+i<UIKit/UIKit.h>
+
+N/Users/knuterikborgen/kode/iphone/FrittRegnskap/Classes/FrittRegnskapViewController.m
+c000000004C5E898B00000000000005D6
+t1281264011
+s1494
+i"FrittRegnskapViewController.h"
+
+N/Users/knuterikborgen/kode/iphone/FrittRegnskap/FrittRegnskapViewController.xib
+c000000004C5E898B0000000000001A5D
+t1281264011
+s6749
+
+N/Users/knuterikborgen/kode/iphone/FrittRegnskap/FrittRegnskap_Prefix.pch
+c000000004C5E898B00000000000000C3
+t1281264011
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/knuterikborgen/kode/iphone/FrittRegnskap/MainWindow.xib
+c000000004C5E898B0000000000004E71
+t1281264011
+s20081
+
+N/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app
+t1281264015
+s238
+
+N/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app.dSYM
+t1281264015
+s102
+
+N/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/FrittRegnskap
+t1281264015
+s17432
+
+N/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/FrittRegnskapViewController.nib
+t1281264014
+s795
+
+N/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/Info.plist
+t1281264014
+s615
+
+N/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/MainWindow.nib
+t1281264014
+s1135
+
+N/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/PkgInfo
+t1281264014
+s8
+
+N/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/Objects-normal/i386/FrittRegnskap.LinkFileList
+c000000004C5E898E00000000000001D8
+t1281264014
+s472
+
+N/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/Objects-normal/i386/FrittRegnskapAppDelegate.o
+t1281264015
+s48088
+
+N/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/Objects-normal/i386/FrittRegnskapViewController.o
+t1281264015
+s34540
+
+N/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/Objects-normal/i386/main.o
+t1281264015
+s6320
+
+N/Users/knuterikborgen/kode/iphone/FrittRegnskap/main.m
+c000000004C5E898B0000000000000174
+t1281264011
+s372
+i<UIKit/UIKit.h>
+
+N/var/folders/OX/OXACvVLB2RWY-++8ZRlcB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrittRegnskap_Prefix-embzkqjuaospshejacybgaxthppe/FrittRegnskap_Prefix.pch.gch
+t1281264015
+s15232016
+
+NFrittRegnskap-Info.plist
+c000000004C5E898B000000000000038D
+t1281264011
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302956814#302956814#0(0"0(0#1#0"32651513917735028#0"0#
+
+CCompileC build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/Objects-normal/i386/FrittRegnskapAppDelegate.o /Users/knuterikborgen/kode/iphone/FrittRegnskap/Classes/FrittRegnskapAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302956815.125846
+e302956815.184680
+r1
+xCompileC
+xbuild/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/Objects-normal/i386/FrittRegnskapAppDelegate.o
+x/Users/knuterikborgen/kode/iphone/FrittRegnskap/Classes/FrittRegnskapAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/knuterikborgen/kode/iphone/FrittRegnskap/Classes/FrittRegnskapAppDelegate.m302956815#302956815#0(0"0(0#0#82"/Users/knuterikborgen/kode/iphone/FrittRegnskap/Classes/FrittRegnskapAppDelegate.m8605906464#2168"    cd /Users/knuterikborgen/kode/iphone/FrittRegnskap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/FrittRegnskap-generated-files.hmap -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/FrittRegnskap-own-target-headers.hmap -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/FrittRegnskap-all-target-headers.hmap -iquote /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/FrittRegnskap-project-headers.hmap -F/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/include -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/DerivedSources/i386 -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/DerivedSources -include /var/folders/OX/OXACvVLB2RWY-++8ZRlcB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrittRegnskap_Prefix-embzkqjuaospshejacybgaxthppe/FrittRegnskap_Prefix.pch -c /Users/knuterikborgen/kode/iphone/FrittRegnskap/Classes/FrittRegnskapAppDelegate.m -o /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/Objects-normal/i386/FrittRegnskapAppDelegate.o0#
+
+CCompileC build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/Objects-normal/i386/FrittRegnskapViewController.o /Users/knuterikborgen/kode/iphone/FrittRegnskap/Classes/FrittRegnskapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302956815.126934
+e302956815.177177
+r1
+xCompileC
+xbuild/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/Objects-normal/i386/FrittRegnskapViewController.o
+x/Users/knuterikborgen/kode/iphone/FrittRegnskap/Classes/FrittRegnskapViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/knuterikborgen/kode/iphone/FrittRegnskap/Classes/FrittRegnskapViewController.m302956815#302956815#0(0"0(0#0#85"/Users/knuterikborgen/kode/iphone/FrittRegnskap/Classes/FrittRegnskapViewController.m8604352320#2174"    cd /Users/knuterikborgen/kode/iphone/FrittRegnskap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/FrittRegnskap-generated-files.hmap -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/FrittRegnskap-own-target-headers.hmap -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/FrittRegnskap-all-target-headers.hmap -iquote /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/FrittRegnskap-project-headers.hmap -F/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/include -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/DerivedSources/i386 -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/DerivedSources -include /var/folders/OX/OXACvVLB2RWY-++8ZRlcB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrittRegnskap_Prefix-embzkqjuaospshejacybgaxthppe/FrittRegnskap_Prefix.pch -c /Users/knuterikborgen/kode/iphone/FrittRegnskap/Classes/FrittRegnskapViewController.m -o /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/Objects-normal/i386/FrittRegnskapViewController.o0#
+
+CCompileC build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/Objects-normal/i386/main.o /Users/knuterikborgen/kode/iphone/FrittRegnskap/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302956815.124599
+e302956815.164734
+r1
+xCompileC
+xbuild/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/Objects-normal/i386/main.o
+x/Users/knuterikborgen/kode/iphone/FrittRegnskap/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/knuterikborgen/kode/iphone/FrittRegnskap/main.m302956815#302956815#0(0"0(0#0#54"/Users/knuterikborgen/kode/iphone/FrittRegnskap/main.m8606249600#2120"    cd /Users/knuterikborgen/kode/iphone/FrittRegnskap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/FrittRegnskap-generated-files.hmap -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/FrittRegnskap-own-target-headers.hmap -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/FrittRegnskap-all-target-headers.hmap -iquote /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/FrittRegnskap-project-headers.hmap -F/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/include -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/DerivedSources/i386 -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/DerivedSources -include /var/folders/OX/OXACvVLB2RWY-++8ZRlcB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrittRegnskap_Prefix-embzkqjuaospshejacybgaxthppe/FrittRegnskap_Prefix.pch -c /Users/knuterikborgen/kode/iphone/FrittRegnskap/main.m -o /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/knuterikborgen/kode/iphone/FrittRegnskap/FrittRegnskapViewController.xib
+s302956814.350733
+e302956814.680057
+r1
+xCompileXIB
+x/Users/knuterikborgen/kode/iphone/FrittRegnskap/FrittRegnskapViewController.xib
+lSLF07#2@42"CompileXIB FrittRegnskapViewController.xib302956814#302956814#0(0"0(0#0#79"/Users/knuterikborgen/kode/iphone/FrittRegnskap/FrittRegnskapViewController.xib8605806336#637"    cd /Users/knuterikborgen/kode/iphone/FrittRegnskap    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/FrittRegnskapViewController.nib /Users/knuterikborgen/kode/iphone/FrittRegnskap/FrittRegnskapViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/knuterikborgen/kode/iphone/FrittRegnskap/MainWindow.xib
+s302956814.350063
+e302956814.681754
+r1
+xCompileXIB
+x/Users/knuterikborgen/kode/iphone/FrittRegnskap/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib302956814#302956814#0(0"0(0#0#62"/Users/knuterikborgen/kode/iphone/FrittRegnskap/MainWindow.xib8599464576#603"    cd /Users/knuterikborgen/kode/iphone/FrittRegnskap    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/MainWindow.nib /Users/knuterikborgen/kode/iphone/FrittRegnskap/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app.dSYM /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/FrittRegnskap
+s302956815.204870
+e302956815.217552
+r1
+xGenerateDSYMFile
+x/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app.dSYM
+x/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/FrittRegnskap
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/FrittRegnskap.app.dSYM build/Debug-iphonesimulator/FrittRegnskap.app/FrittRegnskap302956815#302956815#0(0"0(0#0#107"/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/FrittRegnskap8603046016#428"    cd /Users/knuterikborgen/kode/iphone/FrittRegnskap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/FrittRegnskap -o /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app.dSYM0#
+
+CLd /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/FrittRegnskap normal i386
+s302956815.184758
+e302956815.204791
+r1
+xLd
+x/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/FrittRegnskap
+xnormal
+xi386
+lSLF07#2@112"Link /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/FrittRegnskap302956815#302956815#0(0"0(0#0#0"8604010560#975"    cd /Users/knuterikborgen/kode/iphone/FrittRegnskap    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator -F/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator -filelist /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/Objects-normal/i386/FrittRegnskap.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/FrittRegnskap0#
+
+CProcessInfoPlistFile /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/Info.plist FrittRegnskap-Info.plist
+s302956814.342319
+e302956814.349986
+r1
+xProcessInfoPlistFile
+x/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/Info.plist
+xFrittRegnskap-Info.plist
+lSLF07#2@32"Process FrittRegnskap-Info.plist302956814#302956814#0(0"0(0#0#72"/Users/knuterikborgen/kode/iphone/FrittRegnskap/FrittRegnskap-Info.plist20547875170680944#524"    cd /Users/knuterikborgen/kode/iphone/FrittRegnskap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FrittRegnskap-Info.plist -genpkginfo /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app/Info.plist0#
+
+CProcessPCH /var/folders/OX/OXACvVLB2RWY-++8ZRlcB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrittRegnskap_Prefix-embzkqjuaospshejacybgaxthppe/FrittRegnskap_Prefix.pch.gch FrittRegnskap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s302956814.681904
+e302956815.124478
+r1
+xProcessPCH
+x/var/folders/OX/OXACvVLB2RWY-++8ZRlcB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrittRegnskap_Prefix-embzkqjuaospshejacybgaxthppe/FrittRegnskap_Prefix.pch.gch
+xFrittRegnskap_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile FrittRegnskap_Prefix.pch302956814#302956815#0(0"0(0#0#72"/Users/knuterikborgen/kode/iphone/FrittRegnskap/FrittRegnskap_Prefix.pch8604117920#1997"    cd /Users/knuterikborgen/kode/iphone/FrittRegnskap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/FrittRegnskap-generated-files.hmap -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/FrittRegnskap-own-target-headers.hmap -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/FrittRegnskap-all-target-headers.hmap -iquote /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/FrittRegnskap-project-headers.hmap -F/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/include -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/DerivedSources/i386 -I/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/FrittRegnskap.build/Debug-iphonesimulator/FrittRegnskap.build/DerivedSources -c /Users/knuterikborgen/kode/iphone/FrittRegnskap/FrittRegnskap_Prefix.pch -o /var/folders/OX/OXACvVLB2RWY-++8ZRlcB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FrittRegnskap_Prefix-embzkqjuaospshejacybgaxthppe/FrittRegnskap_Prefix.pch.gch0#
+
+CTouch /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app
+s302956815.217619
+e302956815.219734
+r1
+xTouch
+x/Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app
+lSLF07#2@99"Touch /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app302956815#302956815#0(0"0(0#0#0"8602735776#302"    cd /Users/knuterikborgen/kode/iphone/FrittRegnskap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/knuterikborgen/kode/iphone/FrittRegnskap/build/Debug-iphonesimulator/FrittRegnskap.app0#
+
