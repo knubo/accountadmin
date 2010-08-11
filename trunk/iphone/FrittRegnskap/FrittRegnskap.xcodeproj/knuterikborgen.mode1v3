@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>9F924C3B1213119F007DB7F1</string>
+						<string>9F924C6F12131235007DB7F1</string>
 						<key>history</key>
 						<array>
 							<string>9F924C2512131157007DB7F1</string>
@@ -270,8 +270,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -313,17 +311,18 @@
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>1C37FABC05509CD000000102</string>
 								<string>E2644B35053B69B200211256</string>
+								<string>9F924C6912131235007DB7F1</string>
+								<string>9F924C5812131223007DB7F1</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>18</integer>
-									<integer>1</integer>
-									<integer>0</integer>
+									<integer>37</integer>
+									<integer>36</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {291, 1064}}</string>
+							<string>{{0, 2}, {291, 1064}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -358,7 +357,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>FrittRegnskapAppDelegate.h</string>
+								<string>FR.mom</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -366,11 +365,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>FrittRegnskapAppDelegate.h</string>
+										<string>FR.mom</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>9F924C3A1213119F007DB7F1</string>
+										<string>9F924C6D12131235007DB7F1</string>
 										<key>history</key>
 										<array>
 											<string>9F924A9A12107A64007DB7F1</string>
@@ -381,7 +380,8 @@
 											<string>9F924C1F12131157007DB7F1</string>
 											<string>9F924C371213119F007DB7F1</string>
 											<string>9F924C381213119F007DB7F1</string>
-											<string>9F924C391213119F007DB7F1</string>
+											<string>9F924C6A12131235007DB7F1</string>
+											<string>9F924C6B12131235007DB7F1</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
