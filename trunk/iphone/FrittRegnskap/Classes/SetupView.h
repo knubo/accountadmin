@@ -25,5 +25,8 @@
 @property (nonatomic, retain) UITextField *password;
 
 - (IBAction)synchronizeDatabase:(id)sender;
+- (void) parsePersons:(NSArray*) persons;
+- (void) loadSettings;
+- (void) saveSettings;
 
 @end
