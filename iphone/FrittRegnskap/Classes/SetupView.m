@@ -83,7 +83,16 @@
 
 	NSArray *persons = [responseString JSONValue];
 	
-	label.text = [NSString stringWithFormat:@"Test: %d", [persons count]];
+	if (persons == nil) {
+		label.text = @"Klarte ikke tolke data. Sjekk adresse, brukernavn og passord.";
+		[self parsePersons:persons];
+	} else {
+		label.text = [NSString stringWithFormat:@"Antall personer innlest: %d", [persons count]];
+		
+	}
+}
+
+- (void) parsePersons:(NSArray*) persons {
 }
 
 
