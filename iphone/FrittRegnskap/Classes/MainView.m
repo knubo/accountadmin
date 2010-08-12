@@ -2,7 +2,7 @@
 //  MainView.m
 //
 //  Created by Knut Erik Borgen on 08.08.10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Knubo Borgen. All rights reserved.
 //
 
 #import "MainView.h"
