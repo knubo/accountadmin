@@ -454,6 +454,13 @@
 			sepNavWindowFrame = "{{67, 615}, {750, 558}}";
 		};
 	};
+	9F924A8612100A8A007DB7F1 /* JSON.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2070, 949}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2878}";
+		};
+	};
 	9F924A9A12107A64007DB7F1 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 9F924A9B12107A64007DB7F1 /* knuterikborgen.pbxuser */;
@@ -674,9 +681,9 @@
 	};
 	9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1491, 1950}}";
-			sepNavSelRange = "{2280, 0}";
-			sepNavVisRange = "{1552, 1649}";
+			sepNavIntBoundsRect = "{{0, 0}, {1491, 1911}}";
+			sepNavSelRange = "{2262, 0}";
+			sepNavVisRange = "{1552, 1631}";
 			sepNavWindowFrame = "{{544, 355}, {1155, 772}}";
 		};
 	};
