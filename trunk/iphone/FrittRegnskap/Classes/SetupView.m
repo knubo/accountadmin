@@ -2,11 +2,16 @@
 //  SetupView.m
 //
 //  Created by Knut Erik Borgen on 08.08.10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Knubo Borgen. All rights reserved.
 //
 
 #import "SetupView.h"
 #import "JSON/JSON.h"
+#import "FrittRegnskapViewController.h"
+#import "model/Person.h"
+#import "model/Semester.h"
+#import "model/CourseMembership.h"
+#import "model/YearMembership.h"
 
 @implementation SetupView
 
@@ -14,13 +19,12 @@
 @synthesize domain;
 @synthesize username;
 @synthesize password;
-
-
 - (void)dealloc {
 	
     [domain release];
     [username release];
     [password release];
+
 	
     [super dealloc];
 }
@@ -85,14 +89,20 @@
 	
 	if (persons == nil) {
 		label.text = @"Klarte ikke tolke data. Sjekk adresse, brukernavn og passord.";
-		[self parsePersons:persons];
+
 	} else {
+		[self parsePersons:persons];
 		label.text = [NSString stringWithFormat:@"Antall personer innlest: %d", [persons count]];
 		
 	}
 }
 
 - (void) parsePersons:(NSArray*) persons {
+	id mainViewController = [self.superview nextResponder];
+	FrittRegnskapViewController* mv = (FrittRegnskapViewController*)mainViewController;
+	
+	[mv savePersons:persons];
+
 }
 
 
