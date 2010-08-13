@@ -8,10 +8,14 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import "SetupView.h"
+#import "PersonView.h"
 
 @interface MainView : UIView {
     IBOutlet SetupView *config;
+	IBOutlet PersonView *personView;
 }
 - (IBAction)hideConfig:(id)sender;
 - (IBAction)showConfig:(id)sender;
+- (IBAction)showPersons:(id)sender;
+
 @end

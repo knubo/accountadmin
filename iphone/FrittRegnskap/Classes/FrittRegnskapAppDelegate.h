@@ -7,16 +7,31 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/NSManagedObjectContext.h>
+#import <CoreData/NSManagedObjectModel.h>
 
 @class FrittRegnskapViewController;
 
 @interface FrittRegnskapAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     FrittRegnskapViewController *viewController;
+		
+	NSManagedObjectModel *managedObjectModel;
+    NSManagedObjectContext *managedObjectContext;
+	NSPersistentStoreCoordinator *persistentStoreCoordinator;
+	
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet FrittRegnskapViewController *viewController;
+
+@property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
+@property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
+@property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+
+- (NSString *)applicationDocumentsDirectory;
+- (void) savePersons:(NSArray*) persons;
+- (void) deleteAllPersons;
 
 @end
 

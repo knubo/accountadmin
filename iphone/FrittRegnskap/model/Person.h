@@ -19,9 +19,9 @@
 @property (nonatomic, retain) NSString * postnmb;
 @property (nonatomic, retain) NSString * lastname;
 @property (nonatomic, retain) NSNumber * newsletter;
-@property (nonatomic, retain) NSDate * lastedit;
+@property (nonatomic, retain) NSString * lastedit;
 @property (nonatomic, retain) NSString * firstname;
-@property (nonatomic, retain) NSDate * birthdate;
+@property (nonatomic, retain) NSString * birthdate;
 @property (nonatomic, retain) NSString * comment;
 @property (nonatomic, retain) NSString * address;
 @property (nonatomic, retain) NSNumber * employee;
@@ -29,7 +29,7 @@
 @property (nonatomic, retain) NSString * country;
 @property (nonatomic, retain) NSString * email;
 @property (nonatomic, retain) NSString * gender;
-
+@property (nonatomic, retain) NSNumber * secretaddress;
 @end
 
 
