@@ -24,7 +24,7 @@
     [domain release];
     [username release];
     [password release];
-
+	
 	
     [super dealloc];
 }
@@ -46,8 +46,6 @@
 	[userDefaults setObject:domain.text forKey:@"frittregnskap_domain"];
 	[userDefaults setObject:password.text forKey:@"frittregnskap_password"];
 	[userDefaults synchronize];
-	
-	[userDefaults release];
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
@@ -56,7 +54,7 @@
 }
 
 - (IBAction)synchronizeDatabase:(id)sender {
-	
+	label.text = @"Henter data...";
 	responseData = [[NSMutableData data] retain];
 	
 	NSString *uri = [NSString stringWithFormat: @"http://%@.frittregnskap.no/RegnskapServer/services/directauth/persons.php?action=changes&user=%@&password=%@",domain.text, username.text,password.text];
@@ -84,25 +82,31 @@
 	
 	NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
 	[responseData release];
-
-	NSArray *persons = [responseString JSONValue];
+	
+	NSDictionary *data = [responseString JSONValue]; 
+	
+	if(data == nil) {
+		label.text = @"Klarte ikke tolke data. Sjekk adresse, brukernavn og passord.";
+		return;
+	}
+	
+	NSArray *persons = [data objectForKey:@"people"];
+//	NSArray *semesters = [data objectForKey:@"semesters"];
+//	NSArray *year_memberships = [data objectForKey:@"year_memberships"];
+//	NSArray *youth_memberships = [data objectForKey:@"youth_memberships"];
+//	NSArray *train_memberships = [data objectForKey:@"train_memberships"];
+//	NSArray *course_memberships = [data objectForKey:@"course_memberships"];
 	
 	if (persons == nil) {
 		label.text = @"Klarte ikke tolke data. Sjekk adresse, brukernavn og passord.";
-
-	} else {
-		[self parsePersons:persons];
-		label.text = [NSString stringWithFormat:@"Antall personer innlest: %d", [persons count]];
+		return;
 		
-	}
-}
-
-- (void) parsePersons:(NSArray*) persons {
-	id mainViewController = [self.superview nextResponder];
-	FrittRegnskapViewController* mv = (FrittRegnskapViewController*)mainViewController;
+	} 
 	
-	[mv savePersons:persons];
-
+	[appDelegate savePersons:persons];
+	
+	label.text = [NSString stringWithFormat:@"Antall personer innlest: %d", [persons count]];
+	
 }
 
 
