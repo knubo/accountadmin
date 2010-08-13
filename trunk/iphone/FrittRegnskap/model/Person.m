@@ -27,5 +27,6 @@
 @dynamic country;
 @dynamic email;
 @dynamic gender;
+@dynamic secretaddress;
 
 @end

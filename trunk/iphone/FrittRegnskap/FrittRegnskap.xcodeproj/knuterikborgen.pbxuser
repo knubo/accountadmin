@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* FrittRegnskapAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1491, 804}}";
-			sepNavSelRange = "{508, 0}";
-			sepNavVisRange = "{0, 515}";
+			sepNavIntBoundsRect = "{{0, 0}, {1491, 827}}";
+			sepNavSelRange = "{317, 24}";
+			sepNavVisRange = "{0, 1139}";
 		};
 	};
 	1D3623250D0F684500981E51 /* FrittRegnskapAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 1157}}";
-			sepNavSelRange = "{210, 0}";
-			sepNavVisRange = "{0, 2180}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 2483}}";
+			sepNavSelRange = "{354, 0}";
+			sepNavVisRange = "{0, 2205}";
 			sepNavWindowFrame = "{{134, 338}, {1155, 772}}";
 		};
 	};
@@ -24,6 +24,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 9F5814E5120EC10B00C2D93D /* FrittRegnskap */;
+		activeSDKPreference = iphonesimulator4.0;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* FrittRegnskap */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* FrittRegnskap */,
@@ -382,6 +383,140 @@
 			9FC59B7312146D9900273FCC /* PBXTextBookmark */ = 9FC59B7312146D9900273FCC /* PBXTextBookmark */;
 			9FC59B7412146D9900273FCC /* PBXTextBookmark */ = 9FC59B7412146D9900273FCC /* PBXTextBookmark */;
 			9FC59B7512146D9900273FCC /* PBXTextBookmark */ = 9FC59B7512146D9900273FCC /* PBXTextBookmark */;
+			9FC59BA612146FC500273FCC /* PBXTextBookmark */ = 9FC59BA612146FC500273FCC /* PBXTextBookmark */;
+			9FC59BA812146FC500273FCC /* PBXTextBookmark */ = 9FC59BA812146FC500273FCC /* PBXTextBookmark */;
+			9FC59BAA12146FC500273FCC /* PBXTextBookmark */ = 9FC59BAA12146FC500273FCC /* PBXTextBookmark */;
+			9FC59BAC12146FC500273FCC /* PBXTextBookmark */ = 9FC59BAC12146FC500273FCC /* PBXTextBookmark */;
+			9FC59BAE12146FC500273FCC /* PBXTextBookmark */ = 9FC59BAE12146FC500273FCC /* PBXTextBookmark */;
+			9FC59BB012146FC500273FCC /* PBXTextBookmark */ = 9FC59BB012146FC500273FCC /* PBXTextBookmark */;
+			9FC59BB212146FC500273FCC /* PBXTextBookmark */ = 9FC59BB212146FC500273FCC /* PBXTextBookmark */;
+			9FC59BB412146FC500273FCC /* PBXTextBookmark */ = 9FC59BB412146FC500273FCC /* PBXTextBookmark */;
+			9FC59BB512146FC500273FCC /* PBXTextBookmark */ = 9FC59BB512146FC500273FCC /* PBXTextBookmark */;
+			9FC59BB612146FC500273FCC /* PBXTextBookmark */ = 9FC59BB612146FC500273FCC /* PBXTextBookmark */;
+			9FC59BB712146FC500273FCC /* PBXTextBookmark */ = 9FC59BB712146FC500273FCC /* PBXTextBookmark */;
+			9FC59BB912146FC500273FCC /* PBXTextBookmark */ = 9FC59BB912146FC500273FCC /* PBXTextBookmark */;
+			9FC59BBA12146FC500273FCC /* PBXTextBookmark */ = 9FC59BBA12146FC500273FCC /* PBXTextBookmark */;
+			9FC59BBB12146FC500273FCC /* PBXTextBookmark */ = 9FC59BBB12146FC500273FCC /* PBXTextBookmark */;
+			9FC59BBC12146FC500273FCC /* PBXTextBookmark */ = 9FC59BBC12146FC500273FCC /* PBXTextBookmark */;
+			9FC59BBD12146FC500273FCC /* PBXTextBookmark */ = 9FC59BBD12146FC500273FCC /* PBXTextBookmark */;
+			9FC59BC81214710D00273FCC /* PBXTextBookmark */ = 9FC59BC81214710D00273FCC /* PBXTextBookmark */;
+			9FC59BD5121471A300273FCC /* PBXTextBookmark */ = 9FC59BD5121471A300273FCC /* PBXTextBookmark */;
+			9FC59BD6121471A300273FCC /* XDModelBookmark */ = 9FC59BD6121471A300273FCC /* XDModelBookmark */;
+			9FC59BD7121471A300273FCC /* PBXTextBookmark */ = 9FC59BD7121471A300273FCC /* PBXTextBookmark */;
+			9FC59BD8121471A300273FCC /* PBXTextBookmark */ = 9FC59BD8121471A300273FCC /* PBXTextBookmark */;
+			9FC59BD9121471A300273FCC /* PBXTextBookmark */ = 9FC59BD9121471A300273FCC /* PBXTextBookmark */;
+			9FC59BE5121471EA00273FCC /* PBXTextBookmark */ = 9FC59BE5121471EA00273FCC /* PBXTextBookmark */;
+			9FC59BE6121471EA00273FCC /* PBXTextBookmark */ = 9FC59BE6121471EA00273FCC /* PBXTextBookmark */;
+			9FC59BE7121471EA00273FCC /* PBXTextBookmark */ = 9FC59BE7121471EA00273FCC /* PBXTextBookmark */;
+			9FC59BF3121472CE00273FCC /* PBXTextBookmark */ = 9FC59BF3121472CE00273FCC /* PBXTextBookmark */;
+			9FC59BF4121472CE00273FCC /* XDModelBookmark */ = 9FC59BF4121472CE00273FCC /* XDModelBookmark */;
+			9FC59BF5121472CE00273FCC /* PBXTextBookmark */ = 9FC59BF5121472CE00273FCC /* PBXTextBookmark */;
+			9FC59BF6121472CE00273FCC /* PBXTextBookmark */ = 9FC59BF6121472CE00273FCC /* PBXTextBookmark */;
+			9FC59BF7121472CE00273FCC /* PBXTextBookmark */ = 9FC59BF7121472CE00273FCC /* PBXTextBookmark */;
+			9FC59BF8121472CE00273FCC /* PBXTextBookmark */ = 9FC59BF8121472CE00273FCC /* PBXTextBookmark */;
+			9FC59C041214737200273FCC /* PBXTextBookmark */ = 9FC59C041214737200273FCC /* PBXTextBookmark */;
+			9FC59C051214737200273FCC /* XDModelBookmark */ = 9FC59C051214737200273FCC /* XDModelBookmark */;
+			9FC59C061214737200273FCC /* XDModelBookmark */ = 9FC59C061214737200273FCC /* XDModelBookmark */;
+			9FC59C13121474AE00273FCC /* XDModelBookmark */ = 9FC59C13121474AE00273FCC /* XDModelBookmark */;
+			9FC59C14121474AE00273FCC /* PBXTextBookmark */ = 9FC59C14121474AE00273FCC /* PBXTextBookmark */;
+			9FC59C15121474AE00273FCC /* PBXTextBookmark */ = 9FC59C15121474AE00273FCC /* PBXTextBookmark */;
+			9FC59C16121474AE00273FCC /* PBXTextBookmark */ = 9FC59C16121474AE00273FCC /* PBXTextBookmark */;
+			9FC59C17121474AE00273FCC /* PBXTextBookmark */ = 9FC59C17121474AE00273FCC /* PBXTextBookmark */;
+			9FC59C18121474AE00273FCC /* PBXTextBookmark */ = 9FC59C18121474AE00273FCC /* PBXTextBookmark */;
+			9FC59C19121474AE00273FCC /* PBXTextBookmark */ = 9FC59C19121474AE00273FCC /* PBXTextBookmark */;
+			9FC59C1A121474AE00273FCC /* PBXTextBookmark */ = 9FC59C1A121474AE00273FCC /* PBXTextBookmark */;
+			9FC59C301214923200273FCC /* PBXTextBookmark */ = 9FC59C301214923200273FCC /* PBXTextBookmark */;
+			9FC59C311214923200273FCC /* PBXTextBookmark */ = 9FC59C311214923200273FCC /* PBXTextBookmark */;
+			9FC59C331214923200273FCC /* PBXTextBookmark */ = 9FC59C331214923200273FCC /* PBXTextBookmark */;
+			9FC59C341214923200273FCC /* PBXTextBookmark */ = 9FC59C341214923200273FCC /* PBXTextBookmark */;
+			9FC59C351214923200273FCC /* PBXTextBookmark */ = 9FC59C351214923200273FCC /* PBXTextBookmark */;
+			9FC59C361214923200273FCC /* PBXTextBookmark */ = 9FC59C361214923200273FCC /* PBXTextBookmark */;
+			9FC59C3C1214926C00273FCC /* PBXTextBookmark */ = 9FC59C3C1214926C00273FCC /* PBXTextBookmark */;
+			9FC59C3D1214926C00273FCC /* PBXTextBookmark */ = 9FC59C3D1214926C00273FCC /* PBXTextBookmark */;
+			9FC59C3E1214926C00273FCC /* PBXTextBookmark */ = 9FC59C3E1214926C00273FCC /* PBXTextBookmark */;
+			9FC59C451214937F00273FCC /* PBXTextBookmark */ = 9FC59C451214937F00273FCC /* PBXTextBookmark */;
+			9FC59C461214937F00273FCC /* PBXTextBookmark */ = 9FC59C461214937F00273FCC /* PBXTextBookmark */;
+			9FC59C471214937F00273FCC /* PBXTextBookmark */ = 9FC59C471214937F00273FCC /* PBXTextBookmark */;
+			9FC59C481214937F00273FCC /* PBXTextBookmark */ = 9FC59C481214937F00273FCC /* PBXTextBookmark */;
+			9FC59C4F121496D000273FCC /* PBXTextBookmark */ = 9FC59C4F121496D000273FCC /* PBXTextBookmark */;
+			9FC59C57121496DD00273FCC /* PBXTextBookmark */ = 9FC59C57121496DD00273FCC /* PBXTextBookmark */;
+			9FC59C58121496DD00273FCC /* PBXTextBookmark */ = 9FC59C58121496DD00273FCC /* PBXTextBookmark */;
+			9FC59C59121496DD00273FCC /* PBXTextBookmark */ = 9FC59C59121496DD00273FCC /* PBXTextBookmark */;
+			9FC59C5A121496DD00273FCC /* PBXTextBookmark */ = 9FC59C5A121496DD00273FCC /* PBXTextBookmark */;
+			9FC59C5B121496DD00273FCC /* PBXTextBookmark */ = 9FC59C5B121496DD00273FCC /* PBXTextBookmark */;
+			9FC59C5C121496DD00273FCC /* PBXTextBookmark */ = 9FC59C5C121496DD00273FCC /* PBXTextBookmark */;
+			9FC59C5D121496DD00273FCC /* PBXTextBookmark */ = 9FC59C5D121496DD00273FCC /* PBXTextBookmark */;
+			9FC59C641214A82C00273FCC /* PBXTextBookmark */ = 9FC59C641214A82C00273FCC /* PBXTextBookmark */;
+			9FC59C651214A82C00273FCC /* PBXTextBookmark */ = 9FC59C651214A82C00273FCC /* PBXTextBookmark */;
+			9FC59C661214A82C00273FCC /* PBXTextBookmark */ = 9FC59C661214A82C00273FCC /* PBXTextBookmark */;
+			9FC59C671214A82C00273FCC /* PBXTextBookmark */ = 9FC59C671214A82C00273FCC /* PBXTextBookmark */;
+			9FC59C681214A84500273FCC /* PBXTextBookmark */ = 9FC59C681214A84500273FCC /* PBXTextBookmark */;
+			9FC59C6F1214A8D100273FCC /* PBXTextBookmark */ = 9FC59C6F1214A8D100273FCC /* PBXTextBookmark */;
+			9FC59C7412152B8700273FCC /* PBXTextBookmark */ = 9FC59C7412152B8700273FCC /* PBXTextBookmark */;
+			9FC59C7512152B8700273FCC /* PBXTextBookmark */ = 9FC59C7512152B8700273FCC /* PBXTextBookmark */;
+			9FC59C7612152B8700273FCC /* PBXTextBookmark */ = 9FC59C7612152B8700273FCC /* PBXTextBookmark */;
+			9FC59C7C12152BCA00273FCC /* PBXTextBookmark */ = 9FC59C7C12152BCA00273FCC /* PBXTextBookmark */;
+			9FC59C7D12152BCA00273FCC /* PBXTextBookmark */ = 9FC59C7D12152BCA00273FCC /* PBXTextBookmark */;
+			9FC59C7E12152BCA00273FCC /* PBXTextBookmark */ = 9FC59C7E12152BCA00273FCC /* PBXTextBookmark */;
+			9FC59C7F12152BCA00273FCC /* PBXTextBookmark */ = 9FC59C7F12152BCA00273FCC /* PBXTextBookmark */;
+			9FC59C8012152BCA00273FCC /* PBXTextBookmark */ = 9FC59C8012152BCA00273FCC /* PBXTextBookmark */;
+			9FC59C8712152C9800273FCC /* PBXTextBookmark */ = 9FC59C8712152C9800273FCC /* PBXTextBookmark */;
+			9FC59C8812152C9800273FCC /* PBXTextBookmark */ = 9FC59C8812152C9800273FCC /* PBXTextBookmark */;
+			9FC59C8912152C9800273FCC /* PBXTextBookmark */ = 9FC59C8912152C9800273FCC /* PBXTextBookmark */;
+			9FC59C8A12152C9800273FCC /* PBXTextBookmark */ = 9FC59C8A12152C9800273FCC /* PBXTextBookmark */;
+			9FC59C8B12152C9800273FCC /* PBXTextBookmark */ = 9FC59C8B12152C9800273FCC /* PBXTextBookmark */;
+			9FC59C9112152CDC00273FCC /* PBXTextBookmark */ = 9FC59C9112152CDC00273FCC /* PBXTextBookmark */;
+			9FC59C9912152D2500273FCC /* PBXTextBookmark */ = 9FC59C9912152D2500273FCC /* PBXTextBookmark */;
+			9FC59C9F12152D2800273FCC /* PBXTextBookmark */ = 9FC59C9F12152D2800273FCC /* PBXTextBookmark */;
+			9FC59CA512152D7100273FCC /* PBXTextBookmark */ = 9FC59CA512152D7100273FCC /* PBXTextBookmark */;
+			9FC59CA612152D7100273FCC /* PBXTextBookmark */ = 9FC59CA612152D7100273FCC /* PBXTextBookmark */;
+			9FC59CA712152D7100273FCC /* PBXTextBookmark */ = 9FC59CA712152D7100273FCC /* PBXTextBookmark */;
+			9FC59CA812152D7100273FCC /* PBXTextBookmark */ = 9FC59CA812152D7100273FCC /* PBXTextBookmark */;
+			9FC59CA912152D7100273FCC /* PBXTextBookmark */ = 9FC59CA912152D7100273FCC /* PBXTextBookmark */;
+			9FC59CB01215457E00273FCC /* PBXTextBookmark */ = 9FC59CB01215457E00273FCC /* PBXTextBookmark */;
+			9FC59CC41215AA8000273FCC /* PBXTextBookmark */ = 9FC59CC41215AA8000273FCC /* PBXTextBookmark */;
+			9FC59CC51215AA8000273FCC /* PBXBookmark */ = 9FC59CC51215AA8000273FCC /* PBXBookmark */;
+			9FC59CC61215AA8000273FCC /* PBXBookmark */ = 9FC59CC61215AA8000273FCC /* PBXBookmark */;
+			9FC59CC91215AA8000273FCC /* PlistBookmark */ = 9FC59CC91215AA8000273FCC /* PlistBookmark */;
+			9FC59CCA1215AA8000273FCC /* PlistBookmark */ = 9FC59CCA1215AA8000273FCC /* PlistBookmark */;
+			9FC59CD01215AE0E00273FCC /* PBXBookmark */ = 9FC59CD01215AE0E00273FCC /* PBXBookmark */;
+			9FC59CD81215B57B00273FCC /* PBXBookmark */ = 9FC59CD81215B57B00273FCC /* PBXBookmark */;
+			9FC59CD91215B57B00273FCC /* PBXTextBookmark */ = 9FC59CD91215B57B00273FCC /* PBXTextBookmark */;
+			9FC59CDA1215B57B00273FCC /* PBXTextBookmark */ = 9FC59CDA1215B57B00273FCC /* PBXTextBookmark */;
+			9FC59CDB1215B57B00273FCC /* PBXTextBookmark */ = 9FC59CDB1215B57B00273FCC /* PBXTextBookmark */;
+			9FC59CDC1215B57B00273FCC /* PBXTextBookmark */ = 9FC59CDC1215B57B00273FCC /* PBXTextBookmark */;
+			9FC59CDF1215B57B00273FCC /* PlistBookmark */ = 9FC59CDF1215B57B00273FCC /* PlistBookmark */;
+			9FC59D001215B8F800273FCC /* PBXTextBookmark */ = 9FC59D001215B8F800273FCC /* PBXTextBookmark */;
+			9FC59D011215B8F800273FCC /* PBXTextBookmark */ = 9FC59D011215B8F800273FCC /* PBXTextBookmark */;
+			9FC59D021215B8F800273FCC /* PBXTextBookmark */ = 9FC59D021215B8F800273FCC /* PBXTextBookmark */;
+			9FC59D031215B8F800273FCC /* PBXTextBookmark */ = 9FC59D031215B8F800273FCC /* PBXTextBookmark */;
+			9FC59D041215B8F800273FCC /* PBXTextBookmark */ = 9FC59D041215B8F800273FCC /* PBXTextBookmark */;
+			9FC59D051215B8F800273FCC /* PBXTextBookmark */ = 9FC59D051215B8F800273FCC /* PBXTextBookmark */;
+			9FC59D061215B8F800273FCC /* PBXTextBookmark */ = 9FC59D061215B8F800273FCC /* PBXTextBookmark */;
+			9FC59D071215B8F800273FCC /* PBXTextBookmark */ = 9FC59D071215B8F800273FCC /* PBXTextBookmark */;
+			9FC59D081215B8F800273FCC /* PBXTextBookmark */ = 9FC59D081215B8F800273FCC /* PBXTextBookmark */;
+			9FC59D091215B8F800273FCC /* PlistBookmark */ = 9FC59D091215B8F800273FCC /* PlistBookmark */;
+			9FC59D121215B93400273FCC /* PBXTextBookmark */ = 9FC59D121215B93400273FCC /* PBXTextBookmark */;
+			9FC59D131215B93400273FCC /* PBXTextBookmark */ = 9FC59D131215B93400273FCC /* PBXTextBookmark */;
+			9FC59D141215B93400273FCC /* PBXTextBookmark */ = 9FC59D141215B93400273FCC /* PBXTextBookmark */;
+			9FC59D151215B93400273FCC /* PlistBookmark */ = 9FC59D151215B93400273FCC /* PlistBookmark */;
+			9FC59D1C1215B97E00273FCC /* PBXTextBookmark */ = 9FC59D1C1215B97E00273FCC /* PBXTextBookmark */;
+			9FC59D1D1215B97E00273FCC /* PBXTextBookmark */ = 9FC59D1D1215B97E00273FCC /* PBXTextBookmark */;
+			9FC59D1E1215B97E00273FCC /* PBXTextBookmark */ = 9FC59D1E1215B97E00273FCC /* PBXTextBookmark */;
+			9FC59D1F1215B97E00273FCC /* PBXTextBookmark */ = 9FC59D1F1215B97E00273FCC /* PBXTextBookmark */;
+			9FC59D201215B97E00273FCC /* PlistBookmark */ = 9FC59D201215B97E00273FCC /* PlistBookmark */;
+			9FC59D291215B9D200273FCC /* PBXTextBookmark */ = 9FC59D291215B9D200273FCC /* PBXTextBookmark */;
+			9FC59D2A1215B9D200273FCC /* PBXTextBookmark */ = 9FC59D2A1215B9D200273FCC /* PBXTextBookmark */;
+			9FC59D2B1215B9D200273FCC /* PBXTextBookmark */ = 9FC59D2B1215B9D200273FCC /* PBXTextBookmark */;
+			9FC59D2C1215B9D200273FCC /* PlistBookmark */ = 9FC59D2C1215B9D200273FCC /* PlistBookmark */;
+			9FC59D2E1215B9F100273FCC /* PBXTextBookmark */ = 9FC59D2E1215B9F100273FCC /* PBXTextBookmark */;
+			9FC59D2F1215B9F100273FCC /* PBXTextBookmark */ = 9FC59D2F1215B9F100273FCC /* PBXTextBookmark */;
+			9FC59D301215B9F100273FCC /* PBXTextBookmark */ = 9FC59D301215B9F100273FCC /* PBXTextBookmark */;
+			9FC59D311215B9F100273FCC /* PlistBookmark */ = 9FC59D311215B9F100273FCC /* PlistBookmark */;
+			9FC59D341215BA1A00273FCC /* PBXTextBookmark */ = 9FC59D341215BA1A00273FCC /* PBXTextBookmark */;
+			9FC59D351215BA1A00273FCC /* PlistBookmark */ = 9FC59D351215BA1A00273FCC /* PlistBookmark */;
+			9FC59D3A1215BA3600273FCC /* PBXTextBookmark */ = 9FC59D3A1215BA3600273FCC /* PBXTextBookmark */;
+			9FC59D3B1215BA3600273FCC /* PlistBookmark */ = 9FC59D3B1215BA3600273FCC /* PlistBookmark */;
 		};
 		sourceControlManager = 9F5814FA120EC10C00C2D93D /* Source Control */;
 		userBuildSettings = {
@@ -389,7 +524,7 @@
 	};
 	8D1107310486CEB800E47090 /* FrittRegnskap-Info.plist */ = {
 		uiCtxt = {
-			sepNavWindowFrame = "{{157, 317}, {1155, 772}}";
+			sepNavWindowFrame = "{{561, 260}, {1155, 772}}";
 		};
 	};
 	9F5814E5120EC10B00C2D93D /* FrittRegnskap */ = {
@@ -440,19 +575,26 @@
 	};
 	9F5814FF120EC21B00C2D93D /* MainView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1491, 852}}";
-			sepNavSelRange = "{97, 0}";
-			sepNavVisRange = "{0, 345}";
+			sepNavIntBoundsRect = "{{0, 0}, {1491, 827}}";
+			sepNavSelRange = "{263, 8}";
+			sepNavVisRange = "{0, 439}";
 			sepNavWindowFrame = "{{90, 594}, {750, 558}}";
 		};
 	};
 	9F581500120EC21B00C2D93D /* MainView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1491, 829}}";
-			sepNavSelRange = "{85, 12}";
-			sepNavVisRange = "{0, 781}";
+			sepNavIntBoundsRect = "{{0, 0}, {1491, 804}}";
+			sepNavSelRange = "{383, 0}";
+			sepNavVisRange = "{0, 1060}";
 			sepNavWindowFrame = "{{67, 615}, {750, 558}}";
 		};
+	};
+	9F581506120F1A6400C2D93D /* 19-gear.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "19-gear.png";
+		path = "/Users/knuterikborgen/Downloads/glyphish-icons/icons/19-gear.png";
+		sourceTree = "<absolute>";
 	};
 	9F924A8612100A8A007DB7F1 /* JSON.h */ = {
 		uiCtxt = {
@@ -642,7 +784,7 @@
 		fRef = 9F5814FF120EC21B00C2D93D /* MainView.h */;
 		name = "MainView.h: 15";
 		rLen = 0;
-		rLoc = 339;
+		rLoc = 433;
 		rType = 0;
 		vrLen = 325;
 		vrLoc = 0;
@@ -652,7 +794,7 @@
 		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
 		name = "SetupView.m: 38";
 		rLen = 21;
-		rLoc = 857;
+		rLoc = 858;
 		rType = 0;
 		vrLen = 1884;
 		vrLoc = 174;
@@ -662,7 +804,7 @@
 		fRef = 9FBEC3F4120F3F780078170A /* SetupView.h */;
 		name = "SetupView.h: 31";
 		rLen = 0;
-		rLoc = 697;
+		rLoc = 740;
 		rType = 0;
 		vrLen = 678;
 		vrLoc = 0;
@@ -674,16 +816,16 @@
 	};
 	9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1491, 804}}";
-			sepNavSelRange = "{845, 0}";
-			sepNavVisRange = "{0, 853}";
+			sepNavIntBoundsRect = "{{0, 0}, {1491, 827}}";
+			sepNavSelRange = "{254, 0}";
+			sepNavVisRange = "{0, 261}";
 		};
 	};
 	9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1491, 1911}}";
-			sepNavSelRange = "{2262, 0}";
-			sepNavVisRange = "{1552, 1631}";
+			sepNavIntBoundsRect = "{{0, 0}, {663, 806}}";
+			sepNavSelRange = "{1481, 0}";
+			sepNavVisRange = "{921, 429}";
 			sepNavWindowFrame = "{{544, 355}, {1155, 772}}";
 		};
 	};
@@ -799,7 +941,7 @@
 		comments = "Model/Person.h: No such file or directory";
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		rLen = 0;
-		rLoc = 14;
+		rLoc = 11;
 		rType = 1;
 	};
 	9F924D2212132A29007DB7F1 /* XDModelBookmark */ = {
@@ -891,7 +1033,7 @@
 		isa = PBXTextBookmark;
 		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
 		name = "FrittRegnskapViewController.h: 10";
-		rLen = 43;
+		rLen = 0;
 		rLoc = 190;
 		rType = 0;
 		vrLen = 532;
@@ -902,7 +1044,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 10";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1551;
 		vrLoc = 0;
@@ -932,7 +1074,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 10";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1224;
 		vrLoc = 0;
@@ -944,32 +1086,53 @@
 	};
 	9FBEC3F4120F3F780078170A /* SetupView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {439, 429}}";
-			sepNavSelRange = "{402, 0}";
-			sepNavVisRange = "{278, 287}";
+			sepNavIntBoundsRect = "{{0, 0}, {1491, 804}}";
+			sepNavSelRange = "{475, 11}";
+			sepNavVisRange = "{0, 746}";
 			sepNavWindowFrame = "{{65, 401}, {1155, 772}}";
 		};
 	};
 	9FBEC3F5120F3F780078170A /* SetupView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1491, 1469}}";
-			sepNavSelRange = "{2926, 11}";
-			sepNavVisRange = "{1174, 1787}";
+			sepNavIntBoundsRect = "{{0, 0}, {1491, 1521}}";
+			sepNavSelRange = "{1203, 0}";
+			sepNavVisRange = "{464, 2132}";
 			sepNavWindowFrame = "{{68, 615}, {750, 558}}";
+		};
+	};
+	9FC5988612132AF600273FCC /* CourseMembership.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1491, 804}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 365}";
 		};
 	};
 	9FC5988812132AF600273FCC /* Person.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1491, 829}}";
-			sepNavSelRange = "{193, 15}";
-			sepNavVisRange = "{0, 1020}";
+			sepNavIntBoundsRect = "{{0, 0}, {1491, 804}}";
+			sepNavSelRange = "{656, 0}";
+			sepNavVisRange = "{0, 1079}";
 		};
 	};
 	9FC5988912132AF600273FCC /* Person.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1491, 829}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1491, 804}}";
+			sepNavSelRange = "{498, 0}";
+			sepNavVisRange = "{0, 504}";
+		};
+	};
+	9FC5988A12132AF600273FCC /* Semester.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1491, 827}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 480}";
+			sepNavVisRange = "{0, 421}";
+		};
+	};
+	9FC5988B12132AF600273FCC /* Semester.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1491, 804}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 263}";
 		};
 	};
 	9FC5988C12132AF600273FCC /* YearMembership.h */ = {
@@ -992,7 +1155,7 @@
 		fRef = 9FBEC3F4120F3F780078170A /* SetupView.h */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 19;
+		rLoc = 20;
 		rType = 1;
 	};
 	9FC598AB121336EA00273FCC /* PBXTextBookmark */ = {
@@ -1000,7 +1163,7 @@
 		fRef = 9FBEC3F4120F3F780078170A /* SetupView.h */;
 		name = "SetupView.h: 19";
 		rLen = 0;
-		rLoc = 402;
+		rLoc = 487;
 		rType = 0;
 		vrLen = 474;
 		vrLoc = 190;
@@ -1050,7 +1213,7 @@
 		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
 		name = "FrittRegnskapViewController.h: 14";
 		rLen = 0;
-		rLoc = 382;
+		rLoc = 252;
 		rType = 0;
 		vrLen = 438;
 		vrLoc = 0;
@@ -1060,7 +1223,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 16";
 		rLen = 27;
-		rLoc = 359;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1614;
 		vrLoc = 0;
@@ -1070,7 +1233,7 @@
 		fRef = 9FBEC3F4120F3F780078170A /* SetupView.h */;
 		name = "SetupView.h: 27";
 		rLen = 0;
-		rLoc = 564;
+		rLoc = 649;
 		rType = 0;
 		vrLen = 703;
 		vrLoc = 0;
@@ -1080,7 +1243,7 @@
 		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
 		name = "SetupView.m: 92";
 		rLen = 0;
-		rLoc = 2591;
+		rLoc = 3134;
 		rType = 0;
 		vrLen = 1941;
 		vrLoc = 857;
@@ -1090,7 +1253,7 @@
 		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
 		name = "SetupView.m: 93";
 		rLen = 0;
-		rLoc = 2592;
+		rLoc = 3135;
 		rType = 0;
 		vrLen = 1901;
 		vrLoc = 857;
@@ -1100,7 +1263,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1196;
 		vrLoc = 0;
@@ -1273,7 +1436,7 @@
 		fRef = 9FBEC3F4120F3F780078170A /* SetupView.h */;
 		name = "SetupView.h: 27";
 		rLen = 0;
-		rLoc = 564;
+		rLoc = 649;
 		rType = 0;
 		vrLen = 703;
 		vrLoc = 0;
@@ -1283,7 +1446,7 @@
 		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
 		name = "SetupView.m: 93";
 		rLen = 0;
-		rLoc = 2592;
+		rLoc = 3135;
 		rType = 0;
 		vrLen = 1790;
 		vrLoc = 0;
@@ -1293,7 +1456,7 @@
 		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
 		name = "SetupView.m: 100";
 		rLen = 0;
-		rLoc = 2899;
+		rLoc = 3274;
 		rType = 0;
 		vrLen = 1959;
 		vrLoc = 857;
@@ -1303,7 +1466,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1196;
 		vrLoc = 0;
@@ -1475,8 +1638,8 @@
 		isa = PBXTextBookmark;
 		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
 		name = "SetupView.m: 100";
-		rLen = 42;
-		rLoc = 2734;
+		rLen = 0;
+		rLoc = 3274;
 		rType = 0;
 		vrLen = 1987;
 		vrLoc = 956;
@@ -1496,7 +1659,7 @@
 		fRef = 1D3623240D0F684500981E51 /* FrittRegnskapAppDelegate.h */;
 		name = "FrittRegnskapAppDelegate.h: 20";
 		rLen = 0;
-		rLoc = 508;
+		rLoc = 1132;
 		rType = 0;
 		vrLen = 515;
 		vrLoc = 0;
@@ -1505,8 +1668,8 @@
 		isa = PBXTextBookmark;
 		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
 		name = "FrittRegnskapViewController.h: 21";
-		rLen = 40;
-		rLoc = 760;
+		rLen = 0;
+		rLoc = 254;
 		rType = 0;
 		vrLen = 479;
 		vrLoc = 0;
@@ -1516,7 +1679,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 16";
 		rLen = 27;
-		rLoc = 359;
+		rLoc = 240;
 		rType = 0;
 		vrLen = 1614;
 		vrLoc = 0;
@@ -1526,7 +1689,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 71";
 		rLen = 0;
-		rLoc = 2264;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1486;
 		vrLoc = 253;
@@ -1536,7 +1699,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1196;
 		vrLoc = 0;
@@ -1728,8 +1891,8 @@
 		isa = PBXTextBookmark;
 		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
 		name = "FrittRegnskapViewController.h: 21";
-		rLen = 40;
-		rLoc = 760;
+		rLen = 0;
+		rLoc = 254;
 		rType = 0;
 		vrLen = 479;
 		vrLoc = 0;
@@ -1739,7 +1902,7 @@
 		fRef = 1D3623240D0F684500981E51 /* FrittRegnskapAppDelegate.h */;
 		name = "FrittRegnskapAppDelegate.h: 20";
 		rLen = 0;
-		rLoc = 508;
+		rLoc = 1132;
 		rType = 0;
 		vrLen = 515;
 		vrLoc = 0;
@@ -1749,7 +1912,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 34";
 		rLen = 0;
-		rLoc = 935;
+		rLoc = 709;
 		rType = 0;
 		vrLen = 1358;
 		vrLoc = 387;
@@ -1759,7 +1922,7 @@
 		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
 		name = "SetupView.m: 101";
 		rLen = 0;
-		rLoc = 2778;
+		rLoc = 3274;
 		rType = 0;
 		vrLen = 1925;
 		vrLoc = 1030;
@@ -1769,7 +1932,7 @@
 		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
 		name = "SetupView.m: 101";
 		rLen = 0;
-		rLoc = 2778;
+		rLoc = 3274;
 		rType = 0;
 		vrLen = 1924;
 		vrLoc = 1030;
@@ -1779,7 +1942,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1023;
 		vrLoc = 0;
@@ -1952,7 +2115,7 @@
 		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
 		name = "FrittRegnskapViewController.h: 21";
 		rLen = 0;
-		rLoc = 773;
+		rLoc = 254;
 		rType = 0;
 		vrLen = 478;
 		vrLoc = 0;
@@ -1962,7 +2125,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 32";
 		rLen = 0;
-		rLoc = 866;
+		rLoc = 640;
 		rType = 0;
 		vrLen = 1357;
 		vrLoc = 387;
@@ -1982,7 +2145,7 @@
 		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
 		name = "SetupView.m: 67";
 		rLen = 0;
-		rLoc = 1789;
+		rLoc = 1794;
 		rType = 0;
 		vrLen = 1640;
 		vrLoc = 0;
@@ -1992,7 +2155,7 @@
 		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
 		name = "SetupView.m: 91";
 		rLen = 0;
-		rLoc = 2553;
+		rLoc = 3084;
 		rType = 0;
 		vrLen = 1756;
 		vrLoc = 1205;
@@ -2002,7 +2165,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1023;
 		vrLoc = 0;
@@ -2174,8 +2337,8 @@
 		isa = PBXTextBookmark;
 		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
 		name = "SetupView.m: 104";
-		rLen = 11;
-		rLoc = 2926;
+		rLen = 0;
+		rLoc = 3274;
 		rType = 0;
 		vrLen = 1756;
 		vrLoc = 1205;
@@ -2184,7 +2347,7 @@
 		isa = PBXTextBookmark;
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		rLen = 0;
-		rLoc = 86;
+		rLoc = 58;
 		rType = 1;
 	};
 	9FC5995E1213484D00273FCC /* PBXTextBookmark */ = {
@@ -2192,7 +2355,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 71";
 		rLen = 0;
-		rLoc = 2263;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1397;
 		vrLoc = 342;
@@ -2202,7 +2365,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1023;
 		vrLoc = 0;
@@ -2375,7 +2538,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 72";
 		rLen = 0;
-		rLoc = 1779;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1473;
 		vrLoc = 342;
@@ -2385,7 +2548,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1023;
 		vrLoc = 0;
@@ -2558,7 +2721,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 72";
 		rLen = 0;
-		rLoc = 1793;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1475;
 		vrLoc = 342;
@@ -2568,7 +2731,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1023;
 		vrLoc = 0;
@@ -2741,7 +2904,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 76";
 		rLen = 0;
-		rLoc = 2064;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1582;
 		vrLoc = 342;
@@ -2751,7 +2914,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1023;
 		vrLoc = 0;
@@ -2924,7 +3087,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 78";
 		rLen = 0;
-		rLoc = 2128;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1562;
 		vrLoc = 422;
@@ -2934,7 +3097,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 78";
 		rLen = 0;
-		rLoc = 2128;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1596;
 		vrLoc = 388;
@@ -2944,7 +3107,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1023;
 		vrLoc = 0;
@@ -3115,8 +3278,8 @@
 	9FC5997F12134B2A00273FCC /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
-		rLen = 1;
-		rLoc = 74;
+		rLen = 0;
+		rLoc = 58;
 		rType = 1;
 	};
 	9FC5998112134B2D00273FCC /* PBXTextBookmark */ = {
@@ -3124,7 +3287,7 @@
 		fRef = 9FBEC3F4120F3F780078170A /* SetupView.h */;
 		name = "SetupView.h: 20";
 		rLen = 0;
-		rLoc = 402;
+		rLoc = 487;
 		rType = 0;
 		vrLen = 373;
 		vrLoc = 278;
@@ -3134,7 +3297,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 66";
 		rLen = 0;
-		rLoc = 1658;
+		rLoc = 1432;
 		rType = 0;
 		vrLen = 1647;
 		vrLoc = 388;
@@ -3144,7 +3307,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1196;
 		vrLoc = 0;
@@ -3317,7 +3480,7 @@
 		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
 		name = "FrittRegnskapViewController.h: 14";
 		rLen = 0;
-		rLoc = 382;
+		rLoc = 252;
 		rType = 0;
 		vrLen = 478;
 		vrLoc = 0;
@@ -3327,7 +3490,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 71";
 		rLen = 0;
-		rLoc = 1706;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1583;
 		vrLoc = 0;
@@ -3337,7 +3500,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 71";
 		rLen = 0;
-		rLoc = 1706;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1322;
 		vrLoc = 748;
@@ -3347,7 +3510,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1023;
 		vrLoc = 0;
@@ -3520,7 +3683,7 @@
 		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
 		name = "FrittRegnskapViewController.h: 14";
 		rLen = 0;
-		rLoc = 382;
+		rLoc = 252;
 		rType = 0;
 		vrLen = 478;
 		vrLoc = 0;
@@ -3530,7 +3693,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 43";
 		rLen = 0;
-		rLoc = 1061;
+		rLoc = 835;
 		rType = 0;
 		vrLen = 1642;
 		vrLoc = 0;
@@ -3540,7 +3703,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 44";
 		rLen = 0;
-		rLoc = 1061;
+		rLoc = 835;
 		rType = 0;
 		vrLen = 1588;
 		vrLoc = 58;
@@ -3550,7 +3713,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1050;
 		vrLoc = 0;
@@ -3903,8 +4066,8 @@
 		isa = PBXTextBookmark;
 		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
 		name = "SetupView.m: 104";
-		rLen = 11;
-		rLoc = 2926;
+		rLen = 0;
+		rLoc = 3274;
 		rType = 0;
 		vrLen = 1758;
 		vrLoc = 1203;
@@ -3912,8 +4075,8 @@
 	9FC599A51213503200273FCC /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
-		rLen = 1;
-		rLoc = 66;
+		rLen = 0;
+		rLoc = 58;
 		rType = 1;
 	};
 	9FC599A61213503200273FCC /* PBXTextBookmark */ = {
@@ -3921,7 +4084,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 43";
 		rLen = 0;
-		rLoc = 1061;
+		rLoc = 835;
 		rType = 0;
 		vrLen = 1418;
 		vrLoc = 746;
@@ -3931,7 +4094,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1120;
 		vrLoc = 0;
@@ -4104,7 +4267,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 44";
 		rLen = 0;
-		rLoc = 1061;
+		rLoc = 835;
 		rType = 0;
 		vrLen = 1430;
 		vrLoc = 746;
@@ -4114,7 +4277,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -4287,7 +4450,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 44";
 		rLen = 0;
-		rLoc = 1061;
+		rLoc = 835;
 		rType = 0;
 		vrLen = 1430;
 		vrLoc = 746;
@@ -4297,7 +4460,7 @@
 		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
 		name = "FrittRegnskapViewController.h: 14";
 		rLen = 0;
-		rLoc = 382;
+		rLoc = 252;
 		rType = 0;
 		vrLen = 478;
 		vrLoc = 0;
@@ -4317,7 +4480,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -4490,7 +4653,7 @@
 		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
 		name = "FrittRegnskapViewController.h: 15";
 		rLen = 0;
-		rLoc = 382;
+		rLoc = 252;
 		rType = 0;
 		vrLen = 707;
 		vrLoc = 0;
@@ -4500,7 +4663,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -4673,7 +4836,7 @@
 		fRef = 9FBEC3F4120F3F780078170A /* SetupView.h */;
 		name = "SetupView.h: 20";
 		rLen = 0;
-		rLoc = 402;
+		rLoc = 487;
 		rType = 0;
 		vrLen = 287;
 		vrLoc = 278;
@@ -4847,7 +5010,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 142;
+		rLoc = 66;
 		rType = 1;
 	};
 	9FC599BF1213515500273FCC /* PBXTextBookmark */ = {
@@ -4855,7 +5018,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 93";
 		rLen = 0;
-		rLoc = 3893;
+		rLoc = 1481;
 		rType = 0;
 		vrLen = 92;
 		vrLoc = 2044;
@@ -4865,7 +5028,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 42";
 		rLen = 0;
-		rLoc = 1061;
+		rLoc = 835;
 		rType = 0;
 		vrLen = 1399;
 		vrLoc = 729;
@@ -5037,8 +5200,8 @@
 		isa = PBXTextBookmark;
 		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
 		name = "FrittRegnskapViewController.h: 22";
-		rLen = 43;
-		rLoc = 801;
+		rLen = 0;
+		rLoc = 254;
 		rType = 0;
 		vrLen = 751;
 		vrLoc = 0;
@@ -5047,8 +5210,8 @@
 		isa = PBXTextBookmark;
 		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
 		name = "FrittRegnskapViewController.h: 22";
-		rLen = 43;
-		rLoc = 801;
+		rLen = 0;
+		rLoc = 254;
 		rType = 0;
 		vrLen = 751;
 		vrLoc = 0;
@@ -5058,7 +5221,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1085;
 		vrLoc = 0;
@@ -5230,8 +5393,8 @@
 		isa = PBXTextBookmark;
 		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
 		name = "FrittRegnskapViewController.h: 17";
-		rLen = 26;
-		rLoc = 463;
+		rLen = 0;
+		rLoc = 252;
 		rType = 0;
 		vrLen = 853;
 		vrLoc = 0;
@@ -5241,7 +5404,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 90";
 		rLen = 0;
-		rLoc = 2350;
+		rLoc = 1454;
 		rType = 0;
 		vrLen = 1413;
 		vrLoc = 751;
@@ -5251,7 +5414,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 44";
 		rLen = 0;
-		rLoc = 1064;
+		rLoc = 838;
 		rType = 0;
 		vrLen = 1391;
 		vrLoc = 746;
@@ -5261,7 +5424,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1238;
 		vrLoc = 0;
@@ -5434,7 +5597,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 43";
 		rLen = 0;
-		rLoc = 1061;
+		rLoc = 835;
 		rType = 0;
 		vrLen = 1530;
 		vrLoc = 729;
@@ -5444,7 +5607,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1147;
 		vrLoc = 0;
@@ -5616,8 +5779,8 @@
 		isa = PBXTextBookmark;
 		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
 		name = "FrittRegnskapViewController.h: 16";
-		rLen = 22;
-		rLoc = 386;
+		rLen = 0;
+		rLoc = 252;
 		rType = 0;
 		vrLen = 853;
 		vrLoc = 0;
@@ -5627,7 +5790,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 46";
 		rLen = 0;
-		rLoc = 1061;
+		rLoc = 835;
 		rType = 0;
 		vrLen = 1552;
 		vrLoc = 843;
@@ -5637,7 +5800,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 46";
 		rLen = 0;
-		rLoc = 1061;
+		rLoc = 835;
 		rType = 0;
 		vrLen = 1640;
 		vrLoc = 755;
@@ -5647,7 +5810,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1274;
 		vrLoc = 0;
@@ -5820,7 +5983,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 19";
 		rLen = 0;
-		rLoc = 453;
+		rLoc = 268;
 		rType = 0;
 		vrLen = 1831;
 		vrLoc = 0;
@@ -5830,7 +5993,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1342;
 		vrLoc = 0;
@@ -6003,7 +6166,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 45";
 		rLen = 0;
-		rLoc = 1061;
+		rLoc = 835;
 		rType = 0;
 		vrLen = 1653;
 		vrLoc = 824;
@@ -6013,7 +6176,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1352;
 		vrLoc = 0;
@@ -6184,8 +6347,8 @@
 	9FC59A121213555700273FCC /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
-		rLen = 1;
-		rLoc = 81;
+		rLen = 0;
+		rLoc = 58;
 		rType = 1;
 	};
 	9FC59A131213555B00273FCC /* PBXTextBookmark */ = {
@@ -6193,7 +6356,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 97";
 		rLen = 0;
-		rLoc = 3893;
+		rLoc = 1481;
 		rType = 0;
 		vrLen = 223;
 		vrLoc = 2100;
@@ -6203,7 +6366,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 80";
 		rLen = 0;
-		rLoc = 1946;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1653;
 		vrLoc = 824;
@@ -6213,7 +6376,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1352;
 		vrLoc = 0;
@@ -6386,7 +6549,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 45";
 		rLen = 0;
-		rLoc = 1061;
+		rLoc = 835;
 		rType = 0;
 		vrLen = 1653;
 		vrLoc = 824;
@@ -6396,7 +6559,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1352;
 		vrLoc = 0;
@@ -6569,7 +6732,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 46";
 		rLen = 0;
-		rLoc = 1061;
+		rLoc = 835;
 		rType = 0;
 		vrLen = 1722;
 		vrLoc = 824;
@@ -6579,7 +6742,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1268;
 		vrLoc = 0;
@@ -6752,7 +6915,7 @@
 		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
 		name = "FrittRegnskapViewController.h: 24";
 		rLen = 0;
-		rLoc = 845;
+		rLoc = 254;
 		rType = 0;
 		vrLen = 853;
 		vrLoc = 0;
@@ -6762,7 +6925,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 54";
 		rLen = 0;
-		rLoc = 1064;
+		rLoc = 838;
 		rType = 0;
 		vrLen = 1740;
 		vrLoc = 934;
@@ -6772,7 +6935,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 63";
 		rLen = 0;
-		rLoc = 1345;
+		rLoc = 1119;
 		rType = 0;
 		vrLen = 1740;
 		vrLoc = 934;
@@ -6782,7 +6945,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1268;
 		vrLoc = 0;
@@ -6955,7 +7118,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 45";
 		rLen = 0;
-		rLoc = 1064;
+		rLoc = 838;
 		rType = 0;
 		vrLen = 1423;
 		vrLoc = 762;
@@ -6965,7 +7128,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1355;
 		vrLoc = 0;
@@ -7138,7 +7301,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 45";
 		rLen = 0;
-		rLoc = 1064;
+		rLoc = 838;
 		rType = 0;
 		vrLen = 1423;
 		vrLoc = 762;
@@ -7148,7 +7311,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1355;
 		vrLoc = 0;
@@ -7321,7 +7484,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 119";
 		rLen = 0;
-		rLoc = 3891;
+		rLoc = 1479;
 		rType = 0;
 		vrLen = 1850;
 		vrLoc = 1805;
@@ -7331,7 +7494,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1241;
 		vrLoc = 0;
@@ -7504,7 +7667,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 125";
 		rLen = 0;
-		rLoc = 3891;
+		rLoc = 1479;
 		rType = 0;
 		vrLen = 1862;
 		vrLoc = 1808;
@@ -7514,7 +7677,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 15";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 1355;
 		vrLoc = 0;
@@ -7687,7 +7850,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 137";
 		rLen = 0;
-		rLoc = 3893;
+		rLoc = 1481;
 		rType = 0;
 		vrLen = 372;
 		vrLoc = 1662;
@@ -7697,7 +7860,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 90";
 		rLen = 0;
-		rLoc = 3891;
+		rLoc = 1479;
 		rType = 0;
 		vrLen = 1862;
 		vrLoc = 1808;
@@ -7707,7 +7870,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 119";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 1479;
 		rType = 0;
 		vrLen = 1850;
 		vrLoc = 1805;
@@ -7717,7 +7880,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 119";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 1479;
 		rType = 0;
 		vrLen = 1850;
 		vrLoc = 1805;
@@ -8216,7 +8379,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 119";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 1479;
 		rType = 0;
 		vrLen = 1849;
 		vrLoc = 1805;
@@ -8226,7 +8389,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 119";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 1479;
 		rType = 0;
 		vrLen = 1723;
 		vrLoc = 1952;
@@ -8236,7 +8399,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 119";
 		rLen = 0;
-		rLoc = 3332;
+		rLoc = 1479;
 		rType = 0;
 		vrLen = 1722;
 		vrLoc = 1952;
@@ -8246,7 +8409,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 119";
 		rLen = 0;
-		rLoc = 3332;
+		rLoc = 1479;
 		rType = 0;
 		vrLen = 1722;
 		vrLoc = 1952;
@@ -8256,7 +8419,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 140";
 		rLen = 0;
-		rLoc = 3893;
+		rLoc = 1481;
 		rType = 0;
 		vrLen = 345;
 		vrLoc = 1058;
@@ -8429,7 +8592,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 79";
 		rLen = 0;
-		rLoc = 2128;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1688;
 		vrLoc = 1147;
@@ -8439,7 +8602,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 140";
 		rLen = 0;
-		rLoc = 3893;
+		rLoc = 1481;
 		rType = 0;
 		vrLen = 485;
 		vrLoc = 1064;
@@ -8449,7 +8612,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 140";
 		rLen = 0;
-		rLoc = 3893;
+		rLoc = 1481;
 		rType = 0;
 		vrLen = 485;
 		vrLoc = 1064;
@@ -8459,7 +8622,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 76";
 		rLen = 0;
-		rLoc = 1999;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1688;
 		vrLoc = 1147;
@@ -8469,7 +8632,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 79";
 		rLen = 0;
-		rLoc = 1999;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1620;
 		vrLoc = 1147;
@@ -8479,7 +8642,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 79";
 		rLen = 0;
-		rLoc = 1999;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1661;
 		vrLoc = 1147;
@@ -8489,7 +8652,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 79";
 		rLen = 0;
-		rLoc = 1999;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1661;
 		vrLoc = 1147;
@@ -8498,8 +8661,8 @@
 		isa = PBXTextBookmark;
 		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
 		name = "SetupView.m: 104";
-		rLen = 11;
-		rLoc = 2926;
+		rLen = 0;
+		rLoc = 3274;
 		rType = 0;
 		vrLen = 1787;
 		vrLoc = 1174;
@@ -8528,7 +8691,7 @@
 		isa = PBXTextBookmark;
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		rLen = 0;
-		rLoc = 72;
+		rLoc = 58;
 		rType = 1;
 	};
 	9FC59B041214678600273FCC /* PBXTextBookmark */ = {
@@ -8536,7 +8699,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 78";
 		rLen = 0;
-		rLoc = 1949;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1567;
 		vrLoc = 1147;
@@ -8566,7 +8729,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 78";
 		rLen = 0;
-		rLoc = 1949;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1567;
 		vrLoc = 1147;
@@ -8576,7 +8739,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 74";
 		rLen = 0;
-		rLoc = 1946;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1604;
 		vrLoc = 1147;
@@ -8606,7 +8769,7 @@
 		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
 		name = "FrittRegnskapViewController.h: 24";
 		rLen = 0;
-		rLoc = 845;
+		rLoc = 254;
 		rType = 0;
 		vrLen = 853;
 		vrLoc = 0;
@@ -8616,7 +8779,7 @@
 		fRef = 1D3623240D0F684500981E51 /* FrittRegnskapAppDelegate.h */;
 		name = "FrittRegnskapAppDelegate.h: 20";
 		rLen = 0;
-		rLoc = 508;
+		rLoc = 1132;
 		rType = 0;
 		vrLen = 515;
 		vrLoc = 0;
@@ -8626,7 +8789,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 74";
 		rLen = 0;
-		rLoc = 1946;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1680;
 		vrLoc = 1068;
@@ -8636,7 +8799,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 73";
 		rLen = 0;
-		rLoc = 1923;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1745;
 		vrLoc = 1486;
@@ -8646,7 +8809,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 73";
 		rLen = 0;
-		rLoc = 1885;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1586;
 		vrLoc = 820;
@@ -8656,7 +8819,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 73";
 		rLen = 0;
-		rLoc = 1885;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1580;
 		vrLoc = 820;
@@ -8687,7 +8850,7 @@
 					chosenTableWidths = (
 						103.000000,
 						55.000000,
-						152.080078,
+						153.080078,
 					);
 				};
 				UIContextForLayoutManager = {
@@ -8697,8 +8860,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {1012, 220}}",
-							"{{1017, 0}, {533, 220}}",
+							"{{0, 0}, {1012, 218}}",
+							"{{1017, 0}, {533, 218}}",
 						);
 					};
 					diagramSplitGeometry = {
@@ -8717,8 +8880,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {335, 218}}",
-							"{{340, 0}, {670, 218}}",
+							"{{0, 0}, {336, 218}}",
+							"{{341, 0}, {671, 218}}",
 						);
 					};
 				};
@@ -8807,7 +8970,7 @@
 					chosenTableWidthsPT = (
 						128.000000,
 						108.110840,
-						407.570801,
+						408.570801,
 					);
 					chosenTableWidthsRT = (
 						128.000000,
@@ -8824,7 +8987,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 98";
 		rLen = 0;
-		rLoc = 2641;
+		rLoc = 1479;
 		rType = 0;
 		vrLen = 1781;
 		vrLoc = 1993;
@@ -8841,7 +9004,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 89";
 		rLen = 0;
-		rLoc = 2408;
+		rLoc = 1476;
 		rType = 0;
 		vrLen = 1781;
 		vrLoc = 1993;
@@ -8851,7 +9014,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 126";
 		rLen = 0;
-		rLoc = 3695;
+		rLoc = 1479;
 		rType = 0;
 		vrLen = 2007;
 		vrLoc = 1752;
@@ -8896,7 +9059,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 97";
 		rLen = 0;
-		rLoc = 2557;
+		rLoc = 1479;
 		rType = 0;
 		vrLen = 1708;
 		vrLoc = 2058;
@@ -8906,7 +9069,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 88";
 		rLen = 0;
-		rLoc = 2387;
+		rLoc = 1455;
 		rType = 0;
 		vrLen = 1645;
 		vrLoc = 2121;
@@ -8916,7 +9079,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 74";
 		rLen = 0;
-		rLoc = 1949;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1873;
 		vrLoc = 1576;
@@ -8926,7 +9089,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 76";
 		rLen = 0;
-		rLoc = 2025;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1873;
 		vrLoc = 1576;
@@ -9111,7 +9274,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 138";
 		rLen = 0;
-		rLoc = 3893;
+		rLoc = 1481;
 		rType = 0;
 		vrLen = 487;
 		vrLoc = 1062;
@@ -9284,7 +9447,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 85";
 		rLen = 0;
-		rLoc = 2257;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1823;
 		vrLoc = 2065;
@@ -9294,7 +9457,7 @@
 		fRef = 1D3623240D0F684500981E51 /* FrittRegnskapAppDelegate.h */;
 		name = "FrittRegnskapAppDelegate.h: 20";
 		rLen = 0;
-		rLoc = 508;
+		rLoc = 1132;
 		rType = 0;
 		vrLen = 515;
 		vrLoc = 0;
@@ -9492,7 +9655,7 @@
 		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
 		name = "FrittRegnskapViewController.h: 24";
 		rLen = 0;
-		rLoc = 845;
+		rLoc = 254;
 		rType = 0;
 		vrLen = 853;
 		vrLoc = 0;
@@ -9502,7 +9665,7 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 73";
 		rLen = 0;
-		rLoc = 1862;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1597;
 		vrLoc = 1549;
@@ -9512,9 +9675,2185 @@
 		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
 		name = "FrittRegnskapViewController.m: 87";
 		rLen = 0;
-		rLoc = 2262;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1649;
 		vrLoc = 1552;
+	};
+	9FC59BA612146FC500273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC59BA712146FC500273FCC /* CourseMembership.h */;
+		name = "CourseMembership.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 365;
+		vrLoc = 0;
+	};
+	9FC59BA712146FC500273FCC /* CourseMembership.h */ = {
+		isa = PBXFileReference;
+		name = CourseMembership.h;
+		path = /Users/knuterikborgen/kode/iphone/RegnskapAdminIphone/Classes/model/CourseMembership.h;
+		sourceTree = "<absolute>";
+	};
+	9FC59BA812146FC500273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC59BA912146FC500273FCC /* CourseMembership.m */;
+		name = "CourseMembership.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 278;
+		vrLoc = 0;
+	};
+	9FC59BA912146FC500273FCC /* CourseMembership.m */ = {
+		isa = PBXFileReference;
+		name = CourseMembership.m;
+		path = /Users/knuterikborgen/kode/iphone/RegnskapAdminIphone/Classes/model/CourseMembership.m;
+		sourceTree = "<absolute>";
+	};
+	9FC59BAA12146FC500273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC59BAB12146FC500273FCC /* Person.h */;
+		name = "Person.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1020;
+		vrLoc = 0;
+	};
+	9FC59BAB12146FC500273FCC /* Person.h */ = {
+		isa = PBXFileReference;
+		name = Person.h;
+		path = /Users/knuterikborgen/kode/iphone/RegnskapAdminIphone/Classes/model/Person.h;
+		sourceTree = "<absolute>";
+	};
+	9FC59BAC12146FC500273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC59BAD12146FC500273FCC /* Person.m */;
+		name = "Person.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 480;
+		vrLoc = 0;
+	};
+	9FC59BAD12146FC500273FCC /* Person.m */ = {
+		isa = PBXFileReference;
+		name = Person.m;
+		path = /Users/knuterikborgen/kode/iphone/RegnskapAdminIphone/Classes/model/Person.m;
+		sourceTree = "<absolute>";
+	};
+	9FC59BAE12146FC500273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC59BAF12146FC500273FCC /* Semester.h */;
+		name = "Semester.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 421;
+		vrLoc = 0;
+	};
+	9FC59BAF12146FC500273FCC /* Semester.h */ = {
+		isa = PBXFileReference;
+		name = Semester.h;
+		path = /Users/knuterikborgen/kode/iphone/RegnskapAdminIphone/Classes/model/Semester.h;
+		sourceTree = "<absolute>";
+	};
+	9FC59BB012146FC500273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC59BB112146FC500273FCC /* Semester.m */;
+		name = "Semester.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 263;
+		vrLoc = 0;
+	};
+	9FC59BB112146FC500273FCC /* Semester.m */ = {
+		isa = PBXFileReference;
+		name = Semester.m;
+		path = /Users/knuterikborgen/kode/iphone/RegnskapAdminIphone/Classes/model/Semester.m;
+		sourceTree = "<absolute>";
+	};
+	9FC59BB212146FC500273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC59BB312146FC500273FCC /* YearMembership.m */;
+		name = "YearMembership.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 284;
+		vrLoc = 0;
+	};
+	9FC59BB312146FC500273FCC /* YearMembership.m */ = {
+		isa = PBXFileReference;
+		name = YearMembership.m;
+		path = /Users/knuterikborgen/kode/iphone/RegnskapAdminIphone/Classes/model/YearMembership.m;
+		sourceTree = "<absolute>";
+	};
+	9FC59BB412146FC500273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC5988612132AF600273FCC /* CourseMembership.h */;
+		name = "CourseMembership.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 365;
+		vrLoc = 0;
+	};
+	9FC59BB512146FC500273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
+		name = "FrittRegnskapViewController.h: 24";
+		rLen = 0;
+		rLoc = 254;
+		rType = 0;
+		vrLen = 853;
+		vrLoc = 0;
+	};
+	9FC59BB612146FC500273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F924A8612100A8A007DB7F1 /* JSON.h */;
+		name = "JSON.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2878;
+		vrLoc = 0;
+	};
+	9FC59BB712146FC500273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC59BB812146FC500273FCC /* YearMembership.h */;
+		name = "YearMembership.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 398;
+		vrLoc = 0;
+	};
+	9FC59BB812146FC500273FCC /* YearMembership.h */ = {
+		isa = PBXFileReference;
+		name = YearMembership.h;
+		path = /Users/knuterikborgen/kode/iphone/RegnskapAdminIphone/Classes/model/YearMembership.h;
+		sourceTree = "<absolute>";
+	};
+	9FC59BB912146FC500273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 104";
+		rLen = 0;
+		rLoc = 3274;
+		rType = 0;
+		vrLen = 1758;
+		vrLoc = 1203;
+	};
+	9FC59BBA12146FC500273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FrittRegnskapAppDelegate.m */;
+		name = "FrittRegnskapAppDelegate.m: 10";
+		rLen = 0;
+		rLoc = 210;
+		rType = 0;
+		vrLen = 2251;
+		vrLoc = 0;
+	};
+	9FC59BBB12146FC500273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* FrittRegnskapAppDelegate.h */;
+		name = "FrittRegnskapAppDelegate.h: 20";
+		rLen = 0;
+		rLoc = 1132;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	9FC59BBC12146FC500273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
+		name = "FrittRegnskapViewController.m: 86";
+		rLen = 0;
+		rLoc = 1435;
+		rType = 0;
+		vrLen = 1635;
+		vrLoc = 1551;
+	};
+	9FC59BBD12146FC500273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
+		name = "FrittRegnskapViewController.m: 78";
+		rLen = 0;
+		rLoc = 1435;
+		rType = 0;
+		vrLen = 1655;
+		vrLoc = 936;
+	};
+	9FC59BC81214710D00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
+		name = "FrittRegnskapViewController.m: 78";
+		rLen = 0;
+		rLoc = 1435;
+		rType = 0;
+		vrLen = 1513;
+		vrLoc = 1658;
+	};
+	9FC59BD5121471A300273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
+		name = "FrittRegnskapViewController.m: 78";
+		rLen = 0;
+		rLoc = 1435;
+		rType = 0;
+		vrLen = 1513;
+		vrLoc = 1658;
+	};
+	9FC59BD6121471A300273FCC /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 9FC59B2F121469EE00273FCC /* FrittRegnskap.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+		uiCtxt = {
+			UIContextForDetailArea = {
+				_indexOfSelectedPane = 0;
+				_indexOfSelectedView = 0;
+			};
+			UIContextForEntityArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnns = (
+					"ET Entity",
+					"ET Abstract",
+					"ET Class",
+				);
+				chosenTableColumnns_sortDirections = (
+					YES,
+				);
+				chosenTableColumnns_sortKeys = (
+					name,
+				);
+				chosenTableColumnns_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidths = (
+					103.000000,
+					55.000000,
+					153.080078,
+				);
+			};
+			UIContextForLayoutManager = {
+				detailSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {1012, 218}}",
+						"{{1017, 0}, {533, 218}}",
+					);
+				};
+				diagramSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {1550, 220}}",
+						"{{0, 225}, {1550, 642}}",
+					);
+				};
+				tableSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {336, 218}}",
+						"{{341, 0}, {671, 218}}",
+					);
+				};
+			};
+			UIContextForPropertyArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnnFRTs = (
+					"FT Fetch Request",
+					"FT Predicate",
+				);
+				chosenTableColumnnFRTs_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnFRTs_sortKeys = (
+					name,
+				);
+				chosenTableColumnnFRTs_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsAT = (
+					"AT Attribute",
+					"AT Type",
+				);
+				chosenTableColumnnsAT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsAT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsAT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsFPT = (
+					"FP FetchedProperty",
+					"FP Destination",
+					"FP Predicate",
+				);
+				chosenTableColumnnsFPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsFPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsFPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsPT = (
+					"PT Property",
+					"PT Kind",
+					"PT SharedKeyOne",
+				);
+				chosenTableColumnnsPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsRT = (
+					"RT Relationship",
+					"RT Destination",
+				);
+				chosenTableColumnnsRT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsRT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsRT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidthsAT = (
+					128.000000,
+					64.000000,
+				);
+				chosenTableWidthsFPT = (
+					128.000000,
+					64.000000,
+					144.764160,
+				);
+				chosenTableWidthsFRT = (
+					128.000000,
+					249.764160,
+				);
+				chosenTableWidthsPT = (
+					128.000000,
+					108.110840,
+					408.570801,
+				);
+				chosenTableWidthsRT = (
+					128.000000,
+					64.000000,
+				);
+			};
+			"xdesign model browser state key - shown/hidden" = 1;
+			"xdesign model diagram view visible rect key" = "{{-444, -98}, {1535, 627}}";
+			"xdesign model selected entities key" = (
+				"<XDPMEntity: 0x200abfe40>{name=Person, package=}",
+			);
+			"xdesign model selected properties key" = (
+				"<XDPMAttribute: 0x201ee4480>{name=secretaddress, type=(null)}",
+			);
+		};
+	};
+	9FC59BD7121471A300273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC5988812132AF600273FCC /* Person.h */;
+		name = "Person.h: 32";
+		rLen = 13;
+		rLoc = 1056;
+		rType = 0;
+		vrLen = 1075;
+		vrLoc = 0;
+	};
+	9FC59BD8121471A300273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC5988912132AF600273FCC /* Person.m */;
+		name = "Person.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 480;
+		vrLoc = 0;
+	};
+	9FC59BD9121471A300273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC5988912132AF600273FCC /* Person.m */;
+		name = "Person.m: 31";
+		rLen = 0;
+		rLoc = 498;
+		rType = 0;
+		vrLen = 504;
+		vrLoc = 0;
+	};
+	9FC59BE5121471EA00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC5988912132AF600273FCC /* Person.m */;
+		name = "Person.m: 31";
+		rLen = 0;
+		rLoc = 498;
+		rType = 0;
+		vrLen = 504;
+		vrLoc = 0;
+	};
+	9FC59BE6121471EA00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F581500120EC21B00C2D93D /* MainView.m */;
+		name = "MainView.m: 5";
+		rLen = 12;
+		rLoc = 85;
+		rType = 0;
+		vrLen = 781;
+		vrLoc = 0;
+	};
+	9FC59BE7121471EA00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F581500120EC21B00C2D93D /* MainView.m */;
+		name = "MainView.m: 5";
+		rLen = 12;
+		rLoc = 85;
+		rType = 0;
+		vrLen = 781;
+		vrLoc = 0;
+	};
+	9FC59BF3121472CE00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F581500120EC21B00C2D93D /* MainView.m */;
+		name = "MainView.m: 5";
+		rLen = 12;
+		rLoc = 85;
+		rType = 0;
+		vrLen = 781;
+		vrLoc = 0;
+	};
+	9FC59BF4121472CE00273FCC /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 9FC59B2F121469EE00273FCC /* FrittRegnskap.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+		uiCtxt = {
+			UIContextForDetailArea = {
+				_indexOfSelectedPane = 0;
+				_indexOfSelectedView = 1;
+			};
+			UIContextForEntityArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnns = (
+					"ET Entity",
+					"ET Abstract",
+					"ET Class",
+				);
+				chosenTableColumnns_sortDirections = (
+					YES,
+				);
+				chosenTableColumnns_sortKeys = (
+					name,
+				);
+				chosenTableColumnns_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidths = (
+					103.000000,
+					55.000000,
+					153.080078,
+				);
+			};
+			UIContextForLayoutManager = {
+				detailSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {1012, 218}}",
+						"{{1017, 0}, {533, 218}}",
+					);
+				};
+				diagramSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {1550, 220}}",
+						"{{0, 225}, {1550, 619}}",
+					);
+				};
+				tableSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {336, 218}}",
+						"{{341, 0}, {671, 218}}",
+					);
+				};
+			};
+			UIContextForPropertyArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnnFRTs = (
+					"FT Fetch Request",
+					"FT Predicate",
+				);
+				chosenTableColumnnFRTs_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnFRTs_sortKeys = (
+					name,
+				);
+				chosenTableColumnnFRTs_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsAT = (
+					"AT Attribute",
+					"AT Type",
+				);
+				chosenTableColumnnsAT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsAT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsAT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsFPT = (
+					"FP FetchedProperty",
+					"FP Destination",
+					"FP Predicate",
+				);
+				chosenTableColumnnsFPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsFPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsFPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsPT = (
+					"PT Property",
+					"PT Kind",
+					"PT SharedKeyOne",
+				);
+				chosenTableColumnnsPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsRT = (
+					"RT Relationship",
+					"RT Destination",
+				);
+				chosenTableColumnnsRT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsRT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsRT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidthsAT = (
+					128.000000,
+					64.000000,
+				);
+				chosenTableWidthsFPT = (
+					128.000000,
+					64.000000,
+					144.764160,
+				);
+				chosenTableWidthsFRT = (
+					128.000000,
+					249.764160,
+				);
+				chosenTableWidthsPT = (
+					128.000000,
+					108.110840,
+					408.570801,
+				);
+				chosenTableWidthsRT = (
+					128.000000,
+					64.000000,
+				);
+			};
+			"xdesign model browser state key - shown/hidden" = 1;
+			"xdesign model diagram view visible rect key" = "{{-444, -86}, {1535, 604}}";
+			"xdesign model selected entities key" = (
+				"<XDPMEntity: 0x200abfe40>{name=Person, package=}",
+			);
+			"xdesign model selected properties key" = (
+				"<XDPMAttribute: 0x200aa0660>{name=newsletter, type=(null)}",
+			);
+		};
+	};
+	9FC59BF5121472CE00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC5988B12132AF600273FCC /* Semester.m */;
+		name = "Semester.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 263;
+		vrLoc = 0;
+	};
+	9FC59BF6121472CE00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC5988912132AF600273FCC /* Person.m */;
+		name = "Person.m: 31";
+		rLen = 0;
+		rLoc = 498;
+		rType = 0;
+		vrLen = 504;
+		vrLoc = 0;
+	};
+	9FC59BF7121472CE00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC5988812132AF600273FCC /* Person.h */;
+		name = "Person.h: 32";
+		rLen = 13;
+		rLoc = 1056;
+		rType = 0;
+		vrLen = 1075;
+		vrLoc = 0;
+	};
+	9FC59BF8121472CE00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC5988812132AF600273FCC /* Person.h */;
+		name = "Person.h: 21";
+		rLen = 0;
+		rLoc = 496;
+		rType = 0;
+		vrLen = 1075;
+		vrLoc = 0;
+	};
+	9FC59C041214737200273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC5988812132AF600273FCC /* Person.h */;
+		name = "Person.h: 22";
+		rLen = 0;
+		rLoc = 553;
+		rType = 0;
+		vrLen = 1077;
+		vrLoc = 0;
+	};
+	9FC59C051214737200273FCC /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 9FC59B2F121469EE00273FCC /* FrittRegnskap.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+		uiCtxt = {
+			UIContextForDetailArea = {
+				_indexOfSelectedPane = 0;
+				_indexOfSelectedView = 1;
+			};
+			UIContextForEntityArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnns = (
+					"ET Entity",
+					"ET Abstract",
+					"ET Class",
+				);
+				chosenTableColumnns_sortDirections = (
+					YES,
+				);
+				chosenTableColumnns_sortKeys = (
+					name,
+				);
+				chosenTableColumnns_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidths = (
+					103.000000,
+					55.000000,
+					153.080078,
+				);
+			};
+			UIContextForLayoutManager = {
+				detailSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {1012, 218}}",
+						"{{1017, 0}, {533, 218}}",
+					);
+				};
+				diagramSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {1550, 220}}",
+						"{{0, 225}, {1550, 619}}",
+					);
+				};
+				tableSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {336, 218}}",
+						"{{341, 0}, {671, 218}}",
+					);
+				};
+			};
+			UIContextForPropertyArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnnFRTs = (
+					"FT Fetch Request",
+					"FT Predicate",
+				);
+				chosenTableColumnnFRTs_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnFRTs_sortKeys = (
+					name,
+				);
+				chosenTableColumnnFRTs_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsAT = (
+					"AT Attribute",
+					"AT Type",
+				);
+				chosenTableColumnnsAT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsAT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsAT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsFPT = (
+					"FP FetchedProperty",
+					"FP Destination",
+					"FP Predicate",
+				);
+				chosenTableColumnnsFPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsFPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsFPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsPT = (
+					"PT Property",
+					"PT Kind",
+					"PT SharedKeyOne",
+				);
+				chosenTableColumnnsPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsRT = (
+					"RT Relationship",
+					"RT Destination",
+				);
+				chosenTableColumnnsRT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsRT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsRT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidthsAT = (
+					128.000000,
+					64.000000,
+				);
+				chosenTableWidthsFPT = (
+					128.000000,
+					64.000000,
+					144.764160,
+				);
+				chosenTableWidthsFRT = (
+					128.000000,
+					249.764160,
+				);
+				chosenTableWidthsPT = (
+					128.000000,
+					108.110840,
+					408.570801,
+				);
+				chosenTableWidthsRT = (
+					128.000000,
+					64.000000,
+				);
+			};
+			"xdesign model browser state key - shown/hidden" = 1;
+			"xdesign model diagram view visible rect key" = "{{-444, -86}, {1535, 604}}";
+			"xdesign model selected entities key" = (
+				"<XDPMEntity: 0x200abfe40>{name=Person, package=}",
+			);
+			"xdesign model selected properties key" = (
+				"<XDPMAttribute: 0x200aa0660>{name=newsletter, type=(null)}",
+			);
+		};
+	};
+	9FC59C061214737200273FCC /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 9FC59B2F121469EE00273FCC /* FrittRegnskap.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+		uiCtxt = {
+			UIContextForDetailArea = {
+				_indexOfSelectedPane = 0;
+				_indexOfSelectedView = 1;
+			};
+			UIContextForEntityArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnns = (
+					"ET Entity",
+					"ET Abstract",
+					"ET Class",
+				);
+				chosenTableColumnns_sortDirections = (
+					YES,
+				);
+				chosenTableColumnns_sortKeys = (
+					name,
+				);
+				chosenTableColumnns_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidths = (
+					103.000000,
+					55.000000,
+					153.080078,
+				);
+			};
+			UIContextForLayoutManager = {
+				detailSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {1012, 218}}",
+						"{{1017, 0}, {533, 218}}",
+					);
+				};
+				diagramSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {1550, 220}}",
+						"{{0, 225}, {1550, 619}}",
+					);
+				};
+				tableSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {336, 218}}",
+						"{{341, 0}, {671, 218}}",
+					);
+				};
+			};
+			UIContextForPropertyArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnnFRTs = (
+					"FT Fetch Request",
+					"FT Predicate",
+				);
+				chosenTableColumnnFRTs_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnFRTs_sortKeys = (
+					name,
+				);
+				chosenTableColumnnFRTs_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsAT = (
+					"AT Attribute",
+					"AT Type",
+				);
+				chosenTableColumnnsAT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsAT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsAT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsFPT = (
+					"FP FetchedProperty",
+					"FP Destination",
+					"FP Predicate",
+				);
+				chosenTableColumnnsFPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsFPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsFPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsPT = (
+					"PT Property",
+					"PT Kind",
+					"PT SharedKeyOne",
+				);
+				chosenTableColumnnsPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsRT = (
+					"RT Relationship",
+					"RT Destination",
+				);
+				chosenTableColumnnsRT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsRT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsRT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidthsAT = (
+					128.000000,
+					64.000000,
+				);
+				chosenTableWidthsFPT = (
+					128.000000,
+					64.000000,
+					144.764160,
+				);
+				chosenTableWidthsFRT = (
+					128.000000,
+					249.764160,
+				);
+				chosenTableWidthsPT = (
+					128.000000,
+					108.110840,
+					408.570801,
+				);
+				chosenTableWidthsRT = (
+					128.000000,
+					64.000000,
+				);
+			};
+			"xdesign model browser state key - shown/hidden" = 1;
+			"xdesign model diagram view visible rect key" = "{{-444, -86}, {1535, 604}}";
+			"xdesign model selected entities key" = (
+				"<XDPMEntity: 0x200abfe40>{name=Person, package=}",
+			);
+			"xdesign model selected properties key" = (
+				"<XDPMAttribute: 0x200a91040>{name=lastedit, type=(null)}",
+			);
+		};
+	};
+	9FC59C13121474AE00273FCC /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 9FC59B2F121469EE00273FCC /* FrittRegnskap.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+		uiCtxt = {
+			UIContextForDetailArea = {
+				_indexOfSelectedPane = 0;
+				_indexOfSelectedView = 1;
+			};
+			UIContextForEntityArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnns = (
+					"ET Entity",
+					"ET Abstract",
+					"ET Class",
+				);
+				chosenTableColumnns_sortDirections = (
+					YES,
+				);
+				chosenTableColumnns_sortKeys = (
+					name,
+				);
+				chosenTableColumnns_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidths = (
+					103.000000,
+					55.000000,
+					153.080078,
+				);
+			};
+			UIContextForLayoutManager = {
+				detailSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {1012, 218}}",
+						"{{1017, 0}, {533, 218}}",
+					);
+				};
+				diagramSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {1550, 220}}",
+						"{{0, 225}, {1550, 619}}",
+					);
+				};
+				tableSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {336, 218}}",
+						"{{341, 0}, {671, 218}}",
+					);
+				};
+			};
+			UIContextForPropertyArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnnFRTs = (
+					"FT Fetch Request",
+					"FT Predicate",
+				);
+				chosenTableColumnnFRTs_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnFRTs_sortKeys = (
+					name,
+				);
+				chosenTableColumnnFRTs_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsAT = (
+					"AT Attribute",
+					"AT Type",
+				);
+				chosenTableColumnnsAT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsAT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsAT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsFPT = (
+					"FP FetchedProperty",
+					"FP Destination",
+					"FP Predicate",
+				);
+				chosenTableColumnnsFPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsFPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsFPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsPT = (
+					"PT Property",
+					"PT Kind",
+					"PT SharedKeyOne",
+				);
+				chosenTableColumnnsPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsRT = (
+					"RT Relationship",
+					"RT Destination",
+				);
+				chosenTableColumnnsRT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsRT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsRT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidthsAT = (
+					128.000000,
+					64.000000,
+				);
+				chosenTableWidthsFPT = (
+					128.000000,
+					64.000000,
+					144.764160,
+				);
+				chosenTableWidthsFRT = (
+					128.000000,
+					249.764160,
+				);
+				chosenTableWidthsPT = (
+					128.000000,
+					108.110840,
+					408.570801,
+				);
+				chosenTableWidthsRT = (
+					128.000000,
+					64.000000,
+				);
+			};
+			"xdesign model browser state key - shown/hidden" = 1;
+			"xdesign model diagram view visible rect key" = "{{-444, -86}, {1535, 604}}";
+			"xdesign model selected entities key" = (
+				"<XDPMEntity: 0x200abfe40>{name=Person, package=}",
+			);
+			"xdesign model selected properties key" = (
+				"<XDPMAttribute: 0x200a85480>{name=birthdate, type=(null)}",
+			);
+		};
+	};
+	9FC59C14121474AE00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F5814FF120EC21B00C2D93D /* MainView.h */;
+		name = "MainView.h: 5";
+		rLen = 0;
+		rLoc = 97;
+		rType = 0;
+		vrLen = 345;
+		vrLoc = 0;
+	};
+	9FC59C15121474AE00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 104";
+		rLen = 0;
+		rLoc = 3274;
+		rType = 0;
+		vrLen = 1731;
+		vrLoc = 1230;
+	};
+	9FC59C16121474AE00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
+		name = "FrittRegnskapViewController.m: 78";
+		rLen = 0;
+		rLoc = 1435;
+		rType = 0;
+		vrLen = 1476;
+		vrLoc = 1658;
+	};
+	9FC59C17121474AE00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* FrittRegnskapAppDelegate.h */;
+		name = "FrittRegnskapAppDelegate.h: 20";
+		rLen = 0;
+		rLoc = 1132;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	9FC59C18121474AE00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC5988912132AF600273FCC /* Person.m */;
+		name = "Person.m: 31";
+		rLen = 0;
+		rLoc = 498;
+		rType = 0;
+		vrLen = 504;
+		vrLoc = 0;
+	};
+	9FC59C19121474AE00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC5988812132AF600273FCC /* Person.h */;
+		name = "Person.h: 22";
+		rLen = 0;
+		rLoc = 553;
+		rType = 0;
+		vrLen = 1077;
+		vrLoc = 0;
+	};
+	9FC59C1A121474AE00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC5988812132AF600273FCC /* Person.h */;
+		name = "Person.h: 24";
+		rLen = 0;
+		rLoc = 656;
+		rType = 0;
+		vrLen = 1079;
+		vrLoc = 0;
+	};
+	9FC59C301214923200273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC5988812132AF600273FCC /* Person.h */;
+		name = "Person.h: 24";
+		rLen = 0;
+		rLoc = 656;
+		rType = 0;
+		vrLen = 1079;
+		vrLoc = 0;
+	};
+	9FC59C311214923200273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC59C321214923200273FCC /* NSArray.h */;
+		name = "NSArray.h: 14";
+		rLen = 0;
+		rLoc = 311;
+		rType = 0;
+		vrLen = 3107;
+		vrLoc = 0;
+	};
+	9FC59C321214923200273FCC /* NSArray.h */ = {
+		isa = PBXFileReference;
+		name = NSArray.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h;
+		sourceTree = "<absolute>";
+	};
+	9FC59C331214923200273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FrittRegnskapAppDelegate.m */;
+		name = "FrittRegnskapAppDelegate.m: 10";
+		rLen = 0;
+		rLoc = 210;
+		rType = 0;
+		vrLen = 2180;
+		vrLoc = 0;
+	};
+	9FC59C341214923200273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
+		name = "FrittRegnskapViewController.h: 16";
+		rLen = 0;
+		rLoc = 252;
+		rType = 0;
+		vrLen = 880;
+		vrLoc = 0;
+	};
+	9FC59C351214923200273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
+		name = "FrittRegnskapViewController.m: 94";
+		rLen = 0;
+		rLoc = 1435;
+		rType = 0;
+		vrLen = 1515;
+		vrLoc = 1658;
+	};
+	9FC59C361214923200273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
+		name = "FrittRegnskapViewController.m: 97";
+		rLen = 0;
+		rLoc = 1435;
+		rType = 0;
+		vrLen = 1562;
+		vrLoc = 1658;
+	};
+	9FC59C3C1214926C00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
+		name = "FrittRegnskapViewController.m: 97";
+		rLen = 0;
+		rLoc = 1435;
+		rType = 0;
+		vrLen = 1628;
+		vrLoc = 0;
+	};
+	9FC59C3D1214926C00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 104";
+		rLen = 0;
+		rLoc = 3274;
+		rType = 0;
+		vrLen = 1731;
+		vrLoc = 1230;
+	};
+	9FC59C3E1214926C00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 59";
+		rLen = 0;
+		rLoc = 1391;
+		rType = 0;
+		vrLen = 2094;
+		vrLoc = 856;
+	};
+	9FC59C451214937F00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 59";
+		rLen = 0;
+		rLoc = 1391;
+		rType = 0;
+		vrLen = 1671;
+		vrLoc = 0;
+	};
+	9FC59C461214937F00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F5814FF120EC21B00C2D93D /* MainView.h */;
+		name = "MainView.h: 17";
+		rLen = 36;
+		rLoc = 397;
+		rType = 0;
+		vrLen = 382;
+		vrLoc = 0;
+	};
+	9FC59C471214937F00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F581500120EC21B00C2D93D /* MainView.m */;
+		name = "MainView.m: 5";
+		rLen = 12;
+		rLoc = 85;
+		rType = 0;
+		vrLen = 781;
+		vrLoc = 0;
+	};
+	9FC59C481214937F00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F581500120EC21B00C2D93D /* MainView.m */;
+		name = "MainView.m: 30";
+		rLen = 0;
+		rLoc = 744;
+		rType = 0;
+		vrLen = 822;
+		vrLoc = 0;
+	};
+	9FC59C4F121496D000273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
+		name = "FrittRegnskapViewController.m: 160";
+		rLen = 0;
+		rLoc = 1481;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 1058;
+	};
+	9FC59C57121496DD00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F5814FF120EC21B00C2D93D /* MainView.h */;
+		name = "MainView.h: 13";
+		rLen = 0;
+		rLoc = 324;
+		rType = 0;
+		vrLen = 382;
+		vrLoc = 0;
+	};
+	9FC59C58121496DD00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F581500120EC21B00C2D93D /* MainView.m */;
+		name = "MainView.m: 30";
+		rLen = 0;
+		rLoc = 744;
+		rType = 0;
+		vrLen = 822;
+		vrLoc = 0;
+	};
+	9FC59C59121496DD00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FrittRegnskapAppDelegate.m */;
+		name = "FrittRegnskapAppDelegate.m: 10";
+		rLen = 0;
+		rLoc = 210;
+		rType = 0;
+		vrLen = 2251;
+		vrLoc = 0;
+	};
+	9FC59C5A121496DD00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
+		name = "FrittRegnskapViewController.h: 16";
+		rLen = 0;
+		rLoc = 252;
+		rType = 0;
+		vrLen = 880;
+		vrLoc = 0;
+	};
+	9FC59C5B121496DD00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
+		name = "FrittRegnskapViewController.m: 97";
+		rLen = 0;
+		rLoc = 1435;
+		rType = 0;
+		vrLen = 1612;
+		vrLoc = 1658;
+	};
+	9FC59C5C121496DD00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 88";
+		rLen = 0;
+		rLoc = 2460;
+		rType = 0;
+		vrLen = 2058;
+		vrLoc = 956;
+	};
+	9FC59C5D121496DD00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 95";
+		rLen = 0;
+		rLoc = 2611;
+		rType = 0;
+		vrLen = 1826;
+		vrLoc = 1340;
+	};
+	9FC59C641214A82C00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F4120F3F780078170A /* SetupView.h */;
+		name = "SetupView.h: 28";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 661;
+		vrLoc = 0;
+	};
+	9FC59C651214A82C00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC5988A12132AF600273FCC /* Semester.h */;
+		name = "Semester.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 421;
+		vrLoc = 0;
+	};
+	9FC59C661214A82C00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 110";
+		rLen = 0;
+		rLoc = 3274;
+		rType = 0;
+		vrLen = 1856;
+		vrLoc = 1234;
+	};
+	9FC59C671214A82C00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 95";
+		rLen = 0;
+		rLoc = 2661;
+		rType = 0;
+		vrLen = 1857;
+		vrLoc = 1233;
+	};
+	9FC59C681214A84500273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 96";
+		rLen = 0;
+		rLoc = 2716;
+		rType = 0;
+		vrLen = 1912;
+		vrLoc = 1234;
+	};
+	9FC59C6F1214A8D100273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 96";
+		rLen = 0;
+		rLoc = 2664;
+		rType = 0;
+		vrLen = 2203;
+		vrLoc = 1233;
+	};
+	9FC59C7412152B8700273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 96";
+		rLen = 0;
+		rLoc = 2664;
+		rType = 0;
+		vrLen = 2203;
+		vrLoc = 1233;
+	};
+	9FC59C7512152B8700273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F581500120EC21B00C2D93D /* MainView.m */;
+		name = "MainView.m: 30";
+		rLen = 0;
+		rLoc = 744;
+		rType = 0;
+		vrLen = 822;
+		vrLoc = 0;
+	};
+	9FC59C7612152B8700273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F5814FF120EC21B00C2D93D /* MainView.h */;
+		name = "MainView.h: 11";
+		rLen = 0;
+		rLoc = 226;
+		rType = 0;
+		vrLen = 439;
+		vrLoc = 0;
+	};
+	9FC59C7712152BA300273FCC /* PersonView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1491, 827}}";
+			sepNavSelRange = "{206, 0}";
+			sepNavVisRange = "{0, 214}";
+		};
+	};
+	9FC59C7812152BA300273FCC /* PersonView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1491, 827}}";
+			sepNavSelRange = "{220, 0}";
+			sepNavVisRange = "{0, 232}";
+		};
+	};
+	9FC59C7C12152BCA00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F5814FF120EC21B00C2D93D /* MainView.h */;
+		name = "MainView.h: 11";
+		rLen = 0;
+		rLoc = 226;
+		rType = 0;
+		vrLen = 439;
+		vrLoc = 0;
+	};
+	9FC59C7D12152BCA00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FrittRegnskapAppDelegate.m */;
+		name = "FrittRegnskapAppDelegate.m: 10";
+		rLen = 0;
+		rLoc = 210;
+		rType = 0;
+		vrLen = 2251;
+		vrLoc = 0;
+	};
+	9FC59C7E12152BCA00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC59C7812152BA300273FCC /* PersonView.h */;
+		name = "PersonView.h: 11";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 232;
+		vrLoc = 0;
+	};
+	9FC59C7F12152BCA00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC59C7712152BA300273FCC /* PersonView.m */;
+		name = "PersonView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 188;
+		vrLoc = 0;
+	};
+	9FC59C8012152BCA00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC59C7712152BA300273FCC /* PersonView.m */;
+		name = "PersonView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 188;
+		vrLoc = 0;
+	};
+	9FC59C8712152C9800273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC59C7712152BA300273FCC /* PersonView.m */;
+		name = "PersonView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 188;
+		vrLoc = 0;
+	};
+	9FC59C8812152C9800273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC59C7812152BA300273FCC /* PersonView.h */;
+		name = "PersonView.h: 11";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 232;
+		vrLoc = 0;
+	};
+	9FC59C8912152C9800273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F5814FF120EC21B00C2D93D /* MainView.h */;
+		name = "MainView.h: 11";
+		rLen = 0;
+		rLoc = 226;
+		rType = 0;
+		vrLen = 439;
+		vrLoc = 0;
+	};
+	9FC59C8A12152C9800273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F581500120EC21B00C2D93D /* MainView.m */;
+		name = "MainView.m: 30";
+		rLen = 0;
+		rLoc = 744;
+		rType = 0;
+		vrLen = 822;
+		vrLoc = 0;
+	};
+	9FC59C8B12152C9800273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F581500120EC21B00C2D93D /* MainView.m */;
+		name = "MainView.m: 41";
+		rLen = 0;
+		rLoc = 1050;
+		rType = 0;
+		vrLen = 1054;
+		vrLoc = 0;
+	};
+	9FC59C9112152CDC00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F581500120EC21B00C2D93D /* MainView.m */;
+		name = "MainView.m: 41";
+		rLen = 0;
+		rLoc = 1050;
+		rType = 0;
+		vrLen = 1054;
+		vrLoc = 0;
+	};
+	9FC59C9912152D2500273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F581500120EC21B00C2D93D /* MainView.m */;
+		name = "MainView.m: 37";
+		rLen = 0;
+		rLoc = 958;
+		rType = 0;
+		vrLen = 1060;
+		vrLoc = 0;
+	};
+	9FC59C9F12152D2800273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F581500120EC21B00C2D93D /* MainView.m */;
+		name = "MainView.m: 37";
+		rLen = 0;
+		rLoc = 958;
+		rType = 0;
+		vrLen = 1060;
+		vrLoc = 0;
+	};
+	9FC59CA512152D7100273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC59C7812152BA300273FCC /* PersonView.h */;
+		name = "PersonView.h: 11";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 232;
+		vrLoc = 0;
+	};
+	9FC59CA612152D7100273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F581500120EC21B00C2D93D /* MainView.m */;
+		name = "MainView.m: 18";
+		rLen = 0;
+		rLoc = 443;
+		rType = 0;
+		vrLen = 1060;
+		vrLoc = 0;
+	};
+	9FC59CA712152D7100273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
+		name = "FrittRegnskapViewController.m: 42";
+		rLen = 27;
+		rLoc = 810;
+		rType = 0;
+		vrLen = 1484;
+		vrLoc = 795;
+	};
+	9FC59CA812152D7100273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC59C7712152BA300273FCC /* PersonView.m */;
+		name = "PersonView.m: 14";
+		rLen = 0;
+		rLoc = 208;
+		rType = 0;
+		vrLen = 215;
+		vrLoc = 0;
+	};
+	9FC59CA912152D7100273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC59C7712152BA300273FCC /* PersonView.m */;
+		name = "PersonView.m: 13";
+		rLen = 0;
+		rLoc = 206;
+		rType = 0;
+		vrLen = 214;
+		vrLoc = 0;
+	};
+	9FC59CB01215457E00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC59C7712152BA300273FCC /* PersonView.m */;
+		name = "PersonView.m: 13";
+		rLen = 0;
+		rLoc = 206;
+		rType = 0;
+		vrLen = 214;
+		vrLoc = 0;
+	};
+	9FC59CC41215AA8000273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FC59C7712152BA300273FCC /* PersonView.m */;
+		name = "PersonView.m: 13";
+		rLen = 0;
+		rLoc = 206;
+		rType = 0;
+		vrLen = 214;
+		vrLoc = 0;
+	};
+	9FC59CC51215AA8000273FCC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 9FC59CB31215A98000273FCC /* 19-gear.png */;
+	};
+	9FC59CC61215AA8000273FCC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 9FC59CB31215A98000273FCC /* 19-gear.png */;
+	};
+	9FC59CC91215AA8000273FCC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FrittRegnskap-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIconFile,
+		);
+		name = "/Users/knuterikborgen/kode/iphone/RegnskapAdminIphone/FrittRegnskap-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	9FC59CCA1215AA8000273FCC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FrittRegnskap-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/knuterikborgen/kode/iphone/RegnskapAdminIphone/FrittRegnskap-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	9FC59CD01215AE0E00273FCC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FrittRegnskap-Info.plist */;
+	};
+	9FC59CD81215B57B00273FCC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 9FC59CB31215A98000273FCC /* 19-gear.png */;
+	};
+	9FC59CD91215B57B00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* FrittRegnskapAppDelegate.h */;
+		name = "FrittRegnskapAppDelegate.h: 20";
+		rLen = 0;
+		rLoc = 1132;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	9FC59CDA1215B57B00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FrittRegnskapAppDelegate.m */;
+		name = "FrittRegnskapAppDelegate.m: 10";
+		rLen = 0;
+		rLoc = 210;
+		rType = 0;
+		vrLen = 2251;
+		vrLoc = 0;
+	};
+	9FC59CDB1215B57B00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
+		name = "FrittRegnskapViewController.h: 16";
+		rLen = 0;
+		rLoc = 252;
+		rType = 0;
+		vrLen = 880;
+		vrLoc = 0;
+	};
+	9FC59CDC1215B57B00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
+		name = "FrittRegnskapViewController.m: 19";
+		rLen = 0;
+		rLoc = 268;
+		rType = 0;
+		vrLen = 1659;
+		vrLoc = 0;
+	};
+	9FC59CDF1215B57B00273FCC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FrittRegnskap-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = "/Users/knuterikborgen/kode/iphone/RegnskapAdminIphone/FrittRegnskap-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	9FC59D001215B8F800273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */;
+		name = "FrittRegnskapViewController.h: 14";
+		rLen = 0;
+		rLoc = 254;
+		rType = 0;
+		vrLen = 261;
+		vrLoc = 0;
+	};
+	9FC59D011215B8F800273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */;
+		name = "FrittRegnskapViewController.m: 10";
+		rLen = 0;
+		rLoc = 201;
+		rType = 0;
+		vrLen = 1428;
+		vrLoc = 58;
+	};
+	9FC59D021215B8F800273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FrittRegnskapAppDelegate.m */;
+		name = "FrittRegnskapAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 354;
+		rType = 0;
+		vrLen = 2205;
+		vrLoc = 0;
+	};
+	9FC59D031215B8F800273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F581500120EC21B00C2D93D /* MainView.m */;
+		name = "MainView.m: 18";
+		rLen = 0;
+		rLoc = 443;
+		rType = 0;
+		vrLen = 1060;
+		vrLoc = 0;
+	};
+	9FC59D041215B8F800273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F5814FF120EC21B00C2D93D /* MainView.h */;
+		name = "MainView.h: 14";
+		rLen = 8;
+		rLoc = 263;
+		rType = 0;
+		vrLen = 439;
+		vrLoc = 0;
+	};
+	9FC59D051215B8F800273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 108";
+		rLen = 0;
+		rLoc = 3139;
+		rType = 0;
+		vrLen = 1672;
+		vrLoc = 0;
+	};
+	9FC59D061215B8F800273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* FrittRegnskapAppDelegate.h */;
+		name = "FrittRegnskapAppDelegate.h: 15";
+		rLen = 24;
+		rLoc = 317;
+		rType = 0;
+		vrLen = 1139;
+		vrLoc = 0;
+	};
+	9FC59D071215B8F800273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F4120F3F780078170A /* SetupView.h */;
+		name = "SetupView.h: 20";
+		rLen = 0;
+		rLoc = 487;
+		rType = 0;
+		vrLen = 661;
+		vrLoc = 0;
+	};
+	9FC59D081215B8F800273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F4120F3F780078170A /* SetupView.h */;
+		name = "SetupView.h: 20";
+		rLen = 0;
+		rLoc = 487;
+		rType = 0;
+		vrLen = 709;
+		vrLoc = 0;
+	};
+	9FC59D091215B8F800273FCC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FrittRegnskap-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = "/Users/knuterikborgen/kode/iphone/RegnskapAdminIphone/FrittRegnskap-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	9FC59D121215B93400273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F4120F3F780078170A /* SetupView.h */;
+		name = "SetupView.h: 21";
+		rLen = 11;
+		rLoc = 475;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 0;
+	};
+	9FC59D131215B93400273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 108";
+		rLen = 0;
+		rLoc = 3139;
+		rType = 0;
+		vrLen = 1672;
+		vrLoc = 0;
+	};
+	9FC59D141215B93400273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 107";
+		rLen = 0;
+		rLoc = 3139;
+		rType = 0;
+		vrLen = 1970;
+		vrLoc = 1341;
+	};
+	9FC59D151215B93400273FCC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FrittRegnskap-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = "/Users/knuterikborgen/kode/iphone/RegnskapAdminIphone/FrittRegnskap-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	9FC59D1C1215B97E00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 107";
+		rLen = 0;
+		rLoc = 3139;
+		rType = 0;
+		vrLen = 1970;
+		vrLoc = 1341;
+	};
+	9FC59D1D1215B97E00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F4120F3F780078170A /* SetupView.h */;
+		name = "SetupView.h: 21";
+		rLen = 11;
+		rLoc = 475;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 0;
+	};
+	9FC59D1E1215B97E00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F581500120EC21B00C2D93D /* MainView.m */;
+		name = "MainView.m: 12";
+		rLen = 6;
+		rLoc = 209;
+		rType = 0;
+		vrLen = 1060;
+		vrLoc = 0;
+	};
+	9FC59D1F1215B97E00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F581500120EC21B00C2D93D /* MainView.m */;
+		name = "MainView.m: 12";
+		rLen = 6;
+		rLoc = 209;
+		rType = 0;
+		vrLen = 1060;
+		vrLoc = 0;
+	};
+	9FC59D201215B97E00273FCC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FrittRegnskap-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = "/Users/knuterikborgen/kode/iphone/RegnskapAdminIphone/FrittRegnskap-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	9FC59D291215B9D200273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F581500120EC21B00C2D93D /* MainView.m */;
+		name = "MainView.m: 16";
+		rLen = 0;
+		rLoc = 397;
+		rType = 0;
+		vrLen = 1060;
+		vrLoc = 0;
+	};
+	9FC59D2A1215B9D200273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 43";
+		rLen = 14;
+		rLoc = 883;
+		rType = 0;
+		vrLen = 1917;
+		vrLoc = 422;
+	};
+	9FC59D2B1215B9D200273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 47";
+		rLen = 0;
+		rLoc = 1141;
+		rType = 0;
+		vrLen = 2001;
+		vrLoc = 442;
+	};
+	9FC59D2C1215B9D200273FCC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FrittRegnskap-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = "/Users/knuterikborgen/kode/iphone/RegnskapAdminIphone/FrittRegnskap-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	9FC59D2E1215B9F100273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F581500120EC21B00C2D93D /* MainView.m */;
+		name = "MainView.m: 15";
+		rLen = 0;
+		rLoc = 383;
+		rType = 0;
+		vrLen = 1060;
+		vrLoc = 0;
+	};
+	9FC59D2F1215B9F100273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		rLen = 0;
+		rLoc = 42;
+		rType = 1;
+	};
+	9FC59D301215B9F100273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 43";
+		rLen = 14;
+		rLoc = 883;
+		rType = 0;
+		vrLen = 2001;
+		vrLoc = 442;
+	};
+	9FC59D311215B9F100273FCC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FrittRegnskap-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = "/Users/knuterikborgen/kode/iphone/RegnskapAdminIphone/FrittRegnskap-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	9FC59D341215BA1A00273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 48";
+		rLen = 0;
+		rLoc = 1203;
+		rType = 0;
+		vrLen = 2001;
+		vrLoc = 442;
+	};
+	9FC59D351215BA1A00273FCC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FrittRegnskap-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = "/Users/knuterikborgen/kode/iphone/RegnskapAdminIphone/FrittRegnskap-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	9FC59D3A1215BA3600273FCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9FBEC3F5120F3F780078170A /* SetupView.m */;
+		name = "SetupView.m: 48";
+		rLen = 0;
+		rLoc = 1203;
+		rType = 0;
+		vrLen = 2132;
+		vrLoc = 464;
+	};
+	9FC59D3B1215BA3600273FCC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FrittRegnskap-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = "/Users/knuterikborgen/kode/iphone/RegnskapAdminIphone/FrittRegnskap-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
 	};
 }

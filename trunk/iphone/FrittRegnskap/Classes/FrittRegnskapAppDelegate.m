@@ -8,11 +8,18 @@
 
 #import "FrittRegnskapAppDelegate.h"
 #import "FrittRegnskapViewController.h"
-
+#import "model/Person.h"
+#import "model/Semester.h"
+#import "model/CourseMembership.h"
+#import "model/YearMembership.h"
 @implementation FrittRegnskapAppDelegate
 
 @synthesize window;
 @synthesize viewController;
+
+@synthesize managedObjectContext;
+@synthesize managedObjectModel;
+@synthesize persistentStoreCoordinator;
 
 
 #pragma mark -
@@ -81,8 +88,98 @@
 - (void)dealloc {
     [viewController release];
     [window release];
+	
+	[managedObjectContext release];
+	[managedObjectModel release];
+	[persistentStoreCoordinator release];
+	
     [super dealloc];
 }
+
+
+
+- (void) savePersons:(NSArray*) persons {
+	[self deleteAllPersons];
+	
+	for (int i = 0; i < [persons count]; i++) {
+		NSDictionary *person = [persons objectAtIndex:i];
+		
+		Person *newPerson = [NSEntityDescription insertNewObjectForEntityForName:@"Person" inManagedObjectContext: [self managedObjectContext]];
+		
+		NSEnumerator *keys = [person keyEnumerator];
+		id key;
+		
+		
+		while ((key = [keys nextObject])) {
+			[newPerson setValue:[person valueForKey:key] forKey:key];
+		}
+	}
+	
+	NSError *error = nil;
+	
+	[[self managedObjectContext] save:&error];
+	
+	if(error != nil) {
+		NSLog(@"Error in save %@", error);
+	}
+}
+
+- (void) deleteAllPersons {
+	NSManagedObjectContext * context = [self managedObjectContext];
+	NSFetchRequest * fetch = [[[NSFetchRequest alloc] init] autorelease];
+	[fetch setEntity:[NSEntityDescription entityForName:@"Person" inManagedObjectContext:context]];
+	
+	NSArray * result = [context executeFetchRequest:fetch error:nil];
+	
+	for (id person in result)
+		[context deleteObject:person];
+	
+}
+
+
+- (NSManagedObjectContext *) managedObjectContext {
+	if (managedObjectContext != nil) {
+		return managedObjectContext;
+	}
+	NSPersistentStoreCoordinator *coordinator = [self persistentStoreCoordinator];
+	if (coordinator != nil) {
+		managedObjectContext = [[NSManagedObjectContext alloc] init];
+		[managedObjectContext setPersistentStoreCoordinator: coordinator];
+	}
+	
+	return managedObjectContext;
+}
+
+- (NSManagedObjectModel *)managedObjectModel {
+	if (managedObjectModel != nil) {
+		return managedObjectModel;
+	}
+	managedObjectModel = [[NSManagedObjectModel mergedModelFromBundles:nil] retain];
+	
+	return managedObjectModel;
+}
+
+- (NSPersistentStoreCoordinator *)persistentStoreCoordinator {
+	if (persistentStoreCoordinator != nil) {
+		return persistentStoreCoordinator;
+	}
+	NSURL *storeUrl = [NSURL fileURLWithPath: [[self applicationDocumentsDirectory]
+											   stringByAppendingPathComponent: @"FrittRegnskap.sqlite"]];
+	NSError *error = nil;
+	persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc]
+								  initWithManagedObjectModel:[self managedObjectModel]];
+	if(![persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType
+												 configuration:nil URL:storeUrl options:nil error:&error]) {
+		NSLog(@"Error in storeCoordinator %@", error);
+	}
+	
+	return persistentStoreCoordinator;
+}
+
+- (NSString *)applicationDocumentsDirectory {
+	return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
+}
+
 
 
 @end

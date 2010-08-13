@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
+#import "FrittRegnskapAppDelegate.h"
 
 @interface SetupView : UIView {
 	IBOutlet UITextField *domain;
@@ -17,7 +18,7 @@
 	IBOutlet UILabel *label;
 	
 	NSMutableData *responseData;
-
+	IBOutlet FrittRegnskapAppDelegate *appDelegate;
 }
 
 
@@ -26,7 +27,6 @@
 @property (nonatomic, retain) UITextField *password;
 
 - (IBAction)synchronizeDatabase:(id)sender;
-- (void) parsePersons:(NSArray*) persons;
 - (void) loadSettings;
 - (void) saveSettings;
 
