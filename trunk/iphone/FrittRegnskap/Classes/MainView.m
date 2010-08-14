@@ -43,4 +43,17 @@
 }
 
 
+
+- (IBAction)hidePersons:(id)sender {
+	[UIView beginAnimations:nil context:NULL];
+	[UIView setAnimationDuration:1.0];
+	[UIView setAnimationTransition:UIViewAnimationTransitionCurlUp forView:self cache:YES];
+	
+	[personView removeFromSuperview];
+	
+	[UIView commitAnimations];
+}
+
+
+
 @end

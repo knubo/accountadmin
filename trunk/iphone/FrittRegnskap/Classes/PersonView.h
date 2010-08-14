@@ -11,6 +11,7 @@
 
 @interface PersonView : UIView {
 	IBOutlet FrittRegnskapAppDelegate *appDelegate;
+
 	NSArray *people;
 	NSMutableArray *indexes;
 	NSMutableArray *indexNames;
