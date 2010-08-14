@@ -23,7 +23,6 @@
     [super dealloc];
 }
 
-
 - (void)loadPeople {
 	if(people != nil) {
 		[people release];

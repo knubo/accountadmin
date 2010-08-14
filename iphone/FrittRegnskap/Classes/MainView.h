@@ -17,5 +17,6 @@
 - (IBAction)hideConfig:(id)sender;
 - (IBAction)showConfig:(id)sender;
 - (IBAction)showPersons:(id)sender;
+- (IBAction)hidePersons:(id)sender;
 
 @end
