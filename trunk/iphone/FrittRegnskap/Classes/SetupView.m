@@ -19,6 +19,8 @@
 @synthesize domain;
 @synthesize username;
 @synthesize password;
+@synthesize connection;
+
 - (void)dealloc {
 	
     [domain release];
@@ -61,7 +63,8 @@
 	
 	
 	NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:uri]];
-	[[NSURLConnection alloc] initWithRequest:request delegate:self];
+	connection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+	
 	
 }
 
@@ -77,7 +80,7 @@
 	label.text = [NSString stringWithFormat:@"Connection failed: %@", [error description]];
 }
 
-- (void)connectionDidFinishLoading:(NSURLConnection *)connection {
+- (void)connectionDidFinishLoading:(NSURLConnection *)con {
 	[connection release];
 	
 	NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
@@ -85,7 +88,10 @@
 	
 	NSDictionary *data = [responseString JSONValue]; 
 	
+	[responseString release];
+	
 	if(data == nil) {
+
 		label.text = @"Klarte ikke tolke data. Sjekk adresse, brukernavn og passord.";
 		return;
 	}
@@ -104,6 +110,7 @@
 	} 
 	
 	[appDelegate savePersons:persons];
+	
 	
 	label.text = [NSString stringWithFormat:@"Antall personer innlest: %d", [persons count]];
 	

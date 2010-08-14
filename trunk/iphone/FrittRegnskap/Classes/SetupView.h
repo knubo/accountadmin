@@ -19,12 +19,15 @@
 	
 	NSMutableData *responseData;
 	IBOutlet FrittRegnskapAppDelegate *appDelegate;
+	
+	NSURLConnection *connection;
 }
 
 
 @property (nonatomic, retain) UITextField *domain;
 @property (nonatomic, retain) UITextField *username;
 @property (nonatomic, retain) UITextField *password;
+@property (nonatomic, retain) NSURLConnection *connection;
 
 - (IBAction)synchronizeDatabase:(id)sender;
 - (void) loadSettings;

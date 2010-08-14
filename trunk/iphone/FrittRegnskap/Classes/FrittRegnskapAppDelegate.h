@@ -32,6 +32,7 @@
 - (NSString *)applicationDocumentsDirectory;
 - (void) savePersons:(NSArray*) persons;
 - (void) deleteAllPersons;
+- (NSArray *) getPeople: (bool) sort;
 
 @end
 

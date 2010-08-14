@@ -126,14 +126,25 @@
 
 - (void) deleteAllPersons {
 	NSManagedObjectContext * context = [self managedObjectContext];
+
+	NSArray * result = [self getPeople:false];
+	for (id person in result) {
+		[context deleteObject:person];
+	}
+}
+
+- (NSArray *) getPeople: (bool) sort {
+	NSManagedObjectContext * context = [self managedObjectContext];
 	NSFetchRequest * fetch = [[[NSFetchRequest alloc] init] autorelease];
 	[fetch setEntity:[NSEntityDescription entityForName:@"Person" inManagedObjectContext:context]];
+
+	NSSortDescriptor *sortFirstName = [[NSSortDescriptor alloc] initWithKey:@"firstname" ascending:YES selector:@selector(caseInsensitiveCompare:)];
+	NSSortDescriptor *sortLastName = [[NSSortDescriptor alloc] initWithKey:@"lastname" ascending:YES selector:@selector(caseInsensitiveCompare:)];
+	[fetch setSortDescriptors:[NSArray arrayWithObjects:sortFirstName, sortLastName, nil]];
 	
 	NSArray * result = [context executeFetchRequest:fetch error:nil];
-	
-	for (id person in result)
-		[context deleteObject:person];
-	
+
+	return result;
 }
 
 
