@@ -28,9 +28,9 @@
 		9FC5989012132AF600273FCC /* Semester.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5988B12132AF600273FCC /* Semester.m */; };
 		9FC5989112132AF600273FCC /* YearMembership.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5988D12132AF600273FCC /* YearMembership.m */; };
 		9FC59B30121469EE00273FCC /* FrittRegnskap.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9FC59B2F121469EE00273FCC /* FrittRegnskap.xcdatamodel */; };
-		9FC59C7912152BA300273FCC /* PersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC59C7712152BA300273FCC /* PersonView.m */; };
 		9FC59CB41215A98000273FCC /* 19-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC59CB31215A98000273FCC /* 19-gear.png */; };
 		9FC59CB61215A9AD00273FCC /* FrittRegnskapIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC59CB51215A9AD00273FCC /* FrittRegnskapIcon.png */; };
+		9FC59D6B1215C35300273FCC /* PersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC59D691215C35300273FCC /* PersonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,10 +72,10 @@
 		9FC5988C12132AF600273FCC /* YearMembership.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YearMembership.h; sourceTree = "<group>"; };
 		9FC5988D12132AF600273FCC /* YearMembership.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YearMembership.m; sourceTree = "<group>"; };
 		9FC59B2F121469EE00273FCC /* FrittRegnskap.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = FrittRegnskap.xcdatamodel; sourceTree = "<group>"; };
-		9FC59C7712152BA300273FCC /* PersonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonView.m; path = Classes/PersonView.m; sourceTree = "<group>"; };
-		9FC59C7812152BA300273FCC /* PersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonView.h; path = Classes/PersonView.h; sourceTree = "<group>"; };
 		9FC59CB31215A98000273FCC /* 19-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-gear.png"; sourceTree = "<group>"; };
 		9FC59CB51215A9AD00273FCC /* FrittRegnskapIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrittRegnskapIcon.png; sourceTree = "<group>"; };
+		9FC59D691215C35300273FCC /* PersonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonView.m; path = Classes/PersonView.m; sourceTree = "<group>"; };
+		9FC59D6A1215C35300273FCC /* PersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonView.h; path = Classes/PersonView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,12 +110,12 @@
 				9FBEC3F5120F3F780078170A /* SetupView.m */,
 				9F5814FF120EC21B00C2D93D /* MainView.h */,
 				9F581500120EC21B00C2D93D /* MainView.m */,
+				9FC59D691215C35300273FCC /* PersonView.m */,
+				9FC59D6A1215C35300273FCC /* PersonView.h */,
 				9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */,
 				9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */,
 				1D3623240D0F684500981E51 /* FrittRegnskapAppDelegate.h */,
 				1D3623250D0F684500981E51 /* FrittRegnskapAppDelegate.m */,
-				9FC59C7712152BA300273FCC /* PersonView.m */,
-				9FC59C7812152BA300273FCC /* PersonView.h */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -262,7 +262,7 @@
 				9FC5989012132AF600273FCC /* Semester.m in Sources */,
 				9FC5989112132AF600273FCC /* YearMembership.m in Sources */,
 				9FC59B30121469EE00273FCC /* FrittRegnskap.xcdatamodel in Sources */,
-				9FC59C7912152BA300273FCC /* PersonView.m in Sources */,
+				9FC59D6B1215C35300273FCC /* PersonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -37,6 +37,7 @@
 	[UIView setAnimationTransition:UIViewAnimationTransitionCurlDown forView:self cache:YES];
 		
     [self addSubview:personView];
+	[personView loadPeople];
 	
 	[UIView commitAnimations];
 }
