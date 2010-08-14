@@ -31,29 +31,6 @@
 	[UIView commitAnimations];
 }
 
-- (IBAction)showPersons:(id)sender {
-	[UIView beginAnimations:nil context:NULL];
-	[UIView setAnimationDuration:1.0];
-	[UIView setAnimationTransition:UIViewAnimationTransitionCurlDown forView:self cache:YES];
-		
-    [self addSubview:personView];
-	[personView loadPeople];
-	
-	[UIView commitAnimations];
-}
-
-
-
-- (IBAction)hidePersons:(id)sender {
-	[UIView beginAnimations:nil context:NULL];
-	[UIView setAnimationDuration:1.0];
-	[UIView setAnimationTransition:UIViewAnimationTransitionCurlUp forView:self cache:YES];
-	
-	[personView removeFromSuperview];
-	
-	[UIView commitAnimations];
-}
-
 
 
 @end

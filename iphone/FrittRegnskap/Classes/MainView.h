@@ -13,10 +13,10 @@
 @interface MainView : UIView {
     IBOutlet SetupView *config;
 	IBOutlet PersonView *personView;
+	IBOutlet UINavigationController *navigController;
 }
 - (IBAction)hideConfig:(id)sender;
 - (IBAction)showConfig:(id)sender;
-- (IBAction)showPersons:(id)sender;
-- (IBAction)hidePersons:(id)sender;
+
 
 @end

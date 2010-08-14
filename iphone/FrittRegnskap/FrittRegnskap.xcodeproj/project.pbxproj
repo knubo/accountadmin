@@ -22,6 +22,7 @@
 		9F924B921211A3AB007DB7F1 /* FrittRegnskap.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9F924B911211A3AB007DB7F1 /* FrittRegnskap.xcdatamodel */; };
 		9F924C3E121311B5007DB7F1 /* FrittRegnskapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */; };
 		9F924CCB121328D3007DB7F1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F924CCA121328D3007DB7F1 /* CoreData.framework */; };
+		9FA34AA112173DEF001F52C6 /* PersonUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA34A9F12173DEF001F52C6 /* PersonUIViewController.m */; };
 		9FBEC3F6120F3F780078170A /* SetupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBEC3F5120F3F780078170A /* SetupView.m */; };
 		9FC5988E12132AF600273FCC /* CourseMembership.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5988712132AF600273FCC /* CourseMembership.m */; };
 		9FC5988F12132AF600273FCC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5988912132AF600273FCC /* Person.m */; };
@@ -61,6 +62,8 @@
 		9F924C3C121311B5007DB7F1 /* FrittRegnskapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FrittRegnskapViewController.h; path = Classes/FrittRegnskapViewController.h; sourceTree = "<group>"; };
 		9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FrittRegnskapViewController.m; path = Classes/FrittRegnskapViewController.m; sourceTree = "<group>"; };
 		9F924CCA121328D3007DB7F1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9FA34A9F12173DEF001F52C6 /* PersonUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonUIViewController.m; path = Classes/PersonUIViewController.m; sourceTree = "<group>"; };
+		9FA34AA012173DEF001F52C6 /* PersonUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonUIViewController.h; path = Classes/PersonUIViewController.h; sourceTree = "<group>"; };
 		9FBEC3F4120F3F780078170A /* SetupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetupView.h; path = Classes/SetupView.h; sourceTree = "<group>"; };
 		9FBEC3F5120F3F780078170A /* SetupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetupView.m; path = Classes/SetupView.m; sourceTree = "<group>"; };
 		9FC5988612132AF600273FCC /* CourseMembership.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseMembership.h; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 				9F924C3D121311B5007DB7F1 /* FrittRegnskapViewController.m */,
 				1D3623240D0F684500981E51 /* FrittRegnskapAppDelegate.h */,
 				1D3623250D0F684500981E51 /* FrittRegnskapAppDelegate.m */,
+				9FA34A9F12173DEF001F52C6 /* PersonUIViewController.m */,
+				9FA34AA012173DEF001F52C6 /* PersonUIViewController.h */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -263,6 +268,7 @@
 				9FC5989112132AF600273FCC /* YearMembership.m in Sources */,
 				9FC59B30121469EE00273FCC /* FrittRegnskap.xcdatamodel in Sources */,
 				9FC59D6B1215C35300273FCC /* PersonView.m in Sources */,
+				9FA34AA112173DEF001F52C6 /* PersonUIViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -64,4 +64,23 @@
 }
 
 
+
+- (IBAction)showPersons:(id)sender {
+	[self setNavigationBarHidden:false animated:false];
+	[UIView beginAnimations:nil context:NULL];
+	[UIView setAnimationDuration:1.0];
+	[UIView setAnimationTransition:UIViewAnimationTransitionCurlDown forView:self.view cache:YES];
+	
+	[self pushViewController:personViewController animated:false];
+	
+   	[personViewController loadPeople];
+
+	[UIView commitAnimations];
+}		
+
+- (void)navigationBar:(UINavigationBar *)navigationBar didPopItem:(UINavigationItem *)item{
+	[self setNavigationBarHidden:true animated:true];
+}
+
+
 @end
