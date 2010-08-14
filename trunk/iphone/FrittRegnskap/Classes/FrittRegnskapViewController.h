@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PersonUIViewController.h"
 
-
-@interface FrittRegnskapViewController : UIViewController {
+@interface FrittRegnskapViewController : UINavigationController {
+	IBOutlet PersonUIViewController *personViewController;
 }
+
+- (IBAction)showPersons:(id)sender;
 
 @end
 
