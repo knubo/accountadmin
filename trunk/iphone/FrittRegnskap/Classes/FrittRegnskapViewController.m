@@ -78,9 +78,9 @@
 }		
 
 
-- (void)showPersonDetail {
+- (void) showPersonDetail:(Person*)person {
 	[self pushViewController:personDetailsController animated:true];
-	
+	[personDetailsController showPersonDetail:person];
 }
 
 @end

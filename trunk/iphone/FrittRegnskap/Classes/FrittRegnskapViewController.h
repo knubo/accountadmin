@@ -10,12 +10,13 @@
 #import "PersonUIViewController.h"
 #import "PersonDetailsUIController.h"
 
+
 @interface FrittRegnskapViewController : UINavigationController {
 	IBOutlet PersonUIViewController *personViewController;
 	IBOutlet PersonDetailsUIController *personDetailsController;
 }
 
-- (void) showPersonDetail;
+- (void) showPersonDetail:(Person*)person;
 - (IBAction)showPersons:(id)sender;
 
 

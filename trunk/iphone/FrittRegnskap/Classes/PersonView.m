@@ -151,7 +151,10 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	FrittRegnskapViewController *controller = appDelegate.viewController;
 	
-	[controller showPersonDetail];
+	int sectionIndex = [[indexes objectAtIndex:indexPath.section] intValue];
+	
+	Person *p = [people objectAtIndex: (sectionIndex+indexPath.row)];	
+	[controller showPersonDetail:p];
 	
 }
 

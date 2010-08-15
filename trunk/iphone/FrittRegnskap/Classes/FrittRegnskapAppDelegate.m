@@ -8,10 +8,10 @@
 
 #import "FrittRegnskapAppDelegate.h"
 #import "FrittRegnskapViewController.h"
-#import "model/Person.h"
 #import "model/Semester.h"
 #import "model/CourseMembership.h"
 #import "model/YearMembership.h"
+
 @implementation FrittRegnskapAppDelegate
 
 @synthesize window;
