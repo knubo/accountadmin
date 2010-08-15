@@ -7,6 +7,7 @@
 
 #import "PersonView.h"
 #import "model/Person.h"
+#import "FrittRegnskapViewController.h"
 
 @implementation PersonView
 
@@ -81,7 +82,7 @@
 
 
 - (NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	return nil;
+	return indexPath;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -123,8 +124,6 @@
     
 	
     return cell;
-	
-	
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -142,14 +141,18 @@
 		
 		return [nextIndex intValue] - [indexForAllPerson intValue];
 	}
-	
-	
-
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 	NSInteger count = [indexes count];
 	return count;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	FrittRegnskapViewController *controller = appDelegate.viewController;
+	
+	[controller showPersonDetail];
+	
 }
 
 
