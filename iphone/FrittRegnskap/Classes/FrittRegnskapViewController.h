@@ -8,12 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "PersonUIViewController.h"
+#import "PersonDetailsUIController.h"
 
 @interface FrittRegnskapViewController : UINavigationController {
 	IBOutlet PersonUIViewController *personViewController;
+	IBOutlet PersonDetailsUIController *personDetailsController;
 }
 
+- (void) showPersonDetail;
 - (IBAction)showPersons:(id)sender;
+
 
 @end
 

@@ -135,7 +135,7 @@
 
 - (NSArray *) getPeople: (bool) sort {
 	NSManagedObjectContext * context = [self managedObjectContext];
-	NSFetchRequest * fetch = [[[NSFetchRequest alloc] init] autorelease];
+	NSFetchRequest * fetch = [[NSFetchRequest alloc] init];
 	[fetch setEntity:[NSEntityDescription entityForName:@"Person" inManagedObjectContext:context]];
 
 	NSSortDescriptor *sortFirstName = [[NSSortDescriptor alloc] initWithKey:@"firstname" ascending:YES selector:@selector(caseInsensitiveCompare:)];
@@ -144,6 +144,10 @@
 	
 	NSArray * result = [context executeFetchRequest:fetch error:nil];
 
+	[sortFirstName release];
+	[sortLastName release];
+	[fetch release];
+	
 	return result;
 }
 

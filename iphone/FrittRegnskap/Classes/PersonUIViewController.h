@@ -8,7 +8,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface PersonUIViewController : UIViewController{
+@interface PersonUIViewController : UIViewController {
 
 }
 
