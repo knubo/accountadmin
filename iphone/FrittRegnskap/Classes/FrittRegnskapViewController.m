@@ -67,6 +67,17 @@
 	doReload = true;
 }
 
+- (IBAction)showMemberships:(id)sender {
+	[UIView beginAnimations:nil context:NULL];
+	[UIView setAnimationDuration:1.0];
+	
+	[UIView setAnimationTransition:UIViewAnimationTransitionCurlDown forView:self.view cache:NO];
+	
+	[self pushViewController:personViewController animated:false];
+	
+	[UIView commitAnimations];
+}
+
 - (IBAction)showPersons:(id)sender {
 	if(doReload) {
 		doReload = false;

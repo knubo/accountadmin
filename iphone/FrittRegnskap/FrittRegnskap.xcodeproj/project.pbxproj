@@ -14,6 +14,8 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		9F581501120EC21B00C2D93D /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F581500120EC21B00C2D93D /* MainView.m */; };
+		9F6FAEB012188F55000CDC17 /* go-next.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6FAEAE12188F55000CDC17 /* go-next.png */; };
+		9F6FAEB112188F55000CDC17 /* go-previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6FAEAF12188F55000CDC17 /* go-previous.png */; };
 		9F924A9112100A8A007DB7F1 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F924A8812100A8A007DB7F1 /* NSObject+SBJSON.m */; };
 		9F924A9212100A8A007DB7F1 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F924A8A12100A8A007DB7F1 /* NSString+SBJSON.m */; };
 		9F924A9312100A8A007DB7F1 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F924A8C12100A8A007DB7F1 /* SBJsonBase.m */; };
@@ -48,6 +50,10 @@
 		8D1107310486CEB800E47090 /* FrittRegnskap-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FrittRegnskap-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		9F5814FF120EC21B00C2D93D /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainView.h; path = Classes/MainView.h; sourceTree = "<group>"; };
 		9F581500120EC21B00C2D93D /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = Classes/MainView.m; sourceTree = "<group>"; };
+		9F6FAEAE12188F55000CDC17 /* go-next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go-next.png"; sourceTree = "<group>"; };
+		9F6FAEAF12188F55000CDC17 /* go-previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go-previous.png"; sourceTree = "<group>"; };
+		9F6FAEE212189182000CDC17 /* MembershipViewUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MembershipViewUIController.h; sourceTree = "<group>"; };
+		9F878D251218927C00BE9787 /* MembershipViewUIController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MembershipViewUIController.m; path = Classes/MembershipViewUIController.m; sourceTree = "<group>"; };
 		9F924A8612100A8A007DB7F1 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		9F924A8712100A8A007DB7F1 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		9F924A8812100A8A007DB7F1 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -126,6 +132,8 @@
 				9FA34AA012173DEF001F52C6 /* PersonUIViewController.h */,
 				9F96989F12175371003E0CC0 /* PersonDetailsUIController.h */,
 				9F9698A012175371003E0CC0 /* PersonDetailsUIController.m */,
+				9F6FAEE212189182000CDC17 /* MembershipViewUIController.h */,
+				9F878D251218927C00BE9787 /* MembershipViewUIController.m */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -146,6 +154,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9F6FAEAE12188F55000CDC17 /* go-next.png */,
+				9F6FAEAF12188F55000CDC17 /* go-previous.png */,
 				9FC59CB51215A9AD00273FCC /* FrittRegnskapIcon.png */,
 				9FC59CB31215A98000273FCC /* 19-gear.png */,
 				9FC59B2F121469EE00273FCC /* FrittRegnskap.xcdatamodel */,
@@ -246,6 +256,8 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				9FC59CB41215A98000273FCC /* 19-gear.png in Resources */,
 				9FC59CB61215A9AD00273FCC /* FrittRegnskapIcon.png in Resources */,
+				9F6FAEB012188F55000CDC17 /* go-next.png in Resources */,
+				9F6FAEB112188F55000CDC17 /* go-previous.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
