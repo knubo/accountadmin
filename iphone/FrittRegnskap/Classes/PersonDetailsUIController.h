@@ -12,18 +12,18 @@
 @interface PersonDetailsUIController : UIViewController {
 
 	IBOutlet UITextView *commentsView;
-	IBOutlet UILabel *firstname;
-	IBOutlet UILabel *lastname;
-	IBOutlet UILabel *address;
-	IBOutlet UILabel *email;
-	IBOutlet UILabel *postnmb;
-	IBOutlet UILabel *city;
-	IBOutlet UILabel *country;
-	IBOutlet UILabel *sex;
-	IBOutlet UILabel *newsletter;
-	IBOutlet UILabel *employee;
-	IBOutlet UILabel *phone;
-	IBOutlet UILabel *cellphone;
+	IBOutlet UITextView *firstname;
+	IBOutlet UITextView *lastname;
+	IBOutlet UITextView *address;
+	IBOutlet UITextView *email;
+	IBOutlet UITextView *postnmb;
+	IBOutlet UITextView *city;
+	IBOutlet UITextView *country;
+	IBOutlet UITextView *sex;
+	IBOutlet UITextView *newsletter;
+	IBOutlet UITextView *employee;
+	IBOutlet UITextView *phone;
+	IBOutlet UITextView *cellphone;
 	IBOutlet UITextView *comment;
 }
 
