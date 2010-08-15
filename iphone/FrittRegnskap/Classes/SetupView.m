@@ -7,11 +7,6 @@
 
 #import "SetupView.h"
 #import "JSON/JSON.h"
-#import "FrittRegnskapViewController.h"
-#import "model/Person.h"
-#import "model/Semester.h"
-#import "model/CourseMembership.h"
-#import "model/YearMembership.h"
 
 @implementation SetupView
 
