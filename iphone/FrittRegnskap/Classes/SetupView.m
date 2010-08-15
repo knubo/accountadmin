@@ -51,6 +51,14 @@
 }
 
 - (IBAction)synchronizeDatabase:(id)sender {
+
+	NSRange range = [domain.text rangeOfString : @"."];
+	
+	if(range.location != NSNotFound) {
+		label.text = @"Bruk kun prefix av domenenavn";
+		return;
+	}
+	
 	label.text = @"Henter data...";
 	responseData = [[NSMutableData data] retain];
 	
@@ -72,7 +80,7 @@
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
-	label.text = [NSString stringWithFormat:@"Connection failed: %@", [error description]];
+	label.text = [NSString stringWithFormat:@"Klarte ikke koble til.", [error description]];
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)con {
@@ -87,7 +95,7 @@
 	
 	if(data == nil) {
 
-		label.text = @"Klarte ikke tolke data. Sjekk adresse, brukernavn og passord.";
+		label.text = @"Feil! Sjekk adresse, brukernavn og passord.";
 		return;
 	}
 	
@@ -99,7 +107,7 @@
 //	NSArray *course_memberships = [data objectForKey:@"course_memberships"];
 	
 	if (persons == nil) {
-		label.text = @"Klarte ikke tolke data. Sjekk adresse, brukernavn og passord.";
+		label.text = @"Feil! Sjekk adresse, brukernavn og passord.";
 		return;
 		
 	} 

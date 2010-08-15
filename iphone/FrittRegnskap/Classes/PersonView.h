@@ -15,6 +15,7 @@
 	NSArray *people;
 	NSMutableArray *indexes;
 	NSMutableArray *indexNames;
+	IBOutlet UITableView *persontable;
 }
 
 @property (nonatomic, retain) NSArray *people;

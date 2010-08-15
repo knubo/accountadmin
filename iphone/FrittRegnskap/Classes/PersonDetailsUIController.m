@@ -22,7 +22,7 @@
 	frame.size.height = commentsView.contentSize.height;
 	commentsView.frame = frame;
 	
-	tempScrollView.contentSize=CGSizeMake(320,frame.size.height + 380);
+	tempScrollView.contentSize=CGSizeMake(570,frame.size.height + 380);
 
 }
 
