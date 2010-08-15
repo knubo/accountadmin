@@ -68,17 +68,20 @@
 }
 
 - (IBAction)showMemberships:(id)sender {
+	
+	[self setToolbarHidden:false animated:true];
 	[UIView beginAnimations:nil context:NULL];
 	[UIView setAnimationDuration:1.0];
 	
 	[UIView setAnimationTransition:UIViewAnimationTransitionCurlDown forView:self.view cache:NO];
 	
-	[self pushViewController:personViewController animated:false];
+	[self pushViewController:membershipViewUIController animated:false];
 	
 	[UIView commitAnimations];
 }
 
 - (IBAction)showPersons:(id)sender {
+	
 	if(doReload) {
 		doReload = false;
 		[personViewController loadPeople];
@@ -101,5 +104,11 @@
 	[self pushViewController:personDetailsController animated:true];
 	[personDetailsController showPersonDetail:person];
 }
+
+- (void)navigationBar:(UINavigationBar *)navigationBar didPopItem:(UINavigationItem *)item {
+	[self setToolbarHidden:true animated:false];
+}
+
+
 
 @end
