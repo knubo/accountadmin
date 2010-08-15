@@ -33,7 +33,7 @@
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
-   
+	doReload = true;
 }
 
 /*
@@ -63,16 +63,24 @@
     [super dealloc];
 }
 
-
+- (void) flagDataAsReloaded {
+	doReload = true;
+}
 
 - (IBAction)showPersons:(id)sender {
+	if(doReload) {
+		doReload = false;
+		[personViewController loadPeople];
+	}
+	
 	[UIView beginAnimations:nil context:NULL];
 	[UIView setAnimationDuration:1.0];
-	[UIView setAnimationTransition:UIViewAnimationTransitionCurlDown forView:self.view cache:YES];
+
+	[UIView setAnimationTransition:UIViewAnimationTransitionCurlDown forView:self.view cache:NO];
 	
 	[self pushViewController:personViewController animated:false];
 	
-   	[personViewController loadPeople];
+
 
 	[UIView commitAnimations];
 }		

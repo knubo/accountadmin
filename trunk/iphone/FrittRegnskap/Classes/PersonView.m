@@ -34,7 +34,7 @@
 	}
 	people = [[appDelegate getPeople:true] retain];
 	[self calculateIndexes];
-	
+	[persontable reloadData];
 }
 
 - (void) calculateIndexes {

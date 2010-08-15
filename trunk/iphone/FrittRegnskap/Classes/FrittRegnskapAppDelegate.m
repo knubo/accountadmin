@@ -121,6 +121,8 @@
 	
 	if(error != nil) {
 		NSLog(@"Error in save %@", error);
+	} else {
+		[viewController flagDataAsReloaded];
 	}
 }
 

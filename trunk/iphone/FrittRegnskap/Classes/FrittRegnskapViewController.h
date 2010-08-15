@@ -14,11 +14,12 @@
 @interface FrittRegnskapViewController : UINavigationController {
 	IBOutlet PersonUIViewController *personViewController;
 	IBOutlet PersonDetailsUIController *personDetailsController;
+	bool doReload;
 }
 
 - (void) showPersonDetail:(Person*)person;
 - (IBAction)showPersons:(id)sender;
-
+- (void) flagDataAsReloaded;
 
 @end
 
