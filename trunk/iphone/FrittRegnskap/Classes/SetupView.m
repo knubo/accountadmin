@@ -148,9 +148,9 @@
 	[appDelegate savePersons:persons];
 	[appDelegate saveSemesters:semesters];
 	[appDelegate saveYearMemberships:year_memberships];
-	[appDelegate saveYouthMemberships:youth_memberships];
-	[appDelegate saveTrainMemberships:train_memberships];
-	[appDelegate saveCourseMemberships:course_memberships];
+	[appDelegate saveSemesterMemberships:youth_memberships type:@"Y"];
+	[appDelegate saveSemesterMemberships:train_memberships type:@"T"];
+	[appDelegate saveSemesterMemberships:course_memberships type:@"C"];
 	[self setMinMaxValues:min_semester max_semester:max_semester min_year:min_year max_year:max_year];
 	
 	label.text = [NSString stringWithFormat:@"Antall personer innlest: %d", [persons count]];
