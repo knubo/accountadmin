@@ -31,9 +31,7 @@
 
 - (NSString *)applicationDocumentsDirectory;
 - (void) savePersons:(NSArray*) persons;
-- (void) saveCourseMemberships:(NSArray*) memberships;
-- (void) saveTrainMemberships:(NSArray*) memberships;
-- (void) saveYouthMemberships:(NSArray*) memberships;
+- (void) saveSemesterMemberships:(NSArray*) memberships type:(NSString*)type;
 - (void) saveYearMemberships:(NSArray*) memberships;
 - (void) saveSemesters:(NSArray *)semesters;
 

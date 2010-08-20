@@ -97,15 +97,36 @@
 }
 
 
-- (void) saveCourseMemberships:(NSArray*) memberships {
+- (void) saveSemesterMemberships:(NSArray*) memberships type:(NSString*)type {
+	
+	for (int i = 0; i < [memberships count]; i++) {
+		NSDictionary *semestermembership = [memberships objectAtIndex:i];
+		
+		YearMembership *newSemester = [NSEntityDescription insertNewObjectForEntityForName:@"SemesterMembership" inManagedObjectContext: [self managedObjectContext]];
+		
+		NSEnumerator *keys = [semestermembership keyEnumerator];
+		id key;
+		
+		
+		[newSemester setValue:type forKey:@"type"];
+		
+		while ((key = [keys nextObject])) {
+			[newSemester setValue:[semestermembership valueForKey:key] forKey:key];
+		}
+	}
+	
+	NSError *error = nil;
+	
+	[[self managedObjectContext] save:&error];
+	
+	if(error != nil) {
+		NSLog(@"Error in save %@", error);
+	} else {
+		[viewController flagDataAsReloaded];
+	}
 	
 }
 
-- (void) saveTrainMemberships:(NSArray*) memberships {
-}
-
-- (void) saveYouthMemberships:(NSArray*) memberships {
-}
 
 - (void) saveYearMemberships:(NSArray*) memberships {
 	
