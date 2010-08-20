@@ -9,13 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "PersonUIViewController.h"
 #import "PersonDetailsUIController.h"
-#import "MembershipViewUIController.h"
+#import "MembersViewUIController.h"
 
 
 @interface FrittRegnskapViewController : UINavigationController {
 	IBOutlet PersonUIViewController *personViewController;
 	IBOutlet PersonDetailsUIController *personDetailsController;
-	IBOutlet MembershipViewUIController *membershipViewUIController;
+	IBOutlet MembersViewUIController *membershipViewUIController;
 	bool doReload;
 }
 
