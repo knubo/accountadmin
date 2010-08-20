@@ -31,8 +31,14 @@
 
 - (NSString *)applicationDocumentsDirectory;
 - (void) savePersons:(NSArray*) persons;
-- (void) deleteAllPersons;
-- (NSArray *) getPeople: (bool) sort;
+- (void) saveCourseMemberships:(NSArray*) memberships;
+- (void) saveTrainMemberships:(NSArray*) memberships;
+- (void) saveYouthMemberships:(NSArray*) memberships;
+- (void) saveYearMemberships:(NSArray*) memberships;
+- (void) saveSemesters:(NSArray *)semesters;
+
+- (void) deleteObjectsInDatabase: (NSString*) entity;
+- (NSArray *) getObjectsFromDatabase: (bool) sort entity:(NSString*)entity;
 
 @end
 

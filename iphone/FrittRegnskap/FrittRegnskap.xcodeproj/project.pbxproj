@@ -27,7 +27,7 @@
 		9F9698A112175371003E0CC0 /* PersonDetailsUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9698A012175371003E0CC0 /* PersonDetailsUIController.m */; };
 		9FA34AA112173DEF001F52C6 /* PersonUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA34A9F12173DEF001F52C6 /* PersonUIViewController.m */; };
 		9FBEC3F6120F3F780078170A /* SetupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBEC3F5120F3F780078170A /* SetupView.m */; };
-		9FC5988E12132AF600273FCC /* CourseMembership.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5988712132AF600273FCC /* CourseMembership.m */; };
+		9FC5988E12132AF600273FCC /* SemesterMembership.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5988712132AF600273FCC /* SemesterMembership.m */; };
 		9FC5988F12132AF600273FCC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5988912132AF600273FCC /* Person.m */; };
 		9FC5989012132AF600273FCC /* Semester.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5988B12132AF600273FCC /* Semester.m */; };
 		9FC5989112132AF600273FCC /* YearMembership.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5988D12132AF600273FCC /* YearMembership.m */; };
@@ -75,8 +75,8 @@
 		9FA34AA012173DEF001F52C6 /* PersonUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonUIViewController.h; path = Classes/PersonUIViewController.h; sourceTree = "<group>"; };
 		9FBEC3F4120F3F780078170A /* SetupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetupView.h; path = Classes/SetupView.h; sourceTree = "<group>"; };
 		9FBEC3F5120F3F780078170A /* SetupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetupView.m; path = Classes/SetupView.m; sourceTree = "<group>"; };
-		9FC5988612132AF600273FCC /* CourseMembership.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseMembership.h; sourceTree = "<group>"; };
-		9FC5988712132AF600273FCC /* CourseMembership.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseMembership.m; sourceTree = "<group>"; };
+		9FC5988612132AF600273FCC /* SemesterMembership.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SemesterMembership.h; sourceTree = "<group>"; };
+		9FC5988712132AF600273FCC /* SemesterMembership.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SemesterMembership.m; sourceTree = "<group>"; };
 		9FC5988812132AF600273FCC /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		9FC5988912132AF600273FCC /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		9FC5988A12132AF600273FCC /* Semester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Semester.h; sourceTree = "<group>"; };
@@ -199,8 +199,8 @@
 		9FC5988512132AF600273FCC /* model */ = {
 			isa = PBXGroup;
 			children = (
-				9FC5988612132AF600273FCC /* CourseMembership.h */,
-				9FC5988712132AF600273FCC /* CourseMembership.m */,
+				9FC5988612132AF600273FCC /* SemesterMembership.h */,
+				9FC5988712132AF600273FCC /* SemesterMembership.m */,
 				9FC5988812132AF600273FCC /* Person.h */,
 				9FC5988912132AF600273FCC /* Person.m */,
 				9FC5988A12132AF600273FCC /* Semester.h */,
@@ -279,7 +279,7 @@
 				9F924A9512100A8A007DB7F1 /* SBJsonWriter.m in Sources */,
 				9F924B921211A3AB007DB7F1 /* FrittRegnskap.xcdatamodel in Sources */,
 				9F924C3E121311B5007DB7F1 /* FrittRegnskapViewController.m in Sources */,
-				9FC5988E12132AF600273FCC /* CourseMembership.m in Sources */,
+				9FC5988E12132AF600273FCC /* SemesterMembership.m in Sources */,
 				9FC5988F12132AF600273FCC /* Person.m in Sources */,
 				9FC5989012132AF600273FCC /* Semester.m in Sources */,
 				9FC5989112132AF600273FCC /* YearMembership.m in Sources */,

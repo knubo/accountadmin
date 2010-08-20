@@ -14,7 +14,7 @@
 }
 
 @property (nonatomic, retain) NSNumber * semester;
-@property (nonatomic, retain) NSString * desc;
+@property (nonatomic, retain) NSString * description;
 @property (nonatomic, retain) NSNumber * year;
 @property (nonatomic, retain) NSNumber * fall;
 

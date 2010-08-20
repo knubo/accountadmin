@@ -32,7 +32,7 @@
 		[indexes release];
 		[indexNames release];
 	}
-	people = [[appDelegate getPeople:true] retain];
+	people = [[appDelegate getObjectsFromDatabase:true entity:@"Person"] retain];
 	[self calculateIndexes];
 	[persontable reloadData];
 }
