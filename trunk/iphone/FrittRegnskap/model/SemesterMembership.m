@@ -1,19 +1,17 @@
 // 
-//  Semester.m
+//  CourseMembership.m
 //  FrittRegnskap
 //
 //  Created by Knut Erik Borgen on 11.08.10.
 //  Copyright 2010 Knubo Borgen. All rights reserved.
 //
 
-#import "Semester.h"
+#import "SemesterMembership.h"
 
+@implementation SemesterMembership 
 
-@implementation Semester 
-
+@dynamic memberid;
 @dynamic semester;
-@dynamic description;
-@dynamic year;
-@dynamic fall;
+@dynamic type;
 
 @end
