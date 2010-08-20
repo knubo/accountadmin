@@ -1,0 +1,30 @@
+//
+//  MembersViewUIController.h
+//
+//  Created by Knut Erik Borgen on 20.08.10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "FrittRegnskapAppDelegate.h"
+
+@interface MembersViewUIController : UITableViewController {
+	IBOutlet FrittRegnskapAppDelegate *appDelegate;
+	int min_semester;
+	int max_semester;
+	int min_year;
+	int max_year;
+	int current_semester;
+	int current_year;
+}
+
+
+@property (nonatomic, retain) NSArray *people;
+@property (nonatomic, retain) NSMutableArray *indexes;
+@property (nonatomic, retain) NSMutableArray *indexNames;
+
+- (void) initView;
+- (void) switchToSemesterView;
+
+@end

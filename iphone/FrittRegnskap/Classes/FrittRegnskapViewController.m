@@ -68,6 +68,7 @@
 }
 
 - (IBAction)showMemberships:(id)sender {
+	[membershipViewUIController initView];
 	
 	[self setToolbarHidden:false animated:true];
 	[UIView beginAnimations:nil context:NULL];
