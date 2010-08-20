@@ -97,9 +97,73 @@
 }
 
 
+- (void) saveCourseMemberships:(NSArray*) memberships {
+	
+}
+
+- (void) saveTrainMemberships:(NSArray*) memberships {
+}
+
+- (void) saveYouthMemberships:(NSArray*) memberships {
+}
+
+- (void) saveYearMemberships:(NSArray*) memberships {
+	
+	for (int i = 0; i < [memberships count]; i++) {
+		NSDictionary *yearmembership = [memberships objectAtIndex:i];
+		
+		YearMembership *newSemester = [NSEntityDescription insertNewObjectForEntityForName:@"YearMembership" inManagedObjectContext: [self managedObjectContext]];
+		
+		NSEnumerator *keys = [yearmembership keyEnumerator];
+		id key;
+		
+		
+		while ((key = [keys nextObject])) {
+			[newSemester setValue:[yearmembership valueForKey:key] forKey:key];
+		}
+	}
+	
+	NSError *error = nil;
+	
+	[[self managedObjectContext] save:&error];
+	
+	if(error != nil) {
+		NSLog(@"Error in save %@", error);
+	} else {
+		[viewController flagDataAsReloaded];
+	}
+	
+}
+
+- (void) saveSemesters:(NSArray *)semesters {
+	
+	for (int i = 0; i < [semesters count]; i++) {
+		NSDictionary *semester = [semesters objectAtIndex:i];
+		
+		Semester *newSemester = [NSEntityDescription insertNewObjectForEntityForName:@"Semester" inManagedObjectContext: [self managedObjectContext]];
+		
+		NSEnumerator *keys = [semester keyEnumerator];
+		id key;
+		
+		
+		while ((key = [keys nextObject])) {
+			[newSemester setValue:[semester valueForKey:key] forKey:key];
+		}
+	}
+	
+	NSError *error = nil;
+	
+	[[self managedObjectContext] save:&error];
+	
+	if(error != nil) {
+		NSLog(@"Error in save %@", error);
+	} else {
+		[viewController flagDataAsReloaded];
+	}
+	
+}
 
 - (void) savePersons:(NSArray*) persons {
-	[self deleteAllPersons];
 	
 	for (int i = 0; i < [persons count]; i++) {
 		NSDictionary *person = [persons objectAtIndex:i];
@@ -126,30 +190,36 @@
 	}
 }
 
-- (void) deleteAllPersons {
+- (void) deleteObjectsInDatabase: (NSString*) entity {
 	NSManagedObjectContext * context = [self managedObjectContext];
 
-	NSArray * result = [self getPeople:false];
+	NSArray * result = [self getObjectsFromDatabase:false entity:entity];
 	for (id person in result) {
 		[context deleteObject:person];
 	}
 }
 
-- (NSArray *) getPeople: (bool) sort {
+- (NSArray *) getObjectsFromDatabase: (bool) sort entity:(NSString*)entity {
 	NSManagedObjectContext * context = [self managedObjectContext];
 	NSFetchRequest * fetch = [[NSFetchRequest alloc] init];
-	[fetch setEntity:[NSEntityDescription entityForName:@"Person" inManagedObjectContext:context]];
-
-	NSSortDescriptor *sortFirstName = [[NSSortDescriptor alloc] initWithKey:@"firstname" ascending:YES selector:@selector(caseInsensitiveCompare:)];
-	NSSortDescriptor *sortLastName = [[NSSortDescriptor alloc] initWithKey:@"lastname" ascending:YES selector:@selector(caseInsensitiveCompare:)];
-	[fetch setSortDescriptors:[NSArray arrayWithObjects:sortFirstName, sortLastName, nil]];
+	[fetch setEntity:[NSEntityDescription entityForName:entity inManagedObjectContext:context]];
+	
+	NSSortDescriptor *sortFirstName = nil;
+	NSSortDescriptor *sortLastName = nil;
+ 
+	if(sort) {
+		sortFirstName = [[NSSortDescriptor alloc] initWithKey:@"firstname" ascending:YES selector:@selector(caseInsensitiveCompare:)];
+		sortLastName = [[NSSortDescriptor alloc] initWithKey:@"lastname" ascending:YES selector:@selector(caseInsensitiveCompare:)];
+		[fetch setSortDescriptors:[NSArray arrayWithObjects:sortFirstName, sortLastName, nil]];
+	}
 	
 	NSArray * result = [context executeFetchRequest:fetch error:nil];
-
-	[sortFirstName release];
-	[sortLastName release];
-	[fetch release];
 	
+	if(sort) {
+		[sortFirstName release];
+		[sortLastName release];
+	}
+	[fetch release];
 	return result;
 }
 

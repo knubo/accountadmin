@@ -16,6 +16,9 @@
 	IBOutlet UITextField *username;
 	IBOutlet UITextField *password;
 	IBOutlet UILabel *label;
+	IBOutlet UIActivityIndicatorView *activityIndicator;
+	IBOutlet UIButton *okButton;
+	IBOutlet UIButton *synchronizeButton;
 	
 	NSMutableData *responseData;
 	IBOutlet FrittRegnskapAppDelegate *appDelegate;
