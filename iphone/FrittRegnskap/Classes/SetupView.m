@@ -51,7 +51,12 @@
 }
 
 - (IBAction)synchronizeDatabase:(id)sender {
-
+	[okButton setEnabled:false];
+	[synchronizeButton setEnabled:false];
+	
+	[activityIndicator startAnimating];
+	
+	
 	NSRange range = [domain.text rangeOfString : @"."];
 	
 	if(range.location != NSNotFound) {
@@ -81,6 +86,22 @@
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
 	label.text = [NSString stringWithFormat:@"Klarte ikke koble til.", [error description]];
+	[okButton setEnabled:true];
+	[synchronizeButton setEnabled:true];
+	[activityIndicator stopAnimating];
+
+
+}
+
+- (void)setMinMaxValues:(NSNumber *)min_semester max_semester:(NSNumber *)max_semester min_year:(NSNumber *)min_year max_year:(NSNumber *)max_year {
+	NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];  
+	
+	[userDefaults setObject:min_semester forKey:@"frittregnskap.min_semester"];
+	[userDefaults setObject:max_semester forKey:@"frittregnskap.max_semester"];
+	[userDefaults setObject:min_year forKey:@"frittregnskap.min_year"];
+	[userDefaults setObject:max_year forKey:@"frittregnskap.max_year"];
+	[userDefaults synchronize];
+	
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)con {
@@ -100,11 +121,16 @@
 	}
 	
 	NSArray *persons = [data objectForKey:@"people"];
-//	NSArray *semesters = [data objectForKey:@"semesters"];
-//	NSArray *year_memberships = [data objectForKey:@"year_memberships"];
-//	NSArray *youth_memberships = [data objectForKey:@"youth_memberships"];
-//	NSArray *train_memberships = [data objectForKey:@"train_memberships"];
-//	NSArray *course_memberships = [data objectForKey:@"course_memberships"];
+	NSArray *semesters = [data objectForKey:@"semesters"];
+	NSArray *year_memberships = [data objectForKey:@"year_memberships"];
+	NSArray *youth_memberships = [data objectForKey:@"youth_memberships"];
+	NSArray *train_memberships = [data objectForKey:@"train_memberships"];
+	NSArray *course_memberships = [data objectForKey:@"course_memberships"];
+	NSNumber *min_semester =[data objectForKey:@"min_semester"];
+	NSNumber *max_semester =[data objectForKey:@"max_semester"];
+	NSNumber *min_year =[data objectForKey:@"min_semester"];
+	NSNumber *max_year =[data objectForKey:@"max_semester"];
+
 	
 	if (persons == nil) {
 		label.text = @"Feil! Sjekk adresse, brukernavn og passord.";
@@ -112,11 +138,27 @@
 		
 	} 
 	
+	label.text = @"Sletter eksisterende data...";
+	[appDelegate deleteObjectsInDatabase:@"Person"];
+	[appDelegate deleteObjectsInDatabase:@"YearMembership"];
+	[appDelegate deleteObjectsInDatabase:@"SemesterMembership"];
+	[appDelegate deleteObjectsInDatabase:@"Semester"];
+
+	label.text = @"Lagrer nye data...";	
 	[appDelegate savePersons:persons];
-	
+	[appDelegate saveSemesters:semesters];
+	[appDelegate saveYearMemberships:year_memberships];
+	[appDelegate saveYouthMemberships:youth_memberships];
+	[appDelegate saveTrainMemberships:train_memberships];
+	[appDelegate saveCourseMemberships:course_memberships];
+	[self setMinMaxValues:min_semester max_semester:max_semester min_year:min_year max_year:max_year];
 	
 	label.text = [NSString stringWithFormat:@"Antall personer innlest: %d", [persons count]];
 	
+	[activityIndicator stopAnimating];
+	[okButton setEnabled:true];
+	[synchronizeButton setEnabled:true];
+
 }
 
 
