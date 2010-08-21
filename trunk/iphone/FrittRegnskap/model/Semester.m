@@ -12,7 +12,7 @@
 @implementation Semester 
 
 @dynamic semester;
-@dynamic description;
+@dynamic desc;
 @dynamic year;
 @dynamic fall;
 

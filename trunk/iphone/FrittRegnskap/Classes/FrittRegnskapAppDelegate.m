@@ -156,10 +156,10 @@
 	
 }
 
-- (void) saveSemesters:(NSArray *)semesters {
+- (void) saveSemesters:(NSArray *)jsonSemesters {
 	
-	for (int i = 0; i < [semesters count]; i++) {
-		NSDictionary *semester = [semesters objectAtIndex:i];
+	for (int i = 0; i < [jsonSemesters count]; i++) {
+		NSDictionary *semester = [jsonSemesters objectAtIndex:i];
 		
 		Semester *newSemester = [NSEntityDescription insertNewObjectForEntityForName:@"Semester" inManagedObjectContext: [self managedObjectContext]];
 		
@@ -168,7 +168,11 @@
 		
 		
 		while ((key = [keys nextObject])) {
-			[newSemester setValue:[semester valueForKey:key] forKey:key];
+			if([key isEqualToString:@"description"]) {
+				[newSemester setValue:[semester valueForKey:key] forKey:@"desc"];
+			} else {
+				[newSemester setValue:[semester valueForKey:key] forKey:key];
+			}
 		}
 	}
 	
@@ -219,6 +223,21 @@
 		[context deleteObject:person];
 	}
 }
+
+- (NSArray *) getOneObjectFromDatabase:(NSString*) entity idfield:(NSString*)idfield idvalue:(int)idvalue {
+	NSManagedObjectContext * context = [self managedObjectContext];
+	NSFetchRequest * fetch = [[NSFetchRequest alloc] init];
+	[fetch setEntity:[NSEntityDescription entityForName:entity inManagedObjectContext:context]];
+
+	NSPredicate *predicate = [NSPredicate predicateWithFormat:[NSString stringWithFormat:@"%@=%@", idfield, @"%d"], idvalue];
+	[fetch setPredicate:predicate];
+	
+	NSArray * result = [context executeFetchRequest:fetch error:nil];
+
+	[fetch release];
+	return result;
+}
+
 
 - (NSArray *) getObjectsFromDatabase: (bool) sort entity:(NSString*)entity {
 	NSManagedObjectContext * context = [self managedObjectContext];

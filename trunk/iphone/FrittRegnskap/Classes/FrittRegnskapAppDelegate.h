@@ -33,10 +33,11 @@
 - (void) savePersons:(NSArray*) persons;
 - (void) saveSemesterMemberships:(NSArray*) memberships type:(NSString*)type;
 - (void) saveYearMemberships:(NSArray*) memberships;
-- (void) saveSemesters:(NSArray *)semesters;
+- (void) saveSemesters:(NSArray *)jsonSemesters;
 
 - (void) deleteObjectsInDatabase: (NSString*) entity;
 - (NSArray *) getObjectsFromDatabase: (bool) sort entity:(NSString*)entity;
+- (NSArray *) getOneObjectFromDatabase:(NSString*) entity idfield:(NSString*)idfield idvalue:(int)idvalue;
 
 @end
 
