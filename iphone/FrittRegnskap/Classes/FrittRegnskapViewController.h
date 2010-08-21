@@ -17,6 +17,7 @@
 	IBOutlet PersonDetailsUIController *personDetailsController;
 	IBOutlet MembersViewUIController *membershipViewUIController;
 	bool doReload;
+	bool hideOnLevel1;
 }
 
 - (void) showPersonDetail:(Person*)person;
