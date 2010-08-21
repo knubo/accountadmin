@@ -9,7 +9,6 @@
 #import "FrittRegnskapAppDelegate.h"
 #import "FrittRegnskapViewController.h"
 #import "model/Semester.h"
-#import "model/CourseMembership.h"
 #import "model/YearMembership.h"
 
 @implementation FrittRegnskapAppDelegate
@@ -200,7 +199,11 @@
 		
 		
 		while ((key = [keys nextObject])) {
-			[newPerson setValue:[person valueForKey:key] forKey:key];
+			if([key isEqualToString:@"id"]) {
+				[newPerson setValue:[person valueForKey:key] forKey:@"ident"];
+			} else {				
+				[newPerson setValue:[person valueForKey:key] forKey:key];
+			}
 		}
 	}
 	
@@ -224,7 +227,7 @@
 	}
 }
 
-- (NSArray *) getOneObjectFromDatabase:(NSString*) entity idfield:(NSString*)idfield idvalue:(int)idvalue {
+- (NSArray *) getSomeObjectFromDatabase:(NSString*) entity idfield:(NSString*)idfield idvalue:(int)idvalue {
 	NSManagedObjectContext * context = [self managedObjectContext];
 	NSFetchRequest * fetch = [[NSFetchRequest alloc] init];
 	[fetch setEntity:[NSEntityDescription entityForName:entity inManagedObjectContext:context]];

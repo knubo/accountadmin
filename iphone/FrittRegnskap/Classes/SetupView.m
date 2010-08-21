@@ -50,6 +50,33 @@
 	return NO;
 }
 
+- (void)textFieldDidBeginEditing:(UITextField *)textField
+{
+    [self animateTextField: textField up: YES];
+}
+
+
+- (void)textFieldDidEndEditing:(UITextField *)textField
+{
+    [self animateTextField: textField up: NO];
+}
+
+- (void) animateTextField: (UITextField*) textField up: (BOOL) up
+{
+    const int movementDistance = 25; // tweak as needed
+    const float movementDuration = 0.3f; // tweak as needed
+	
+    int movement = (up ? -movementDistance : movementDistance);
+	
+    [UIView beginAnimations: @"anim" context: nil];
+    [UIView setAnimationBeginsFromCurrentState: YES];
+    [UIView setAnimationDuration: movementDuration];
+    self.frame = CGRectOffset(self.frame, 0, movement);
+    [UIView commitAnimations];
+}
+
+
+
 - (IBAction)synchronizeDatabase:(id)sender {
 	[okButton setEnabled:false];
 	[synchronizeButton setEnabled:false];
@@ -128,8 +155,8 @@
 	NSArray *course_memberships = [data objectForKey:@"course_memberships"];
 	NSNumber *min_semester =[data objectForKey:@"min_semester"];
 	NSNumber *max_semester =[data objectForKey:@"max_semester"];
-	NSNumber *min_year =[data objectForKey:@"min_semester"];
-	NSNumber *max_year =[data objectForKey:@"max_semester"];
+	NSNumber *min_year =[data objectForKey:@"min_year"];
+	NSNumber *max_year =[data objectForKey:@"max_year"];
 
 	
 	if (persons == nil) {
