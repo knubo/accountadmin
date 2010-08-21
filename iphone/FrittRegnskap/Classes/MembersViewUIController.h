@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "FrittRegnskapAppDelegate.h"
 #import "model/Semester.h"
+#import "model/SemesterMembership.h"
+
 @interface MembersViewUIController : UITableViewController {
 	IBOutlet FrittRegnskapAppDelegate *appDelegate;
 	IBOutlet UINavigationItem *titleBar;
@@ -29,6 +31,7 @@
 @property (nonatomic, retain) NSArray *people;
 @property (nonatomic, retain) NSMutableArray *indexes;
 @property (nonatomic, retain) NSMutableArray *indexNames;
+@property (nonatomic, retain) NSMutableDictionary *lookupMembership;
 
 - (void) initView;
 - (void) switchToSemesterView;
