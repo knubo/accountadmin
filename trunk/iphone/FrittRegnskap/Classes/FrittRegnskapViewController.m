@@ -68,6 +68,7 @@
 }
 
 - (IBAction)showMemberships:(id)sender {
+	hideOnLevel1 = false;
 	[membershipViewUIController initView];
 	
 	[self setToolbarHidden:false animated:true];
@@ -82,8 +83,8 @@
 }
 
 - (IBAction)showPersons:(id)sender {
-	
-	[self setToolbarHidden:false animated:true];
+	hideOnLevel1 = true;
+	[self setToolbarHidden:true animated:true];
 	if(doReload) {
 		doReload = false;
 		[personViewController loadPeople];
@@ -103,6 +104,8 @@
 
 
 - (void) showPersonDetail:(Person*)person {
+	[self setToolbarHidden:true animated:false];
+
 	[self pushViewController:personDetailsController animated:true];
 	[personDetailsController showPersonDetail:person];
 }
@@ -110,8 +113,13 @@
 - (void)navigationBar:(UINavigationBar *)navigationBar didPopItem:(UINavigationItem *)item {
 
 	if([[navigationBar items] count] == 0) {
-		[self setToolbarHidden:true animated:false];
+		[self setToolbarHidden:true animated:true];
 	}
+
+	if([[navigationBar items] count] == 1) {
+		[self setToolbarHidden:hideOnLevel1 animated:true];
+	}
+	
 }
 
 
