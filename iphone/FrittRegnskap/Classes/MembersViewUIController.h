@@ -8,15 +8,21 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import "FrittRegnskapAppDelegate.h"
-
+#import "model/Semester.h"
 @interface MembersViewUIController : UITableViewController {
 	IBOutlet FrittRegnskapAppDelegate *appDelegate;
+	IBOutlet UINavigationItem *titleBar;
+	IBOutlet UIBarButtonItem *statusBar;
+	IBOutlet UIBarButtonItem *previousButton;
+	IBOutlet UIBarButtonItem *nextButton;
+	IBOutlet UIBarButtonItem *switchButton;
 	int min_semester;
 	int max_semester;
 	int min_year;
 	int max_year;
 	int current_semester;
 	int current_year;
+	bool semesterView;
 }
 
 

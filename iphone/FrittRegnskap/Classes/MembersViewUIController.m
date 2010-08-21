@@ -37,6 +37,20 @@
 }
 
 - (void) switchToSemesterView {
+	semesterView = true;
 	people = [appDelegate getObjectsFromDatabase:true entity:@"Person"];	
+	
+	NSArray *semesters = //[appDelegate getObjectsFromDatabase:false entity:@"Semester"];	
+	[appDelegate getOneObjectFromDatabase:@"Semester" idfield:@"semester" idvalue:current_semester];
+	
+	if([semesters count] == 0) {
+		return;
+	}
+	
+	Semester *semester = [semesters objectAtIndex:0];
+	
+	titleBar.title = [semester desc];
+	
+	
 }
 @end

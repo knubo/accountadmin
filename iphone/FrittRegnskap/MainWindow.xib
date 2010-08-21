@@ -1040,7 +1040,7 @@
 						<int key="IBUISystemItemIdentifier">5</int>
 					</object>
 					<object class="IBUIBarButtonItem" id="33821318">
-						<string key="IBUITitle">100 medlemmer</string>
+						<string key="IBUITitle">...</string>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<reference key="IBUIToolbar"/>
 					</object>
@@ -1061,7 +1061,7 @@
 				</object>
 				<object class="IBUINavigationItem" key="IBUINavigationItem" id="458085200">
 					<reference key="IBUINavigationBar"/>
-					<string key="IBUITitle">Høst 2009</string>
+					<string key="IBUITitle">...</string>
 					<object class="IBUIBarButtonItem" key="IBUIRightBarButtonItem" id="136833495">
 						<string key="IBUITitle">Bytt liste</string>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -1457,6 +1457,14 @@
 						<reference key="destination" ref="664661524"/>
 					</object>
 					<int key="connectionID">297</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">titleBar</string>
+						<reference key="source" ref="463505565"/>
+						<reference key="destination" ref="458085200"/>
+					</object>
+					<int key="connectionID">298</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2114,7 +2122,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">297</int>
+			<int key="maxID">298</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -2330,14 +2338,35 @@
 					<string key="className">MembersViewUIController</string>
 					<string key="superclassName">UITableViewController</string>
 					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">appDelegate</string>
-						<string key="NS.object.0">FrittRegnskapAppDelegate</string>
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>appDelegate</string>
+							<string>titleBar</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>FrittRegnskapAppDelegate</string>
+							<string>UINavigationItem</string>
+						</object>
 					</object>
 					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<string key="NS.key.0">appDelegate</string>
-						<object class="IBToOneOutletInfo" key="NS.object.0">
-							<string key="name">appDelegate</string>
-							<string key="candidateClassName">FrittRegnskapAppDelegate</string>
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>appDelegate</string>
+							<string>titleBar</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBToOneOutletInfo">
+								<string key="name">appDelegate</string>
+								<string key="candidateClassName">FrittRegnskapAppDelegate</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">titleBar</string>
+								<string key="candidateClassName">UINavigationItem</string>
+							</object>
 						</object>
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
