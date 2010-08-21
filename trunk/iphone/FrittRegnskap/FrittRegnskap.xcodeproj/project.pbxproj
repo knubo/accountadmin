@@ -13,6 +13,13 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		9F17D2FF12202E94009BFB52 /* K.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F17D2FC12202E94009BFB52 /* K.png */; };
+		9F17D30012202E94009BFB52 /* T.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F17D2FD12202E94009BFB52 /* T.png */; };
+		9F17D30112202E94009BFB52 /* U.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F17D2FE12202E94009BFB52 /* U.png */; };
+		9F17D455122041E8009BFB52 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F17D44E122041E8009BFB52 /* Person.m */; };
+		9F17D456122041E8009BFB52 /* Semester.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F17D450122041E8009BFB52 /* Semester.m */; };
+		9F17D457122041E8009BFB52 /* SemesterMembership.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F17D452122041E8009BFB52 /* SemesterMembership.m */; };
+		9F17D458122041E8009BFB52 /* YearMembership.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F17D454122041E8009BFB52 /* YearMembership.m */; };
 		9F4F34EA121FC0670066D051 /* FrittRegnskap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F34E9121FC0670066D051 /* FrittRegnskap.xcdatamodeld */; };
 		9F4F34F3121FC0A60066D051 /* FrittRegnskap.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F34F2121FC0A60066D051 /* FrittRegnskap.xcdatamodel */; };
 		9F53EF54121F225200889A15 /* MembersViewUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F53EF53121F225200889A15 /* MembersViewUIController.m */; };
@@ -29,10 +36,6 @@
 		9F9698A112175371003E0CC0 /* PersonDetailsUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9698A012175371003E0CC0 /* PersonDetailsUIController.m */; };
 		9FA34AA112173DEF001F52C6 /* PersonUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA34A9F12173DEF001F52C6 /* PersonUIViewController.m */; };
 		9FBEC3F6120F3F780078170A /* SetupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBEC3F5120F3F780078170A /* SetupView.m */; };
-		9FC5988E12132AF600273FCC /* SemesterMembership.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5988712132AF600273FCC /* SemesterMembership.m */; };
-		9FC5988F12132AF600273FCC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5988912132AF600273FCC /* Person.m */; };
-		9FC5989012132AF600273FCC /* Semester.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5988B12132AF600273FCC /* Semester.m */; };
-		9FC5989112132AF600273FCC /* YearMembership.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5988D12132AF600273FCC /* YearMembership.m */; };
 		9FC59CB41215A98000273FCC /* 19-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC59CB31215A98000273FCC /* 19-gear.png */; };
 		9FC59CB61215A9AD00273FCC /* FrittRegnskapIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC59CB51215A9AD00273FCC /* FrittRegnskapIcon.png */; };
 		9FC59D6B1215C35300273FCC /* PersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC59D691215C35300273FCC /* PersonView.m */; };
@@ -49,6 +52,17 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* FrittRegnskap_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrittRegnskap_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FrittRegnskap-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FrittRegnskap-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9F17D2FC12202E94009BFB52 /* K.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = K.png; sourceTree = "<group>"; };
+		9F17D2FD12202E94009BFB52 /* T.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T.png; sourceTree = "<group>"; };
+		9F17D2FE12202E94009BFB52 /* U.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = U.png; sourceTree = "<group>"; };
+		9F17D44D122041E8009BFB52 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9F17D44E122041E8009BFB52 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		9F17D44F122041E8009BFB52 /* Semester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Semester.h; sourceTree = "<group>"; };
+		9F17D450122041E8009BFB52 /* Semester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Semester.m; sourceTree = "<group>"; };
+		9F17D451122041E8009BFB52 /* SemesterMembership.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SemesterMembership.h; sourceTree = "<group>"; };
+		9F17D452122041E8009BFB52 /* SemesterMembership.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SemesterMembership.m; sourceTree = "<group>"; };
+		9F17D453122041E8009BFB52 /* YearMembership.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YearMembership.h; sourceTree = "<group>"; };
+		9F17D454122041E8009BFB52 /* YearMembership.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YearMembership.m; sourceTree = "<group>"; };
 		9F4F34F2121FC0A60066D051 /* FrittRegnskap.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = FrittRegnskap.xcdatamodel; sourceTree = "<group>"; };
 		9F53EF52121F225200889A15 /* MembersViewUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MembersViewUIController.h; path = Classes/MembersViewUIController.h; sourceTree = "<group>"; };
 		9F53EF53121F225200889A15 /* MembersViewUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MembersViewUIController.m; path = Classes/MembersViewUIController.m; sourceTree = "<group>"; };
@@ -76,14 +90,6 @@
 		9FA34AA012173DEF001F52C6 /* PersonUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonUIViewController.h; path = Classes/PersonUIViewController.h; sourceTree = "<group>"; };
 		9FBEC3F4120F3F780078170A /* SetupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetupView.h; path = Classes/SetupView.h; sourceTree = "<group>"; };
 		9FBEC3F5120F3F780078170A /* SetupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetupView.m; path = Classes/SetupView.m; sourceTree = "<group>"; };
-		9FC5988612132AF600273FCC /* SemesterMembership.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SemesterMembership.h; sourceTree = "<group>"; };
-		9FC5988712132AF600273FCC /* SemesterMembership.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SemesterMembership.m; sourceTree = "<group>"; };
-		9FC5988812132AF600273FCC /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		9FC5988912132AF600273FCC /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		9FC5988A12132AF600273FCC /* Semester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Semester.h; sourceTree = "<group>"; };
-		9FC5988B12132AF600273FCC /* Semester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Semester.m; sourceTree = "<group>"; };
-		9FC5988C12132AF600273FCC /* YearMembership.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YearMembership.h; sourceTree = "<group>"; };
-		9FC5988D12132AF600273FCC /* YearMembership.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YearMembership.m; sourceTree = "<group>"; };
 		9FC59CB31215A98000273FCC /* 19-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-gear.png"; sourceTree = "<group>"; };
 		9FC59CB51215A9AD00273FCC /* FrittRegnskapIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrittRegnskapIcon.png; sourceTree = "<group>"; };
 		9FC59D691215C35300273FCC /* PersonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonView.m; path = Classes/PersonView.m; sourceTree = "<group>"; };
@@ -116,7 +122,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				9FC5988512132AF600273FCC /* model */,
+				9F17D44C122041E8009BFB52 /* model */,
 				9F924A8512100A8A007DB7F1 /* JSON */,
 				9FBEC3F4120F3F780078170A /* SetupView.h */,
 				9FBEC3F5120F3F780078170A /* SetupView.m */,
@@ -154,6 +160,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9F17D2FC12202E94009BFB52 /* K.png */,
+				9F17D2FD12202E94009BFB52 /* T.png */,
+				9F17D2FE12202E94009BFB52 /* U.png */,
 				9F6FAEAE12188F55000CDC17 /* go-next.png */,
 				9F6FAEAF12188F55000CDC17 /* go-previous.png */,
 				9FC59CB51215A9AD00273FCC /* FrittRegnskapIcon.png */,
@@ -176,6 +185,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9F17D44C122041E8009BFB52 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9F17D44D122041E8009BFB52 /* Person.h */,
+				9F17D44E122041E8009BFB52 /* Person.m */,
+				9F17D44F122041E8009BFB52 /* Semester.h */,
+				9F17D450122041E8009BFB52 /* Semester.m */,
+				9F17D451122041E8009BFB52 /* SemesterMembership.h */,
+				9F17D452122041E8009BFB52 /* SemesterMembership.m */,
+				9F17D453122041E8009BFB52 /* YearMembership.h */,
+				9F17D454122041E8009BFB52 /* YearMembership.m */,
+			);
+			name = model;
+			path = Classes/model;
+			sourceTree = "<group>";
+		};
 		9F924A8512100A8A007DB7F1 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,21 +218,6 @@
 			);
 			name = JSON;
 			path = Classes/JSON;
-			sourceTree = "<group>";
-		};
-		9FC5988512132AF600273FCC /* model */ = {
-			isa = PBXGroup;
-			children = (
-				9FC5988612132AF600273FCC /* SemesterMembership.h */,
-				9FC5988712132AF600273FCC /* SemesterMembership.m */,
-				9FC5988812132AF600273FCC /* Person.h */,
-				9FC5988912132AF600273FCC /* Person.m */,
-				9FC5988A12132AF600273FCC /* Semester.h */,
-				9FC5988B12132AF600273FCC /* Semester.m */,
-				9FC5988C12132AF600273FCC /* YearMembership.h */,
-				9FC5988D12132AF600273FCC /* YearMembership.m */,
-			);
-			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +267,9 @@
 				9FC59CB61215A9AD00273FCC /* FrittRegnskapIcon.png in Resources */,
 				9F6FAEB012188F55000CDC17 /* go-next.png in Resources */,
 				9F6FAEB112188F55000CDC17 /* go-previous.png in Resources */,
+				9F17D2FF12202E94009BFB52 /* K.png in Resources */,
+				9F17D30012202E94009BFB52 /* T.png in Resources */,
+				9F17D30112202E94009BFB52 /* U.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,15 +291,15 @@
 				9F924A9512100A8A007DB7F1 /* SBJsonWriter.m in Sources */,
 				9F4F34EA121FC0670066D051 /* FrittRegnskap.xcdatamodeld in Sources */,
 				9F924C3E121311B5007DB7F1 /* FrittRegnskapViewController.m in Sources */,
-				9FC5988E12132AF600273FCC /* SemesterMembership.m in Sources */,
-				9FC5988F12132AF600273FCC /* Person.m in Sources */,
-				9FC5989012132AF600273FCC /* Semester.m in Sources */,
-				9FC5989112132AF600273FCC /* YearMembership.m in Sources */,
 				9FC59D6B1215C35300273FCC /* PersonView.m in Sources */,
 				9FA34AA112173DEF001F52C6 /* PersonUIViewController.m in Sources */,
 				9F9698A112175371003E0CC0 /* PersonDetailsUIController.m in Sources */,
 				9F53EF54121F225200889A15 /* MembersViewUIController.m in Sources */,
 				9F4F34F3121FC0A60066D051 /* FrittRegnskap.xcdatamodel in Sources */,
+				9F17D455122041E8009BFB52 /* Person.m in Sources */,
+				9F17D456122041E8009BFB52 /* Semester.m in Sources */,
+				9F17D457122041E8009BFB52 /* SemesterMembership.m in Sources */,
+				9F17D458122041E8009BFB52 /* YearMembership.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

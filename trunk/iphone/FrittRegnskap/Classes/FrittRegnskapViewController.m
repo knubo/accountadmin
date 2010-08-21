@@ -83,6 +83,7 @@
 
 - (IBAction)showPersons:(id)sender {
 	
+	[self setToolbarHidden:false animated:true];
 	if(doReload) {
 		doReload = false;
 		[personViewController loadPeople];
@@ -107,7 +108,10 @@
 }
 
 - (void)navigationBar:(UINavigationBar *)navigationBar didPopItem:(UINavigationItem *)item {
-	[self setToolbarHidden:true animated:false];
+
+	if([[navigationBar items] count] == 0) {
+		[self setToolbarHidden:true animated:false];
+	}
 }
 
 

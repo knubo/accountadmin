@@ -32,6 +32,7 @@
 @property (nonatomic, retain) UITextField *password;
 @property (nonatomic, retain) NSURLConnection *connection;
 
+- (void) animateTextField: (UITextField*) textField up: (BOOL) up;
 - (IBAction)synchronizeDatabase:(id)sender;
 - (void) loadSettings;
 - (void) saveSettings;

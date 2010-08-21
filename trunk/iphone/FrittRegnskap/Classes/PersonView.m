@@ -51,7 +51,6 @@
 		count++;
 		NSString *name = [person firstname];
 
-		//NSLog(@"Name:%@", name);
 		char startLetter = [[name uppercaseString] characterAtIndex:0];
 		
 		id key = [NSNumber numberWithChar:startLetter];

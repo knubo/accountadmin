@@ -37,7 +37,7 @@
 
 - (void) deleteObjectsInDatabase: (NSString*) entity;
 - (NSArray *) getObjectsFromDatabase: (bool) sort entity:(NSString*)entity;
-- (NSArray *) getOneObjectFromDatabase:(NSString*) entity idfield:(NSString*)idfield idvalue:(int)idvalue;
+- (NSArray *) getSomeObjectFromDatabase:(NSString*) entity idfield:(NSString*)idfield idvalue:(int)idvalue;
 
 @end
 
