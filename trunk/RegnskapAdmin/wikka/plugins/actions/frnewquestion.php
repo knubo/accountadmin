@@ -19,7 +19,7 @@ $headers .= "X-Mailer: PHP v".phpversion().$eol;          // These two to help a
 $subject = "New question";
 $email = "question@frittregnskap.no";
 
-$msg = "Nytt sp¿rsmal: $title\nDetaljer: $detail\nInnlagt av:".json_encode($user);
+$msg = "Nytt sp¿rsmal: $title\nDetaljer: $detail\nInnlagt av:".json_encode($user)."\nServer:\n".json_encode($_SERVER);
 
 mail($email, $subject, $msg, $headers);
 
