@@ -53,19 +53,21 @@
 	
 	sex.text = person.gender;
 	
-	if([person.newsletter isEqual: @"1"]) {
+	if([person.newsletter isEqualToNumber: [NSNumber numberWithInt:1]]) {
 		newsletter.text = @"Ja";
 	} else {
 		newsletter.text = @"Nei";
 	}
 
-	if([person.employee isEqual: @"1"]) {
+	if([person.employee isEqualToNumber:[NSNumber numberWithInt:1]]) {
 		employee.text = @"Ja";
 	} else {
 		employee.text = @"Nei";
 	}
 	[comment setText:person.comment];
 	
+	UIScrollView *tempScrollView=(UIScrollView *)self.view;
+	[tempScrollView scrollRectToVisible:CGRectMake(0, 0, 1, 1)  animated:true];
 }
 
 
