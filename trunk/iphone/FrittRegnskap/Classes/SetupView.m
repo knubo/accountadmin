@@ -33,6 +33,7 @@
 	username.text = [userDefaults stringForKey:@"frittregnskap_username"];
 	domain.text = [userDefaults stringForKey:@"frittregnskap_domain"];
 	password.text = [userDefaults stringForKey:@"frittregnskap_password"];
+	pincode.text = [userDefaults stringForKey:@"frittregnskap_pincode"];
 	
 }
 
@@ -42,6 +43,8 @@
 	[userDefaults setObject:username.text forKey:@"frittregnskap_username"];
 	[userDefaults setObject:domain.text forKey:@"frittregnskap_domain"];
 	[userDefaults setObject:password.text forKey:@"frittregnskap_password"];
+	[userDefaults setObject:pincode.text forKey:@"frittregnskap_pincode"];
+
 	[userDefaults synchronize];
 }
 
@@ -63,7 +66,7 @@
 
 - (void) animateTextField: (UITextField*) textField up: (BOOL) up
 {
-    const int movementDistance = 25; // tweak as needed
+    const int movementDistance = 65; // tweak as needed
     const float movementDuration = 0.3f; // tweak as needed
 	
     int movement = (up ? -movementDistance : movementDistance);
@@ -188,8 +191,27 @@
 
 }
 
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
+	if(textField != pincode) {
+		return true;
+	}
 
-
+	if(range.location == 0 && [textField.text length] == 1) {
+		textField.text = @"";
+		[textField endEditing:true];
+	}
+	if(range.location == 3 && range.length == 0) {
+		textField.text = [NSString stringWithFormat: @"%@%@", textField.text , string];
+		[textField endEditing:true];	
+	}
+	if(range.location > 3) {
+		[textField endEditing:true];
+		return false;
+	}
+	
+	return true;
+	
+}
 
 
 @end

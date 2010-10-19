@@ -15,6 +15,8 @@
 	IBOutlet UITextField *domain;
 	IBOutlet UITextField *username;
 	IBOutlet UITextField *password;
+	IBOutlet UITextField *pincode;
+	
 	IBOutlet UILabel *label;
 	IBOutlet UIActivityIndicatorView *activityIndicator;
 	IBOutlet UIButton *okButton;

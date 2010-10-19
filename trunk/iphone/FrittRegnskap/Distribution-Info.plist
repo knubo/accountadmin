@@ -4,26 +4,18 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
-	<key>CFBundleDisplayName</key>
-	<string>FrittRegnskap</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
-	<key>CFBundleIconFile</key>
-	<string>FrittRegnskapIcon.png</string>
 	<key>CFBundleIdentifier</key>
-	<string>OfflineMedlemsapp</string>
+	<string>com.yourcompany.${PRODUCT_NAME:identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
-	<string></string>
-	<key>CFBundleName</key>
-	<string>Fritt Regnskap</string>
+	<string>6.0</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
-	<key>LSRequiresIPhoneOS</key>
-	<true/>
 	<key>NSMainNibFile</key>
 	<string>MainWindow</string>
 </dict>
