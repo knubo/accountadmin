@@ -20,6 +20,7 @@
 }
 
 - (IBAction)showConfig:(id)sender {
+    
 	[UIView beginAnimations:nil context:NULL];
 	[UIView setAnimationDuration:1.0];
 	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self cache:YES];

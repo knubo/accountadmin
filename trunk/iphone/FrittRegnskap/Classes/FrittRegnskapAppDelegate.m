@@ -294,12 +294,18 @@
 		return persistentStoreCoordinator;
 	}
 	NSURL *storeUrl = [NSURL fileURLWithPath: [[self applicationDocumentsDirectory]
-											   stringByAppendingPathComponent: @"FrittRegnskap.sqlite"]];
+											   stringByAppendingPathComponent: @"FrittRegnskap2.sqlite"]];
 	NSError *error = nil;
+    
+    NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:
+                             [NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption,
+                             [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
+
 	persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc]
 								  initWithManagedObjectModel:[self managedObjectModel]];
+    
 	if(![persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType
-												 configuration:nil URL:storeUrl options:nil error:&error]) {
+												 configuration:nil URL:storeUrl options:options error:&error]) {
 		NSLog(@"Error in storeCoordinator %@", error);
 	}
 	

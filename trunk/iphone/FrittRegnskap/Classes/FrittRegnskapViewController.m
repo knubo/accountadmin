@@ -9,6 +9,8 @@
 #import "FrittRegnskapViewController.h"
 
 #import "MainView.h"
+#import "GCPINViewController.h"
+
 
 @implementation FrittRegnskapViewController
 
@@ -34,6 +36,8 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	doReload = true;
+       
+
 }
 
 /*
@@ -68,7 +72,8 @@
 }
 
 - (IBAction)showMemberships:(id)sender {
-	hideOnLevel1 = false;
+	
+    hideOnLevel1 = false;
 	[membershipViewUIController initView];
 	
 	[self setToolbarHidden:false animated:true];
@@ -83,6 +88,7 @@
 }
 
 - (IBAction)showPersons:(id)sender {
+
 	hideOnLevel1 = true;
 	[self setToolbarHidden:true animated:true];
 	if(doReload) {
@@ -97,11 +103,41 @@
 	
 	[self pushViewController:personViewController animated:false];
 	
-
-
 	[UIView commitAnimations];
 }		
 
+- (IBAction)checkPIN {
+    
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];  
+    NSString *pincode = [userDefaults stringForKey:@"frittregnskap_pincode"];
+    
+    GCPINViewController *PIN = [[GCPINViewController alloc]
+                                initWithNibName:nil
+                                bundle:nil
+                                mode:GCPINViewControllerModeVerify];
+    PIN.messageText = @"Skriv inn pinkode";
+    PIN.errorText = @"Feil pinkode";
+    PIN.title = @"Pinkode";
+    PIN.verifyBlock = ^(NSString *code) {
+        int feil = [userDefaults integerForKey:@"frittregnskap_feiltell"];
+
+        NSLog(@"Sjekker kode: %@ %d", code, feil);
+        
+        BOOL sjekk = [code isEqualToString:pincode];
+        
+        if(!sjekk) {
+            feil++;
+        } else {
+            feil = 0;
+        }
+        
+        [userDefaults setInteger:feil forKey:@"frittregnskap_feiltell"];
+        
+        return sjekk;
+    };
+    [PIN presentFromViewController:self animated:YES];
+    [PIN release];
+}
 
 - (void) showPersonDetail:(Person*)person {
 	[self setToolbarHidden:true animated:false];
