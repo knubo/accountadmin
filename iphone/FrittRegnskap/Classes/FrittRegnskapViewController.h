@@ -24,6 +24,7 @@
 - (IBAction)showPersons:(id)sender;
 - (void) flagDataAsReloaded;
 - (IBAction)showMemberships:(id)sender;
+- (IBAction)checkPIN;
 
 @end
 
