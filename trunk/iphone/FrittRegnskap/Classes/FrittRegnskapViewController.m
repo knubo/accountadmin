@@ -11,7 +11,6 @@
 #import "MainView.h"
 #import "GCPINViewController.h"
 
-
 @implementation FrittRegnskapViewController
 
 
@@ -111,6 +110,10 @@
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];  
     NSString *pincode = [userDefaults stringForKey:@"frittregnskap_pincode"];
     
+    if([pincode length] == 0) {
+        return;
+    }
+    
     GCPINViewController *PIN = [[GCPINViewController alloc]
                                 initWithNibName:nil
                                 bundle:nil
@@ -138,6 +141,7 @@
     [PIN presentFromViewController:self animated:YES];
     [PIN release];
 }
+
 
 - (void) showPersonDetail:(Person*)person {
 	[self setToolbarHidden:true animated:false];

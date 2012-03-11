@@ -31,7 +31,7 @@
     // Add the view controller's view to the window and display.
     [window addSubview:viewController.view];
     [window makeKeyAndVisible];
-
+    
     return YES;
 }
 
@@ -63,6 +63,9 @@
     /*
      Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
      */
+    
+    [viewController checkPIN];
+    
 }
 
 
