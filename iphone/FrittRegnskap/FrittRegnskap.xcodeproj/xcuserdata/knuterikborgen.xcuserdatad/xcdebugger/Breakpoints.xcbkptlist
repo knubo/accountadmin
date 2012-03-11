@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Classes/FrittRegnskapViewController.m"
-         timestampString = "352846719.015404"
+         timestampString = "353184333.336427"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "161"
-         endingLineNumber = "161"
+         startingLineNumber = "165"
+         endingLineNumber = "165"
          landmarkName = "@implementation FrittRegnskapViewController"
          landmarkType = "3">
       </FileBreakpoint>
@@ -123,11 +123,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Classes/FrittRegnskapAppDelegate.m"
-         timestampString = "352841786.917535"
+         timestampString = "353184250.78924"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "224"
-         endingLineNumber = "224"
+         startingLineNumber = "227"
+         endingLineNumber = "227"
          landmarkName = "-deleteObjectsInDatabase:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -162,11 +162,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Classes/FrittRegnskapAppDelegate.m"
-         timestampString = "352842651.695747"
+         timestampString = "353184250.78924"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "309"
-         endingLineNumber = "309"
+         startingLineNumber = "312"
+         endingLineNumber = "312"
          landmarkName = "-persistentStoreCoordinator"
          landmarkType = "5">
       </FileBreakpoint>
