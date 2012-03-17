@@ -15,7 +15,7 @@
 @interface FrittRegnskapAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     FrittRegnskapViewController *viewController;
-		
+
 	NSManagedObjectModel *managedObjectModel;
     NSManagedObjectContext *managedObjectContext;
 	NSPersistentStoreCoordinator *persistentStoreCoordinator;
@@ -38,6 +38,6 @@
 - (void) deleteObjectsInDatabase: (NSString*) entity;
 - (NSArray *) getObjectsFromDatabase: (bool) sort entity:(NSString*)entity;
 - (NSArray *) getSomeObjectFromDatabase:(NSString*) entity idfield:(NSString*)idfield idvalue:(int)idvalue;
-
+- (void) deleteAllObjectsInDatabase;
 @end
 

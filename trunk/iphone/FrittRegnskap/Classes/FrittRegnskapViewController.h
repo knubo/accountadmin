@@ -10,12 +10,15 @@
 #import "PersonUIViewController.h"
 #import "PersonDetailsUIController.h"
 #import "MembersViewUIController.h"
+#import "FrittRegnskapAppDelegate.h"
 
 
 @interface FrittRegnskapViewController : UINavigationController {
 	IBOutlet PersonUIViewController *personViewController;
 	IBOutlet PersonDetailsUIController *personDetailsController;
 	IBOutlet MembersViewUIController *membershipViewUIController;
+	IBOutlet FrittRegnskapAppDelegate *appDelegate;
+    
 	bool doReload;
 	bool hideOnLevel1;
 }

@@ -13,7 +13,6 @@
 
 	IBOutlet UITextView *commentsView;
 	IBOutlet UITextView *firstname;
-	IBOutlet UITextView *lastname;
 	IBOutlet UITextView *address;
 	IBOutlet UITextView *email;
 	IBOutlet UITextView *postnmb;
@@ -25,6 +24,7 @@
 	IBOutlet UITextView *phone;
 	IBOutlet UITextView *cellphone;
 	IBOutlet UITextView *comment;
+    IBOutlet UITextView *birthdate;
 }
 
 - (void)showPersonDetail:(Person*) person;

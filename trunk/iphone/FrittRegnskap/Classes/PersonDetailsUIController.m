@@ -27,8 +27,10 @@
 }
 
 - (void)showPersonDetail:(Person*) person {
-	firstname.text = person.firstname;
-	lastname.text = person.lastname;
+	firstname.text = [person.firstname stringByAppendingFormat: @" %@", person.lastname];
+    birthdate.text = person.birthdate;
+    
+    //	lastname.text = person.lastname;
 	email.text = person.email;
 	postnmb.text = person.postnmb;
 	city.text = person.city;
@@ -71,4 +73,8 @@
 }
 
 
+- (void)dealloc {
+    [birthdate release];
+    [super dealloc];
+}
 @end
