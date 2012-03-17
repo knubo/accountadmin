@@ -287,6 +287,12 @@
 	if (managedObjectModel != nil) {
 		return managedObjectModel;
 	}
+    /*
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"OfflineMedlemsapp2" ofType:@"momd"];
+    NSURL *momURL = [NSURL fileURLWithPath:path];
+    managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:momURL];
+    return managedObjectModel;
+     */
 	managedObjectModel = [[NSManagedObjectModel mergedModelFromBundles:nil] retain];
 	
 	return managedObjectModel;
@@ -297,7 +303,7 @@
 		return persistentStoreCoordinator;
 	}
 	NSURL *storeUrl = [NSURL fileURLWithPath: [[self applicationDocumentsDirectory]
-											   stringByAppendingPathComponent: @"FrittRegnskap2.sqlite"]];
+											   stringByAppendingPathComponent: @"FrittRegnskap.sqlite"]];
 	NSError *error = nil;
     
     NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:
@@ -319,6 +325,33 @@
 	return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
 }
 
+- (void) deleteAllObjectsInDatabase {
+    NSURL *storeUrl = [NSURL fileURLWithPath: [[self applicationDocumentsDirectory]
+											   stringByAppendingPathComponent: @"FrittRegnskap.sqlite"]];
+    NSError *error;
+    NSFileManager *fileMgr = [NSFileManager defaultManager];
+    
+    if ([fileMgr removeItemAtPath:[storeUrl path] error:&error] == YES) {
+        NSLog(@"Deleted file");    
+    } else {
+        NSLog(@"Unable to delete file: %@", [error localizedDescription]);
+    }
+    if(persistentStoreCoordinator != nil) {        
+        [persistentStoreCoordinator release];
+        
+        persistentStoreCoordinator = nil;
+    }
+    if(managedObjectModel != nil) {
+        [managedObjectModel release];
+
+        managedObjectModel = nil;
+    }
+    
+    if(managedObjectContext != nil) {
+        [managedObjectContext release];
+        managedObjectContext = nil;
+    }
+}
 
 
 @end

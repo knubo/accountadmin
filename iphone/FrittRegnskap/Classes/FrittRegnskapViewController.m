@@ -119,7 +119,7 @@
                                 bundle:nil
                                 mode:GCPINViewControllerModeVerify];
     PIN.messageText = @"Skriv inn pinkode";
-    PIN.errorText = @"Feil pinkode";
+    PIN.errorText = @"Feil pinkode, 3 feil sletter alle data";
     PIN.title = @"Pinkode";
     PIN.verifyBlock = ^(NSString *code) {
         int feil = [userDefaults integerForKey:@"frittregnskap_feiltell"];
@@ -132,6 +132,18 @@
             feil++;
         } else {
             feil = 0;
+        }
+        
+        if(feil >= 3) {
+            feil = 0;
+            [appDelegate deleteAllObjectsInDatabase];
+            sjekk = true;
+            [userDefaults setObject:@"" forKey:@"frittregnskap_pincode"];
+            [userDefaults setObject:@"" forKey:@"frittregnskap_username"];
+            [userDefaults setObject:@"" forKey:@"frittregnskap_domain"];
+            [userDefaults setObject:@"" forKey:@"frittregnskap_password"];
+
+            NSLog(@"Slettet alle data");
         }
         
         [userDefaults setInteger:feil forKey:@"frittregnskap_feiltell"];

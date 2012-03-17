@@ -44,6 +44,7 @@
 	[userDefaults setObject:domain.text forKey:@"frittregnskap_domain"];
 	[userDefaults setObject:password.text forKey:@"frittregnskap_password"];
 	[userDefaults setObject:pincode.text forKey:@"frittregnskap_pincode"];
+    [userDefaults setInteger:0 forKey:@"frittregnskap_feiltell"];
 
 	[userDefaults synchronize];
 }
@@ -134,6 +135,7 @@
 	
 }
 
+
 - (void)connectionDidFinishLoading:(NSURLConnection *)con {
 	[connection release];
 	
@@ -169,10 +171,7 @@
 	} 
 	
 	label.text = @"Sletter eksisterende data...";
-	[appDelegate deleteObjectsInDatabase:@"Person"];
-	[appDelegate deleteObjectsInDatabase:@"YearMembership"];
-	[appDelegate deleteObjectsInDatabase:@"SemesterMembership"];
-	[appDelegate deleteObjectsInDatabase:@"Semester"];
+	[appDelegate deleteAllObjectsInDatabase];
 
 	label.text = @"Lagrer nye data...";	
 	[appDelegate savePersons:persons];

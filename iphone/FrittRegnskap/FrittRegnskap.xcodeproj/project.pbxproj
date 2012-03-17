@@ -21,7 +21,7 @@
 		9F17D457122041E8009BFB52 /* SemesterMembership.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F17D452122041E8009BFB52 /* SemesterMembership.m */; };
 		9F17D458122041E8009BFB52 /* YearMembership.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F17D454122041E8009BFB52 /* YearMembership.m */; };
 		9F53EF54121F225200889A15 /* MembersViewUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F53EF53121F225200889A15 /* MembersViewUIController.m */; };
-		9F54B92A1507F1C00014C690 /* FrittRegnskap.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9F54B9291507F1C00014C690 /* FrittRegnskap.xcdatamodel */; };
+		9F54B92A1507F1C00014C690 /* FrittRegnskap2.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9F54B9291507F1C00014C690 /* FrittRegnskap2.xcdatamodel */; };
 		9F581501120EC21B00C2D93D /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F581500120EC21B00C2D93D /* MainView.m */; };
 		9F6FAEB012188F55000CDC17 /* go-next.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6FAEAE12188F55000CDC17 /* go-next.png */; };
 		9F6FAEB112188F55000CDC17 /* go-previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6FAEAF12188F55000CDC17 /* go-previous.png */; };
@@ -69,7 +69,7 @@
 		9F17D454122041E8009BFB52 /* YearMembership.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YearMembership.m; sourceTree = "<group>"; };
 		9F53EF52121F225200889A15 /* MembersViewUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MembersViewUIController.h; path = Classes/MembersViewUIController.h; sourceTree = "<group>"; };
 		9F53EF53121F225200889A15 /* MembersViewUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MembersViewUIController.m; path = Classes/MembersViewUIController.m; sourceTree = "<group>"; };
-		9F54B9291507F1C00014C690 /* FrittRegnskap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FrittRegnskap.xcdatamodel; sourceTree = "<group>"; };
+		9F54B9291507F1C00014C690 /* FrittRegnskap2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FrittRegnskap2.xcdatamodel; sourceTree = "<group>"; };
 		9F5814FF120EC21B00C2D93D /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainView.h; path = Classes/MainView.h; sourceTree = "<group>"; };
 		9F581500120EC21B00C2D93D /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = Classes/MainView.m; sourceTree = "<group>"; };
 		9F6FAEAE12188F55000CDC17 /* go-next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go-next.png"; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				9FEBDB5F150D1AD600207296 /* pinview */,
-				9F54B9291507F1C00014C690 /* FrittRegnskap.xcdatamodel */,
+				9F54B9291507F1C00014C690 /* FrittRegnskap2.xcdatamodel */,
 				9F17D44C122041E8009BFB52 /* model */,
 				9F924A8512100A8A007DB7F1 /* JSON */,
 				9FBEC3F4120F3F780078170A /* SetupView.h */,
@@ -338,7 +338,7 @@
 				9F17D456122041E8009BFB52 /* Semester.m in Sources */,
 				9F17D457122041E8009BFB52 /* SemesterMembership.m in Sources */,
 				9F17D458122041E8009BFB52 /* YearMembership.m in Sources */,
-				9F54B92A1507F1C00014C690 /* FrittRegnskap.xcdatamodel in Sources */,
+				9F54B92A1507F1C00014C690 /* FrittRegnskap2.xcdatamodel in Sources */,
 				9FEBDB66150D1AD600207296 /* GCPINViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,7 +357,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = FrittRegnskap_Prefix.pch;
 				INFOPLIST_FILE = "FrittRegnskap-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = FrittRegnskap;
 				SDKROOT = iphoneos;
@@ -374,7 +374,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = FrittRegnskap_Prefix.pch;
 				INFOPLIST_FILE = "FrittRegnskap-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = FrittRegnskap;
 				PROVISIONING_PROFILE = "";
@@ -412,7 +412,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = FrittRegnskap_Prefix.pch;
 				INFOPLIST_FILE = "FrittRegnskap-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = FrittRegnskap;
 				PROVISIONING_PROFILE = "6E3CBEEE-C890-4A17-A128-E56F76540444";
