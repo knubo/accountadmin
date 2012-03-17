@@ -287,15 +287,16 @@
 	if (managedObjectModel != nil) {
 		return managedObjectModel;
 	}
-    /*
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"OfflineMedlemsapp2" ofType:@"momd"];
+ 
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"FrittRegnskap" ofType:@"mom"];
     NSURL *momURL = [NSURL fileURLWithPath:path];
     managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:momURL];
     return managedObjectModel;
-     */
+    /*
 	managedObjectModel = [[NSManagedObjectModel mergedModelFromBundles:nil] retain];
 	
 	return managedObjectModel;
+*/
 }
 
 - (NSPersistentStoreCoordinator *)persistentStoreCoordinator {
