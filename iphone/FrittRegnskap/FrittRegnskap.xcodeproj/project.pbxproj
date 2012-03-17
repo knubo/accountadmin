@@ -25,6 +25,7 @@
 		9F581501120EC21B00C2D93D /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F581500120EC21B00C2D93D /* MainView.m */; };
 		9F6FAEB012188F55000CDC17 /* go-next.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6FAEAE12188F55000CDC17 /* go-next.png */; };
 		9F6FAEB112188F55000CDC17 /* go-previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6FAEAF12188F55000CDC17 /* go-previous.png */; };
+		9F911A131514E5B900A799A6 /* coins.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F911A121514E5B900A799A6 /* coins.png */; };
 		9F924A9112100A8A007DB7F1 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F924A8812100A8A007DB7F1 /* NSObject+SBJSON.m */; };
 		9F924A9212100A8A007DB7F1 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F924A8A12100A8A007DB7F1 /* NSString+SBJSON.m */; };
 		9F924A9312100A8A007DB7F1 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F924A8C12100A8A007DB7F1 /* SBJsonBase.m */; };
@@ -38,7 +39,6 @@
 		9FC59CB41215A98000273FCC /* 19-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC59CB31215A98000273FCC /* 19-gear.png */; };
 		9FC59CB61215A9AD00273FCC /* FrittRegnskapIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC59CB51215A9AD00273FCC /* FrittRegnskapIcon.png */; };
 		9FC59D6B1215C35300273FCC /* PersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC59D691215C35300273FCC /* PersonView.m */; };
-		9FE4BE8D1514C84000EBF332 /* FrittRegnskap-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D1107310486CEB800E47090 /* FrittRegnskap-Info.plist */; };
 		9FEBDB66150D1AD600207296 /* GCPINViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEBDB61150D1AD600207296 /* GCPINViewController.m */; };
 		9FEBDB67150D1AD600207296 /* GCPINViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FEBDB62150D1AD600207296 /* GCPINViewController~ipad.xib */; };
 		9FEBDB68150D1AD600207296 /* GCPINViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FEBDB63150D1AD600207296 /* GCPINViewController~iphone.xib */; };
@@ -75,6 +75,7 @@
 		9F581500120EC21B00C2D93D /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = Classes/MainView.m; sourceTree = "<group>"; };
 		9F6FAEAE12188F55000CDC17 /* go-next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go-next.png"; sourceTree = "<group>"; };
 		9F6FAEAF12188F55000CDC17 /* go-previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go-previous.png"; sourceTree = "<group>"; };
+		9F911A121514E5B900A799A6 /* coins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coins.png; sourceTree = "<group>"; };
 		9F924A8612100A8A007DB7F1 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		9F924A8712100A8A007DB7F1 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		9F924A8812100A8A007DB7F1 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -175,6 +176,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9F911A121514E5B900A799A6 /* coins.png */,
 				9F17D2FC12202E94009BFB52 /* K.png */,
 				9F17D2FD12202E94009BFB52 /* T.png */,
 				9F17D2FE12202E94009BFB52 /* U.png */,
@@ -311,7 +313,7 @@
 				9FEBDB68150D1AD600207296 /* GCPINViewController~iphone.xib in Resources */,
 				9FEBDB69150D1AD600207296 /* PINBox.png in Resources */,
 				9FEBDB6A150D1AD600207296 /* PINBox@2x.png in Resources */,
-				9FE4BE8D1514C84000EBF332 /* FrittRegnskap-Info.plist in Resources */,
+				9F911A131514E5B900A799A6 /* coins.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,10 +361,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = FrittRegnskap_Prefix.pch;
 				INFOPLIST_FILE = "FrittRegnskap-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
-				ONLY_ACTIVE_ARCH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = FrittRegnskap;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -376,12 +379,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = FrittRegnskap_Prefix.pch;
 				INFOPLIST_FILE = "FrittRegnskap-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
-				ONLY_ACTIVE_ARCH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = FrittRegnskap;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -414,12 +418,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = FrittRegnskap_Prefix.pch;
 				INFOPLIST_FILE = "FrittRegnskap-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
-				ONLY_ACTIVE_ARCH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = FrittRegnskap;
 				PROVISIONING_PROFILE = "6E3CBEEE-C890-4A17-A128-E56F76540444";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6E3CBEEE-C890-4A17-A128-E56F76540444";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Distribution;
@@ -442,13 +447,14 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Knut Erik Borgen";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos4.2;
 			};
