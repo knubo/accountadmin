@@ -8,11 +8,13 @@ if($this->GetUser()) {
     for ($i=0; $i<80; $i++) {
        $secret.= chr(mt_rand(97, 122));
     }
-    
+    try {
     $this->Query("insert into to_install (wikilogin, secret) values ('".mysql_real_escape_string($username)."','".mysql_real_escape_string($secret)."')");
     
     echo json_encode(array("secret"=>$secret, "wikilogin" => $username));
-    
+    } catch(Exception $e) {
+      $this->Query("delete from to_install");
+    }
 }
 
 ?>
