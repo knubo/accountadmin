@@ -530,6 +530,7 @@ else
 			    $error = ERROR_CAPCHA;
 			    break;
 			default: //valid input, create user
+			  mail("admin@frittregnskap.no", "Wikka: bruker opprettet $mail", "Brukernavn: $name.\nServer:".json_encode($_SERVER));
 				$this->Query("INSERT INTO ".$this->config['table_prefix']."users SET ".
 					"signuptime = now(), ".
 					"name = '".mysql_real_escape_string($name)."', ".

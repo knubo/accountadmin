@@ -773,6 +773,8 @@ class Wakka
 			// set all other revisions to old
 			$this->Query("update ".$this->config["table_prefix"]."pages set latest = 'N' where tag = '".mysql_real_escape_string($tag)."'");
 
+	   	        mail("admin@frittregnskap.no", "Wikka: Ny side av ".$user, "Body: $body.\nServer:".json_encode($_SERVER));
+
 			// add new revision
 			$this->Query("insert into ".$this->config["table_prefix"]."pages set ".
 				"tag = '".mysql_real_escape_string($tag)."', ".
