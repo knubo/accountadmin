@@ -1,0 +1,1 @@
+An admin project for the account server and client for making an on demand service for them. Also contains the source code for the iPhone application for Fritt Regnskap.
